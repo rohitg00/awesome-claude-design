@@ -1,11 +1,23 @@
 # Awesome Claude Design
 
-> The definitive resource for **Claude Design** — Anthropic Labs' AI design workspace. DESIGN.md prompt packs grouped by aesthetic family (not industry), remix recipes, skills, cookbooks, video teardowns, X signal, and honest community takes. Updated daily through launch week.
-
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![Launched](https://img.shields.io/badge/Launched-April%2017%2C%202026-0f0f0f)](https://www.anthropic.com/news/claude-design-anthropic-labs) [![Powered by](https://img.shields.io/badge/Powered%20by-Opus%204.7-6f4e37)](https://www.anthropic.com) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-00a65a.svg)](#contributing) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+> **Claude Design** — Anthropic Labs' AI design workspace. DESIGN.md files grouped by aesthetic family, remix recipes, prompt packs with example outputs, skills, video teardowns, and launch-week community signal.
 
 <p align="center">
   <img src="assets/banner.svg" width="100%" alt="Awesome Claude Design — DESIGN.md prompts, skills, cookbooks, teardowns, remix recipes">
+</p>
+
+<p align="center">
+  <img src="assets/mascot-dance.svg" width="320" alt="Dancing palette-knight mascot">
+</p>
+
+<p align="center">
+  <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
+  <a href="https://github.com/rohitg00/awesome-claude-design/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/awesome-claude-design?style=flat-square&logo=github&color=c96442" alt="Stars"></a>
+  <a href="https://github.com/rohitg00/awesome-claude-design/network/members"><img src="https://img.shields.io/github/forks/rohitg00/awesome-claude-design?style=flat-square&logo=github&color=c96442" alt="Forks"></a>
+  <a href="https://github.com/rohitg00/awesome-claude-design/commits/main"><img src="https://img.shields.io/github/last-commit/rohitg00/awesome-claude-design?style=flat-square&color=191817" alt="Last commit"></a>
+  <a href="https://www.anthropic.com/news/claude-design-anthropic-labs"><img src="https://img.shields.io/badge/Launched-April%2017%2C%202026-0f0f0f?style=flat-square" alt="Launched"></a>
+  <a href="https://www.anthropic.com"><img src="https://img.shields.io/badge/Opus-4.7-6f4e37?style=flat-square" alt="Opus 4.7"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/rohitg00/awesome-claude-design?style=flat-square&color=blue" alt="License"></a>
 </p>
 
 <p align="center">
@@ -21,26 +33,25 @@
 </p>
 
 <p align="center">
-  <img src="assets/tags/family-editorial.svg" alt="editorial minimalism">
-  <img src="assets/tags/family-terminal.svg" alt="terminal-core">
-  <img src="assets/tags/family-warm.svg" alt="warm editorial">
-  <img src="assets/tags/family-data-dense.svg" alt="data-dense pro">
-  <img src="assets/tags/family-cinematic.svg" alt="cinematic dark">
-  <img src="assets/tags/family-playful.svg" alt="playful color">
-  <img src="assets/tags/family-glass.svg" alt="glass / soft-futurism">
-  <img src="assets/tags/family-brutalist.svg" alt="neon brutalist">
-  <img src="assets/tags/family-indie.svg" alt="cult · indie picks">
+  <a href="#1-editorial-minimalism"><img src="assets/tags/family-editorial.svg" alt="editorial minimalism"></a>
+  <a href="#2-terminal-core"><img src="assets/tags/family-terminal.svg" alt="terminal-core"></a>
+  <a href="#3-warm-editorial"><img src="assets/tags/family-warm.svg" alt="warm editorial"></a>
+  <a href="#4-data-dense-pro"><img src="assets/tags/family-data-dense.svg" alt="data-dense pro"></a>
+  <a href="#5-cinematic-dark"><img src="assets/tags/family-cinematic.svg" alt="cinematic dark"></a>
+  <a href="#6-playful-color"><img src="assets/tags/family-playful.svg" alt="playful color"></a>
+  <a href="#7-glass--soft-futurism"><img src="assets/tags/family-glass.svg" alt="glass / soft-futurism"></a>
+  <a href="#8-neon-brutalist"><img src="assets/tags/family-brutalist.svg" alt="neon brutalist"></a>
+  <a href="#9-cult--indie-picks-non-fortune-500"><img src="assets/tags/family-indie.svg" alt="cult · indie picks"></a>
 </p>
 
-<p align="center"><sub>Click any family to jump to its DESIGN.md library. Each badge is an SVG under <a href="assets/tags/"><code>/assets/tags/</code></a> — fork and remix.</sub></p>
+<p align="center"><sub>Tags are SVGs under <a href="assets/tags/"><code>/assets/tags/</code></a> — fork and remix.</sub></p>
 
-Claude Design shipped **April 17, 2026**. Within 24 hours: Figma closed **−4.26%**, the r/ClaudeAI launch thread crossed **2,293 upvotes**, and YouTube filled with teardowns ranging from "RIP frontend developers" to "another slop feature." This list refuses to pick a side. Both views, all receipts.
+Claude Design shipped **April 17, 2026**. Figma closed **−4.26%** the same day. YouTube split between "RIP frontend developers" and "another slop feature." This repo collects both.
 
 > **Heads up — typo-squat alert.** A repo named `anthropic-claude-design/claude-design` claiming to "download Claude Design" is NOT affiliated with Anthropic. The real product lives at [claude.ai/design](https://claude.ai/design) behind a Pro/Max/Team/Enterprise login. No download exists. Report the typo-squat.
 
 ## Contents
 
-- [Hero Gallery](#hero-gallery)
 - [What Is Claude Design](#what-is-claude-design)
 - [Feature Map](#feature-map)
 - [Launch Timeline](#launch-timeline)
@@ -63,35 +74,6 @@ Claude Design shipped **April 17, 2026**. Within 24 hours: Figma closed **−4.2
 - [License](#license)
 
 ---
-
-## Hero Gallery
-
-Launch-week media. Thumbnails link to the full source.
-
-<table>
-<tr>
-<td width="33%" align="center">
-<a href="https://www.youtube.com/watch?v=IkspcJdeP3U"><img src="https://img.youtube.com/vi/IkspcJdeP3U/mqdefault.jpg" width="280"><br><b>Claude Design is NOT what you think</b><br>Malewicz · 17.4K views</a>
-</td>
-<td width="33%" align="center">
-<a href="https://www.youtube.com/watch?v=uhQfErAzdiA"><img src="https://img.youtube.com/vi/uhQfErAzdiA/mqdefault.jpg" width="280"><br><b>RIP Frontend Developers</b><br>WorldofAI · 8.9K views</a>
-</td>
-<td width="33%" align="center">
-<a href="https://www.youtube.com/watch?v=o4jIKc_DIoM"><img src="https://img.youtube.com/vi/o4jIKc_DIoM/mqdefault.jpg" width="280"><br><b>Claude Design vs Lovable</b><br>02ui · 10K views</a>
-</td>
-</tr>
-<tr>
-<td width="33%" align="center">
-<a href="https://www.youtube.com/watch?v=Qct36RA3y9k"><img src="https://img.youtube.com/vi/Qct36RA3y9k/mqdefault.jpg" width="280"><br><b>First Look + Opus 4.7 Live</b><br>Ray Fernando · 5.9K views</a>
-</td>
-<td width="33%" align="center">
-<a href="https://www.youtube.com/watch?v=vyLaimDeK_g"><img src="https://img.youtube.com/vi/vyLaimDeK_g/mqdefault.jpg" width="280"><br><b>Best AI Design Tool Ever?</b><br>Greg Isenberg · 2.9K views</a>
-</td>
-<td width="33%" align="center">
-<a href="https://www.youtube.com/watch?v=4q2F4zblOLQ"><img src="https://img.youtube.com/vi/4q2F4zblOLQ/mqdefault.jpg" width="280"><br><b>Actually Insane</b><br>AI for Work · 4.3K views</a>
-</td>
-</tr>
-</table>
 
 ## What Is Claude Design
 
@@ -269,13 +251,11 @@ Brands VoltAgent's catalog does NOT cover — indie SaaS, cult tools, magazines,
 | Superhuman | Premium email minimalism | [superhuman.com](https://superhuman.com) |
 | Obsidian | Personal-knowledge dark | [obsidian.md](https://obsidian.md) |
 
-### External catalogs (use these too)
+### External catalogs
 
-Different angle doesn't mean ignoring prior work. These cover brands this list doesn't duplicate.
-
-- [**VoltAgent/awesome-claude-design**](https://github.com/VoltAgent/awesome-claude-design) — 68 brand DESIGN.md files, industry-sorted. The ground truth for Fortune-500 recreations.
-- [**VoltAgent/awesome-design-md**](https://github.com/VoltAgent/awesome-design-md) — broader Stitch-format collection.
-- [**google-labs-code/design-md**](https://github.com/VoltAgent/awesome-agent-skills) — canonical DESIGN.md skill from the format's origin.
+- [**VoltAgent/awesome-claude-design**](https://github.com/VoltAgent/awesome-claude-design) <img src="https://img.shields.io/github/stars/VoltAgent/awesome-claude-design?style=flat-square&logo=github&label=" height="16"> — brand DESIGN.md files, industry-sorted
+- [**VoltAgent/awesome-design-md**](https://github.com/VoltAgent/awesome-design-md) <img src="https://img.shields.io/github/stars/VoltAgent/awesome-design-md?style=flat-square&logo=github&label=" height="16"> — Stitch-format collection, tool-agnostic
+- [**google-labs-code/design-md**](https://github.com/VoltAgent/awesome-agent-skills) — canonical DESIGN.md skill from the format's origin
 
 <p align="center"><img src="assets/divider.svg" width="600" alt="divider"></p>
 
@@ -323,16 +303,16 @@ Three questions. Pick a family.
 
 ### Community gists & prompt repos
 
-- [**superdesigndev/superdesign**](https://github.com/superdesigndev/superdesign) — first open-source design agent living in the IDE, by [@jasonzhou1993](https://x.com/jasonzhou1993) and [@jackjack_eth](https://x.com/jackjack_eth). Custom parallel Claude Code agents, infinite canvas UX. [Show HN](https://news.ycombinator.com/item?id=44376003)
-- [**jonthebeef/superdesign-mcp-claude-code**](https://lobehub.com/mcp/jonthebeef-superdesign-mcp-claude-code) — MCP server wiring SuperDesign into Claude Code, no API key required
-- [**Owl-Listener/designer-skills**](https://github.com/Owl-Listener/designer-skills) — 63 design skills by MC Dean. Research, systems, UI, interaction, delivery. MIT
-- [**Owl-Listener/designpowers**](https://github.com/Owl-Listener/designpowers) — 10 specialist design agents, Direct + Auto modes, accessibility-first. MIT
-- [**saifyxpro/ui-ux-design-pro-skill**](https://github.com/saifyxpro/ui-ux-design-pro-skill) — 107 styles, 127 palettes, 107 fonts, 150+ reasoning rules, 18 platform templates
-- [**nextlevelbuilder/ui-ux-pro-max-skill**](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) — AI skill for professional UI/UX across platforms
-- [**alirezarezvani/claude-skills**](https://github.com/alirezarezvani/claude-skills) — 232+ skills across engineering, marketing, product, compliance
-- [**NicholasSpisak — Design with Claude Code**](https://gist.github.com/NicholasSpisak/7cb9db221b0b7c4c4aaf9ffca21a847c) — `design.md` prompt where Claude plays 3 design professionals in live debate; React/Next.js 14+ stack
-- [**abhishekray07/claude-md-templates**](https://github.com/abhishekray07/claude-md-templates) — CLAUDE.md + `api-design.md` rule template
-- [**smartwhale8/claude-playbook**](https://github.com/smartwhale8/claude-playbook) — production `.claude/` scaffolding, GitHub template
+- [**superdesigndev/superdesign**](https://github.com/superdesigndev/superdesign) <img src="https://img.shields.io/github/stars/superdesigndev/superdesign?style=flat-square&logo=github&label=" height="16"> — open-source design agent in the IDE by [@jasonzhou1993](https://x.com/jasonzhou1993) and [@jackjack_eth](https://x.com/jackjack_eth). Parallel Claude Code agents, infinite canvas UX. [Show HN](https://news.ycombinator.com/item?id=44376003)
+- [**jonthebeef/superdesign-mcp-claude-code**](https://github.com/jonthebeef/superdesign-mcp-claude-code) <img src="https://img.shields.io/github/stars/jonthebeef/superdesign-mcp-claude-code?style=flat-square&logo=github&label=" height="16"> — MCP server wiring SuperDesign into Claude Code, no API key
+- [**Owl-Listener/designer-skills**](https://github.com/Owl-Listener/designer-skills) <img src="https://img.shields.io/github/stars/Owl-Listener/designer-skills?style=flat-square&logo=github&label=" height="16"> — Designer Skills Collection by MC Dean. MIT
+- [**Owl-Listener/designpowers**](https://github.com/Owl-Listener/designpowers) <img src="https://img.shields.io/github/stars/Owl-Listener/designpowers?style=flat-square&logo=github&label=" height="16"> — specialist design agents, Direct + Auto modes. MIT
+- [**saifyxpro/ui-ux-design-pro-skill**](https://github.com/saifyxpro/ui-ux-design-pro-skill) <img src="https://img.shields.io/github/stars/saifyxpro/ui-ux-design-pro-skill?style=flat-square&logo=github&label=" height="16"> — styles, palettes, fonts, reasoning rules, platform templates
+- [**nextlevelbuilder/ui-ux-pro-max-skill**](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) <img src="https://img.shields.io/github/stars/nextlevelbuilder/ui-ux-pro-max-skill?style=flat-square&logo=github&label=" height="16"> — professional UI/UX across platforms
+- [**alirezarezvani/claude-skills**](https://github.com/alirezarezvani/claude-skills) <img src="https://img.shields.io/github/stars/alirezarezvani/claude-skills?style=flat-square&logo=github&label=" height="16"> — skills across engineering, marketing, product, compliance
+- [**NicholasSpisak — Design with Claude Code**](https://gist.github.com/NicholasSpisak/7cb9db221b0b7c4c4aaf9ffca21a847c) — `design.md` prompt with three design-professional personas in live debate
+- [**abhishekray07/claude-md-templates**](https://github.com/abhishekray07/claude-md-templates) <img src="https://img.shields.io/github/stars/abhishekray07/claude-md-templates?style=flat-square&logo=github&label=" height="16"> — CLAUDE.md + `api-design.md` rule template
+- [**smartwhale8/claude-playbook**](https://github.com/smartwhale8/claude-playbook) <img src="https://img.shields.io/github/stars/smartwhale8/claude-playbook?style=flat-square&logo=github&label=" height="16"> — production `.claude/` scaffolding, GitHub template
 - [**VoltAgent/awesome-agent-skills**](https://github.com/VoltAgent/awesome-agent-skills) — 1000+ skills incl. `design-md`, `enhance-prompt`, `react-components`, `shadcn-ui`
 - [**daymade/claude-code-skills**](https://github.com/daymade/claude-code-skills) — production-ready Claude Code skills marketplace
 
@@ -368,7 +348,7 @@ DO use:
 - Context-specific character in every component
 ```
 
-Malewicz's 17.4K-view [teardown](https://www.youtube.com/watch?v=IkspcJdeP3U) opens by flagging Claude Design's own logo as "generic, color palette" — exactly the trap this prompt is built to avoid.
+Malewicz's [teardown](https://www.youtube.com/watch?v=IkspcJdeP3U) <img src="https://img.shields.io/youtube/views/IkspcJdeP3U?style=flat-square&label=views&color=191817" height="16"> opens by flagging Claude Design's own logo as "generic, color palette" — exactly the trap this prompt is built to avoid.
 
 ## Skills & Plugins
 
@@ -406,50 +386,58 @@ End-to-end flows in `/recipes/<name>.md`.
 
 ## Video Teardowns
 
-Ranked by relevance. Click thumbnail.
+Click thumbnail. View counts refresh live via shields.io.
 
 <table>
 <tr>
 <td align="center" width="25%">
 <a href="https://www.youtube.com/watch?v=IkspcJdeP3U"><img src="https://img.youtube.com/vi/IkspcJdeP3U/mqdefault.jpg" width="220"></a><br>
-<b>Malewicz</b> · 17.4K<br>
-<sub>Skeptical senior designer</sub>
+<b>Malewicz</b><br>
+<img src="https://img.shields.io/youtube/views/IkspcJdeP3U?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/IkspcJdeP3U?style=flat-square&label=likes&color=c96442"><br>
+<sub>Skeptical senior-designer teardown</sub>
 </td>
 <td align="center" width="25%">
 <a href="https://www.youtube.com/watch?v=o4jIKc_DIoM"><img src="https://img.youtube.com/vi/o4jIKc_DIoM/mqdefault.jpg" width="220"></a><br>
-<b>02ui · Murat Bayral</b> · 10K<br>
+<b>02ui · Murat Bayral</b><br>
+<img src="https://img.shields.io/youtube/views/o4jIKc_DIoM?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/o4jIKc_DIoM?style=flat-square&label=likes&color=c96442"><br>
 <sub>vs Lovable head-to-head</sub>
 </td>
 <td align="center" width="25%">
 <a href="https://www.youtube.com/watch?v=uhQfErAzdiA"><img src="https://img.youtube.com/vi/uhQfErAzdiA/mqdefault.jpg" width="220"></a><br>
-<b>WorldofAI</b> · 8.9K<br>
+<b>WorldofAI</b><br>
+<img src="https://img.shields.io/youtube/views/uhQfErAzdiA?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/uhQfErAzdiA?style=flat-square&label=likes&color=c96442"><br>
 <sub>Hype walkthrough</sub>
 </td>
 <td align="center" width="25%">
 <a href="https://www.youtube.com/watch?v=Qct36RA3y9k"><img src="https://img.youtube.com/vi/Qct36RA3y9k/mqdefault.jpg" width="220"></a><br>
-<b>Ray Fernando</b> · 5.9K<br>
+<b>Ray Fernando</b><br>
+<img src="https://img.shields.io/youtube/views/Qct36RA3y9k?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/Qct36RA3y9k?style=flat-square&label=likes&color=c96442"><br>
 <sub>Live blog redesign</sub>
 </td>
 </tr>
 <tr>
 <td align="center" width="25%">
 <a href="https://www.youtube.com/watch?v=A2eEv3KYGPg"><img src="https://img.youtube.com/vi/A2eEv3KYGPg/mqdefault.jpg" width="220"></a><br>
-<b>Vivek Mishra</b> · 4.5K<br>
+<b>Vivek Mishra</b><br>
+<img src="https://img.shields.io/youtube/views/A2eEv3KYGPg?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/A2eEv3KYGPg?style=flat-square&label=likes&color=c96442"><br>
 <sub>Launch-day walkthrough</sub>
 </td>
 <td align="center" width="25%">
 <a href="https://www.youtube.com/watch?v=4q2F4zblOLQ"><img src="https://img.youtube.com/vi/4q2F4zblOLQ/mqdefault.jpg" width="220"></a><br>
-<b>AI for Work</b> · 4.3K<br>
+<b>AI for Work</b><br>
+<img src="https://img.shields.io/youtube/views/4q2F4zblOLQ?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/4q2F4zblOLQ?style=flat-square&label=likes&color=c96442"><br>
 <sub>System from prompt</sub>
 </td>
 <td align="center" width="25%">
 <a href="https://www.youtube.com/watch?v=vyLaimDeK_g"><img src="https://img.youtube.com/vi/vyLaimDeK_g/mqdefault.jpg" width="220"></a><br>
-<b>Greg Isenberg</b> · 2.9K<br>
+<b>Greg Isenberg</b><br>
+<img src="https://img.shields.io/youtube/views/vyLaimDeK_g?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/vyLaimDeK_g?style=flat-square&label=likes&color=c96442"><br>
 <sub>Hands-on edges</sub>
 </td>
 <td align="center" width="25%">
 <a href="https://www.youtube.com/watch?v=Hcvkc1XUhMg"><img src="https://img.youtube.com/vi/Hcvkc1XUhMg/mqdefault.jpg" width="220"></a><br>
 <b>Ramanpal Singh</b><br>
+<img src="https://img.shields.io/youtube/views/Hcvkc1XUhMg?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/Hcvkc1XUhMg?style=flat-square&label=likes&color=c96442"><br>
 <sub>Beginner tutorial</sub>
 </td>
 </tr>
@@ -478,16 +466,14 @@ Launch-week consensus: **Claude Design** wins design-system coherence, web captu
 
 ## Showcase
 
-Real projects. Submit via PR — screenshot + DESIGN.md + one-line story.
-
-_Empty. Be first._
+Submit via PR — live URL, the DESIGN.md used, 2–3 screenshots, one-paragraph story.
 
 ## Community Takes
 
 ### Hype
 
 > "Would suck to be Figma right now."
-> — top comment, r/ClaudeAI launch thread (313 upvotes)
+> — [r/ClaudeAI launch thread](https://www.reddit.com/r/ClaudeAI/comments/1so3k1y/)
 
 > "After 29 years of being a designer, this is the only better way of working."
 > — [AI for Work](https://www.youtube.com/watch?v=4q2F4zblOLQ)
@@ -498,24 +484,24 @@ _Empty. Be first._
 ### Pushback
 
 > "Just tested it. This is only hype for people that never worked with real UX/UI designers. Another slop feature that will burn tokens."
-> — r/ClaudeAI comment (210 upvotes)
+> — [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/comments/1so3k1y/)
 
-> "Anthropic is saying 'look at this hand, see the coin?' — and I'm going to open the hand, and the coin is not there. But it was never there. The whole goal was so you're not looking at the other hand while they're taking your subscription money."
-> — [Malewicz](https://www.youtube.com/watch?v=IkspcJdeP3U) (17.4K views)
+> "Anthropic is saying 'look at this hand, see the coin?' — I'm going to open the hand, and the coin is not there. But it was never there. The whole goal was so you're not looking at the other hand while they're taking your subscription money."
+> — [Malewicz](https://www.youtube.com/watch?v=IkspcJdeP3U)
 
 > "Was Google Stitch or Microsoft Designer or Template Monster the quality of a mid-level designer? No. Is this?"
 > — Malewicz, same video
 
 ### The market
 
-Figma (NYSE: FIG) closed **−4.26%** on launch day. Intraday low ~**−7%** per r/FigmaDesign. Adobe unchanged. Polymarket odds on "Anthropic Claude model ranks #1 on major benchmark" at **97%** as of April 18.
+Figma (NYSE: FIG) closed **−4.26%** on launch day. Intraday low ~**−7%** per r/FigmaDesign. Adobe unchanged.
 
 ### The fine print
 
 > "Fun but burns through usage quickly."
 > — [@petergyang](https://x.com/petergyang/status/2045527271650558383)
 
-Opus 4.7 hallucination reports on long tasks: [r/ClaudeCode thread, 1,531 upvotes](https://www.reddit.com/r/ClaudeCode/comments/1so9uta/) — "$120 of API credits, by god is it bad."
+Early Opus 4.7 hallucination reports on long tasks: [r/ClaudeCode thread](https://www.reddit.com/r/ClaudeCode/comments/1so9uta/) — "$120 of API credits, by god is it bad."
 
 ## FAQ
 
@@ -545,28 +531,28 @@ No. Typo-squat. Claude Design lives at [claude.ai/design](https://claude.ai/desi
 
 ## Related OSS Projects
 
-| Repo | What |
-|---|---|
-| [superdesigndev/superdesign](https://github.com/superdesigndev/superdesign) | Open-source AI design agent inside the IDE, MIT |
-| [jonthebeef/superdesign-mcp-claude-code](https://lobehub.com/mcp/jonthebeef-superdesign-mcp-claude-code) | SuperDesign as Claude Code MCP, no API key |
-| [Owl-Listener/designer-skills](https://github.com/Owl-Listener/designer-skills) | 63 design skills by MC Dean, MIT |
-| [Owl-Listener/designpowers](https://github.com/Owl-Listener/designpowers) | 10 specialist design agents, Direct + Auto modes, MIT |
-| [VoltAgent/awesome-claude-design](https://github.com/VoltAgent/awesome-claude-design) | 68 brand-inspired DESIGN.md files, industry-sorted |
-| [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | Stitch-format DESIGN.md collection |
-| [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 1000+ skills incl. `design-md`, `shadcn-ui`, `react-components` |
-| [saifyxpro/ui-ux-design-pro-skill](https://github.com/saifyxpro/ui-ux-design-pro-skill) | 107 styles, 127 palettes, 107 fonts, CLI |
-| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | Multi-platform UI/UX design intelligence |
-| [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | 232+ skills across engineering, product, marketing |
-| [daymade/claude-code-skills](https://github.com/daymade/claude-code-skills) | Claude Code skills marketplace |
-| [abhishekray07/claude-md-templates](https://github.com/abhishekray07/claude-md-templates) | CLAUDE.md + rules best practices |
-| [smartwhale8/claude-playbook](https://github.com/smartwhale8/claude-playbook) | Production `.claude/` GitHub template |
-| [NicholasSpisak gist](https://gist.github.com/NicholasSpisak/7cb9db221b0b7c4c4aaf9ffca21a847c) | Three-designer debate prompt |
-| [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | Official Anthropic notebooks |
-| [rohitg00/awesome-claude-plugins](https://github.com/rohitg00/awesome-claude-plugins) | Claude Code plugin ecosystem |
-| [rohitg00/awesome-claude-code-toolkit](https://github.com/rohitg00/awesome-claude-code-toolkit) | Hooks, skills, slash commands |
-| [rohitg00/skillkit](https://github.com/rohitg00/skillkit) | Universal CLI for skills across 32 agents |
-| [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | General Claude Code resources |
-| [github.com/topics/claude-design](https://github.com/topics/claude-design) | Live topic feed |
+| Repo | Stars | What |
+|---|---|---|
+| [superdesigndev/superdesign](https://github.com/superdesigndev/superdesign) | <img src="https://img.shields.io/github/stars/superdesigndev/superdesign?style=flat-square&logo=github&label="> | Open-source AI design agent in the IDE, MIT |
+| [jonthebeef/superdesign-mcp-claude-code](https://github.com/jonthebeef/superdesign-mcp-claude-code) | <img src="https://img.shields.io/github/stars/jonthebeef/superdesign-mcp-claude-code?style=flat-square&logo=github&label="> | SuperDesign as Claude Code MCP, no API key |
+| [Owl-Listener/designer-skills](https://github.com/Owl-Listener/designer-skills) | <img src="https://img.shields.io/github/stars/Owl-Listener/designer-skills?style=flat-square&logo=github&label="> | Designer Skills Collection by MC Dean, MIT |
+| [Owl-Listener/designpowers](https://github.com/Owl-Listener/designpowers) | <img src="https://img.shields.io/github/stars/Owl-Listener/designpowers?style=flat-square&logo=github&label="> | Specialist design agents, Direct + Auto modes, MIT |
+| [VoltAgent/awesome-claude-design](https://github.com/VoltAgent/awesome-claude-design) | <img src="https://img.shields.io/github/stars/VoltAgent/awesome-claude-design?style=flat-square&logo=github&label="> | Brand DESIGN.md catalog, industry-sorted |
+| [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | <img src="https://img.shields.io/github/stars/VoltAgent/awesome-design-md?style=flat-square&logo=github&label="> | Stitch-format DESIGN.md collection |
+| [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | <img src="https://img.shields.io/github/stars/VoltAgent/awesome-agent-skills?style=flat-square&logo=github&label="> | Skills incl. `design-md`, `shadcn-ui`, `react-components` |
+| [saifyxpro/ui-ux-design-pro-skill](https://github.com/saifyxpro/ui-ux-design-pro-skill) | <img src="https://img.shields.io/github/stars/saifyxpro/ui-ux-design-pro-skill?style=flat-square&logo=github&label="> | Styles, palettes, fonts, CLI |
+| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | <img src="https://img.shields.io/github/stars/nextlevelbuilder/ui-ux-pro-max-skill?style=flat-square&logo=github&label="> | Multi-platform UI/UX skill |
+| [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | <img src="https://img.shields.io/github/stars/alirezarezvani/claude-skills?style=flat-square&logo=github&label="> | Skills across engineering, product, marketing |
+| [daymade/claude-code-skills](https://github.com/daymade/claude-code-skills) | <img src="https://img.shields.io/github/stars/daymade/claude-code-skills?style=flat-square&logo=github&label="> | Claude Code skills marketplace |
+| [abhishekray07/claude-md-templates](https://github.com/abhishekray07/claude-md-templates) | <img src="https://img.shields.io/github/stars/abhishekray07/claude-md-templates?style=flat-square&logo=github&label="> | CLAUDE.md + rules best practices |
+| [smartwhale8/claude-playbook](https://github.com/smartwhale8/claude-playbook) | <img src="https://img.shields.io/github/stars/smartwhale8/claude-playbook?style=flat-square&logo=github&label="> | Production `.claude/` GitHub template |
+| [NicholasSpisak gist](https://gist.github.com/NicholasSpisak/7cb9db221b0b7c4c4aaf9ffca21a847c) | — | Three-designer debate prompt |
+| [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | <img src="https://img.shields.io/github/stars/anthropics/claude-cookbooks?style=flat-square&logo=github&label="> | Official Anthropic notebooks |
+| [rohitg00/awesome-claude-plugins](https://github.com/rohitg00/awesome-claude-plugins) | <img src="https://img.shields.io/github/stars/rohitg00/awesome-claude-plugins?style=flat-square&logo=github&label="> | Claude Code plugin ecosystem |
+| [rohitg00/awesome-claude-code-toolkit](https://github.com/rohitg00/awesome-claude-code-toolkit) | <img src="https://img.shields.io/github/stars/rohitg00/awesome-claude-code-toolkit?style=flat-square&logo=github&label="> | Hooks, skills, slash commands |
+| [rohitg00/skillkit](https://github.com/rohitg00/skillkit) | <img src="https://img.shields.io/github/stars/rohitg00/skillkit?style=flat-square&logo=github&label="> | Universal CLI for skills across many agents |
+| [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | <img src="https://img.shields.io/github/stars/hesreallyhim/awesome-claude-code?style=flat-square&logo=github&label="> | General Claude Code resources |
+| [github.com/topics/claude-design](https://github.com/topics/claude-design) | — | Live topic feed |
 
 ## Contributing
 
@@ -590,16 +576,8 @@ Not affiliated with Anthropic. "Claude" and "Claude Design" are trademarks of An
 
 <p align="center"><img src="assets/divider.svg" width="600" alt="divider"></p>
 
-<p align="center"><img src="assets/mascot.svg" width="96" alt="awesome-claude-design mascot"></p>
+<p align="center"><img src="assets/mascot.svg" width="96" alt="mascot"></p>
 
 <p align="center">
-  Maintained by <a href="https://github.com/rohitg00">@rohitg00</a>.<br>
-  Started April 19, 2026 — 48 hours after Claude Design launched.<br>
-  PRs welcome. Brand-new DESIGN.md files, remixes, prompt packs, video teardowns, and X-signal receipts.
-</p>
-
-<p align="center">
-  <img src="assets/tags/curated.svg" alt="curated">
-  <img src="assets/tags/community.svg" alt="community">
-  <img src="assets/tags/open-source.svg" alt="open source">
+  Maintained by <a href="https://github.com/rohitg00">@rohitg00</a>. PRs welcome.
 </p>

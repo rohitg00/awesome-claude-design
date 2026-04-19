@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Dancing palette-knight mascot">
+  <defs>
+    <style>
+      .ink { fill: #191817; }
+      .clay { fill: #c96442; }
+      .cream { fill: #f4f3ee; }
+      .accent { fill: #e89268; }
+      .shadow { fill: #2a1e18; opacity: 0.3; }
+    </style>
+  </defs>
+
+  <!-- ground shadow, pulses with bounce -->
+  <ellipse cx="160" cy="182" rx="42" ry="4" class="shadow">
+    <animate attributeName="rx" values="42;36;42;30;42" dur="1.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0.45;0.3;0.5;0.3" dur="1.2s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- flying swatches that orbit the mascot -->
+  <g>
+    <rect x="30" y="40" width="14" height="14" fill="#5e6ad2">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-8; 0,0; 0,8; 0,0" dur="1.2s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate" values="0 37 47; 20 37 47; -20 37 47; 0 37 47" dur="2.4s" repeatCount="indefinite" additive="sum"/>
+    </rect>
+    <rect x="270" y="50" width="14" height="14" fill="#faff69">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,8; 0,0; 0,-8; 0,0" dur="1.2s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate" values="0 277 57; -25 277 57; 25 277 57; 0 277 57" dur="2.4s" repeatCount="indefinite" additive="sum"/>
+    </rect>
+    <rect x="50" y="130" width="12" height="12" fill="#0acf83">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 4,-6; 0,0; -4,6; 0,0" dur="1.6s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="256" y="140" width="12" height="12" fill="#ff2d8e">
+      <animateTransform attributeName="transform" type="translate" values="0,0; -4,-6; 0,0; 4,6; 0,0" dur="1.6s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="20" cy="90" r="5" fill="#16d5e6">
+      <animate attributeName="cy" values="90;82;90;98;90" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.4;0.9" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="300" cy="100" r="5" fill="#c96442">
+      <animate attributeName="cy" values="100;92;100;108;100" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.4;0.9" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- mascot body — bounces as whole group -->
+  <g transform="translate(112, 38)">
+    <animateTransform attributeName="transform" type="translate" values="112,38; 112,30; 112,38; 112,42; 112,38" dur="1.2s" repeatCount="indefinite"/>
+
+    <g shape-rendering="crispEdges">
+      <!-- cap -->
+      <rect x="28" y="0" width="40" height="4" class="clay"/>
+      <rect x="24" y="4" width="48" height="8" class="clay"/>
+      <rect x="20" y="12" width="56" height="4" class="clay"/>
+
+      <!-- face -->
+      <rect x="24" y="16" width="48" height="24" class="cream"/>
+      <!-- eyes (blink) -->
+      <rect x="34" y="24" width="6" height="8" class="ink">
+        <animate attributeName="height" values="8;8;8;1;8" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="24;24;24;28;24" dur="3s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="56" y="24" width="6" height="8" class="ink">
+        <animate attributeName="height" values="8;8;8;1;8" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="24;24;24;28;24" dur="3s" repeatCount="indefinite"/>
+      </rect>
+      <!-- grin -->
+      <rect x="40" y="34" width="16" height="2" class="ink"/>
+
+      <!-- neck -->
+      <rect x="36" y="40" width="24" height="4" class="clay"/>
+
+      <!-- torso -->
+      <rect x="20" y="44" width="56" height="36" class="ink"/>
+      <!-- apron pocket -->
+      <rect x="28" y="56" width="40" height="16" class="cream"/>
+      <rect x="28" y="56" width="40" height="2" class="clay"/>
+      <rect x="32" y="62" width="6" height="6" class="clay"/>
+      <rect x="42" y="62" width="6" height="6" fill="#5e6ad2"/>
+      <rect x="52" y="62" width="6" height="6" fill="#faff69"/>
+      <rect x="62" y="62" width="6" height="6" fill="#0acf83"/>
+    </g>
+
+    <!-- left arm (waves) -->
+    <g transform="translate(16, 48)">
+      <animateTransform attributeName="transform" type="rotate" values="0 0 0; -30 0 0; 0 0 0; 30 0 0; 0 0 0" dur="1.2s" repeatCount="indefinite" additive="replace"/>
+      <g shape-rendering="crispEdges">
+        <rect x="-4" y="0" width="8" height="24" class="ink"/>
+        <rect x="-4" y="24" width="8" height="4" class="cream"/>
+      </g>
+    </g>
+
+    <!-- right arm with brush (paints air) -->
+    <g transform="translate(80, 48)">
+      <animateTransform attributeName="transform" type="rotate" values="0 0 0; 35 0 0; 0 0 0; -35 0 0; 0 0 0" dur="1.2s" repeatCount="indefinite" additive="replace"/>
+      <g shape-rendering="crispEdges">
+        <rect x="-4" y="0" width="8" height="24" class="ink"/>
+        <rect x="-4" y="24" width="8" height="4" class="cream"/>
+        <rect x="0" y="28" width="4" height="2" fill="#8a6a4a"/>
+        <rect x="0" y="30" width="4" height="6" class="accent"/>
+        <!-- paint splatter -->
+        <circle cx="2" cy="40" r="2" class="clay">
+          <animate attributeName="opacity" values="0;1;0" dur="1.2s" repeatCount="indefinite"/>
+          <animate attributeName="cy" values="40;50;60" dur="1.2s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+    </g>
+
+    <!-- legs (alternate tap) -->
+    <g shape-rendering="crispEdges">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-2; 0,0; 0,2; 0,0" dur="1.2s" repeatCount="indefinite"/>
+        <rect x="28" y="80" width="12" height="16" class="ink"/>
+        <rect x="24" y="92" width="20" height="4" class="clay"/>
+      </g>
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,2; 0,0; 0,-2; 0,0" dur="1.2s" repeatCount="indefinite"/>
+        <rect x="56" y="80" width="12" height="16" class="ink"/>
+        <rect x="52" y="92" width="20" height="4" class="clay"/>
+      </g>
+    </g>
+  </g>
+</svg>
