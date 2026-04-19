@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="120" viewBox="0 0 96 120" role="img" aria-label="awesome-claude-design mascot">
+  <!-- pixel palette knight: paints with a brush, holds a palette -->
+  <defs>
+    <style>
+      .ink { fill: #191817; }
+      .clay { fill: #c96442; }
+      .cream { fill: #f4f3ee; }
+      .accent { fill: #e89268; }
+      .shadow { fill: #2a1e18; opacity: 0.35; }
+    </style>
+  </defs>
+
+  <!-- ground shadow -->
+  <ellipse cx="48" cy="112" rx="26" ry="3" class="shadow"/>
+
+  <!-- body block -->
+  <g shape-rendering="crispEdges">
+    <!-- cap -->
+    <rect x="28" y="12" width="40" height="4" class="clay"/>
+    <rect x="24" y="16" width="48" height="8" class="clay"/>
+    <rect x="20" y="24" width="56" height="4" class="clay"/>
+
+    <!-- face -->
+    <rect x="24" y="28" width="48" height="24" class="cream"/>
+    <!-- eyes -->
+    <rect x="34" y="36" width="6" height="8" class="ink"/>
+    <rect x="56" y="36" width="6" height="8" class="ink"/>
+    <!-- smile -->
+    <rect x="40" y="46" width="16" height="2" class="ink"/>
+
+    <!-- neck -->
+    <rect x="36" y="52" width="24" height="4" class="clay"/>
+
+    <!-- torso (apron) -->
+    <rect x="20" y="56" width="56" height="36" class="ink"/>
+    <!-- apron pocket -->
+    <rect x="28" y="68" width="40" height="16" class="cream"/>
+    <rect x="28" y="68" width="40" height="2" class="clay"/>
+
+    <!-- palette swatches on pocket -->
+    <rect x="32" y="74" width="6" height="6" class="clay"/>
+    <rect x="42" y="74" width="6" height="6" fill="#5e6ad2"/>
+    <rect x="52" y="74" width="6" height="6" fill="#faff69"/>
+    <rect x="62" y="74" width="6" height="6" fill="#0acf83"/>
+
+    <!-- arms -->
+    <rect x="12" y="60" width="8" height="24" class="ink"/>
+    <rect x="76" y="60" width="8" height="24" class="ink"/>
+    <!-- hands -->
+    <rect x="12" y="84" width="8" height="4" class="cream"/>
+    <rect x="76" y="84" width="8" height="4" class="cream"/>
+
+    <!-- brush in right hand -->
+    <rect x="80" y="78" width="4" height="2" fill="#8a6a4a"/>
+    <rect x="80" y="80" width="4" height="6" class="accent"/>
+
+    <!-- legs -->
+    <rect x="28" y="92" width="12" height="16" class="ink"/>
+    <rect x="56" y="92" width="12" height="16" class="ink"/>
+    <!-- boots -->
+    <rect x="24" y="104" width="20" height="4" class="clay"/>
+    <rect x="52" y="104" width="20" height="4" class="clay"/>
+  </g>
+</svg>

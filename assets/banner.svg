@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Awesome Claude Design">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d0a08"/>
+      <stop offset="1" stop-color="#1a1210"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c96442"/>
+      <stop offset="0.5" stop-color="#e89268"/>
+      <stop offset="1" stop-color="#c96442"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 L0 0 0 40" fill="none" stroke="#2a1e18" stroke-width="0.5"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <rect width="1200" height="400" fill="url(#grid)" opacity="0.5"/>
+
+  <!-- top-left metadata row -->
+  <g font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="13" fill="#8a7668">
+    <text x="60" y="52">awesome-claude-design</text>
+    <text x="60" y="72" fill="#5a4a3d">// launched april 17, 2026 · updated daily</text>
+  </g>
+
+  <!-- accent bar left of title -->
+  <rect x="60" y="140" width="4" height="110" fill="url(#accent)" rx="2"/>
+
+  <!-- title -->
+  <g font-family="ui-serif, 'Iowan Old Style', 'Apple Garamond', Georgia, serif" fill="#f4f3ee">
+    <text x="86" y="180" font-size="56" font-weight="500" letter-spacing="-1.5">Awesome</text>
+    <text x="86" y="238" font-size="56" font-weight="500" letter-spacing="-1.5">Claude <tspan fill="#c96442">Design</tspan>.</text>
+  </g>
+
+  <!-- tagline -->
+  <g font-family="ui-sans-serif, 'Inter', system-ui, sans-serif" fill="#b8a89a" font-size="16">
+    <text x="90" y="278">DESIGN.md prompts · skills · cookbooks · teardowns · remix recipes.</text>
+    <text x="90" y="302" fill="#8a7668">Every angle. One repo.</text>
+  </g>
+
+  <!-- stat strip bottom-left -->
+  <g font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="12" fill="#8a7668">
+    <text x="60" y="352">FIG −4.26%</text>
+    <text x="160" y="352">·</text>
+    <text x="180" y="352">r/ClaudeAI +2,293</text>
+    <text x="320" y="352">·</text>
+    <text x="340" y="352">Opus 4.7</text>
+    <text x="420" y="352">·</text>
+    <text x="440" y="352">9 aesthetic families</text>
+    <text x="60" y="370" fill="#5a4a3d">// maintained by @rohitg00 · MIT</text>
+  </g>
+
+  <!-- right-side aesthetic-family swatch stack -->
+  <g transform="translate(860, 60)">
+    <text x="0" y="0" font-family="ui-monospace, monospace" font-size="11" fill="#5a4a3d">AESTHETIC FAMILIES</text>
+
+    <!-- editorial minimalism -->
+    <g transform="translate(0, 20)">
+      <rect width="260" height="22" fill="#ffffff" rx="2"/>
+      <rect x="220" width="40" height="22" fill="#5e6ad2" rx="2"/>
+      <text x="10" y="15" font-family="ui-sans-serif, Inter, sans-serif" font-size="11" fill="#0f0f14">editorial minimalism</text>
+    </g>
+
+    <!-- terminal-core -->
+    <g transform="translate(0, 48)">
+      <rect width="260" height="22" fill="#0b0d14" rx="2"/>
+      <rect x="220" width="40" height="22" fill="#16d5e6" rx="2"/>
+      <text x="10" y="15" font-family="ui-monospace, monospace" font-size="11" fill="#e8e8e8">terminal-core_</text>
+    </g>
+
+    <!-- warm editorial -->
+    <g transform="translate(0, 76)">
+      <rect width="260" height="22" fill="#f4f3ee" rx="2"/>
+      <rect x="220" width="40" height="22" fill="#c96442" rx="2"/>
+      <text x="10" y="15" font-family="ui-serif, Georgia, serif" font-size="11" fill="#191817">warm editorial</text>
+    </g>
+
+    <!-- data-dense pro -->
+    <g transform="translate(0, 104)">
+      <rect width="260" height="22" fill="#181818" rx="2"/>
+      <rect x="220" width="40" height="22" fill="#faff69" rx="2"/>
+      <text x="10" y="15" font-family="ui-monospace, monospace" font-size="11" fill="#d0d0d0">data-dense pro</text>
+    </g>
+
+    <!-- cinematic dark -->
+    <g transform="translate(0, 132)">
+      <rect width="260" height="22" fill="#000000" rx="2"/>
+      <rect x="220" width="40" height="22" fill="#ff2d8e" rx="2"/>
+      <text x="10" y="15" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#f0f0f0">cinematic dark</text>
+    </g>
+
+    <!-- playful color -->
+    <g transform="translate(0, 160)">
+      <rect width="260" height="22" fill="#0acf83" rx="2"/>
+      <rect x="220" width="40" height="22" fill="#a259ff" rx="2"/>
+      <text x="10" y="15" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#0f0f14">playful color</text>
+    </g>
+
+    <!-- glass / soft-futurism -->
+    <g transform="translate(0, 188)">
+      <rect width="260" height="22" fill="#f8f6ff" rx="2" opacity="0.9"/>
+      <rect x="220" width="40" height="22" fill="#d4cdf5" rx="2"/>
+      <text x="10" y="15" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#1d1d1f">glass / soft-futurism</text>
+    </g>
+
+    <!-- neon brutalist -->
+    <g transform="translate(0, 216)">
+      <rect width="260" height="22" fill="#0d1321" rx="2"/>
+      <rect x="220" width="40" height="22" fill="#ff6600" rx="2"/>
+      <text x="10" y="15" font-family="ui-sans-serif, sans-serif" font-size="11" font-weight="700" fill="#ffffff">NEON BRUTALIST</text>
+    </g>
+
+    <!-- cult indie -->
+    <g transform="translate(0, 244)">
+      <rect width="260" height="22" fill="#1a1a1a" rx="2"/>
+      <rect x="220" width="40" height="22" fill="#c96442" rx="2"/>
+      <text x="10" y="15" font-family="ui-serif, serif" font-size="11" fill="#d8d0c8" font-style="italic">cult · indie picks</text>
+    </g>
+  </g>
+
+  <!-- bottom divider -->
+  <line x1="60" y1="380" x2="1140" y2="380" stroke="#2a1e18" stroke-width="1"/>
+</svg>
