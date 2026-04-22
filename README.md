@@ -622,6 +622,21 @@ Click thumbnail. View counts refresh live via shields.io.
 
 Launch-week consensus: **Claude Design** wins design-system coherence, web capture, collaboration. **Lovable** wins full-stack shipping. **Figma Make** is safest for Figma teams. **Stitch** is strongest for pure token generation. **SuperDesign** is the only open-source option that lives inside the IDE.
 
+### More launch-week comparisons
+
+- [TechCrunch — Anthropic launches Claude Design](https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/) — mainstream-press launch framing: "quick visuals" tool, not a Figma killer
+- [Adweek — Claude Design for marketing assets, decks, and UIs](https://www.adweek.com/media/anthropic-debuts-claude-design-for-building-marketing-assets-decks-and-uis/) — agency angle, marketing-first read of the surface area
+- [PYMNTS — Anthropic's design tool rivals Adobe and Figma](https://www.pymnts.com/artificial-intelligence-2/2026/anthropics-new-design-tool-rivals-adobe-and-figma/) — competitive positioning against the incumbent stack
+- [Trending Topics — Anthropic challenges Lovable and Figma](https://www.trendingtopics.eu/anthropic-launches-claude-design-challenging-lovable-and-figma/) — EU coverage; Lovable framed as the closer competitor than Figma
+- [Storyboard18 — Claude Design rattles design software giants](https://www.storyboard18.com/digital/what-is-claude-design-anthropics-new-ai-tool-rattles-design-software-giants-ws-l-95581.htm) — India-market read on the ripple to Figma/Adobe
+- [Web And IT News — Hits Figma where it hurts](https://www.webanditnews.com/2026/04/20/claude-design-hits-figma-where-it-hurts-ai-eats-into-non-designer-users/) — argues the wedge is non-designers, not designers
+- [DEV (whoffagents) — CD vs Figma: what actually changed](https://dev.to/whoffagents/claude-design-tool-vs-figma-what-actually-changed-and-when-to-use-each-3gj) — practitioner side-by-side on when to reach for which
+- [MindStudio — Claude Design vs Figma](https://www.mindstudio.ai/blog/claude-design-vs-figma) — feature-grid comparison from the AI-tools vendor angle
+- [Magic Patterns — Claude Design vs Figma Make](https://www.magicpatterns.com/blog/claude-design-vs-figma-make) — narrow head-to-head on the prompt-to-prototype surface
+- [eigent.ai — Claude Design vs Lovable, full 2026 comparison](https://www.eigent.ai/blog/claude-design-vs-lovable) — pricing + output-quality split between design tool and full-stack builder
+- [NxCode — Vibe design tools 2026: Stitch vs v0 vs Lovable vs Bolt](https://www.nxcode.io/resources/news/vibe-design-tools-compared-stitch-v0-lovable-2026) — places Claude Design in the broader vibe-design landscape
+- [Lushbinary — Claude Design vs Figma vs Canva vs Stitch](https://lushbinary.com/blog/claude-design-vs-figma-canva-google-stitch-comparison/) — four-way matrix including Canva, the export target
+
 ## Showcase
 
 Real builds shipped with Claude Design — launch-week seed of 10 cards (Tom's Guide pizza brand in 30 min, Peter Yang's 16-min everything build, Mercury's 90% inference, Brilliant 20→2 prompts, Datadog week→1-conversation, and more).
@@ -641,6 +656,8 @@ See [`showcase/README.md`](showcase/README.md). Submit your own via the [Showcas
 > "The design system integration feels best in class for AI."
 > — [@petergyang](https://x.com/petergyang/status/2045527271650558383)
 
+- [Mejba Ahmed — The visual layer Claude Code was missing](https://www.mejba.me/blog/claude-design-visual-workflow-claude-code) — engineer-positive read: closes the visual gap in the Claude Code loop
+
 ### Pushback
 
 > "Just tested it. This is only hype for people that never worked with real UX/UI designers. Another slop feature that will burn tokens."
@@ -652,9 +669,15 @@ See [`showcase/README.md`](showcase/README.md). Submit your own via the [Showcas
 > "Was Google Stitch or Microsoft Designer or Template Monster the quality of a mid-level designer? No. Is this?"
 > — Malewicz, same video
 
+- [Abhi Chatterjee — Designer's first walkthrough](https://www.designsystemscollective.com/claude-design-just-launched-a-designers-first-walkthrough-c79d7ce47b9b) — burned ~50% of weekly allotment on one design system + one prototype; trained eyes still spot spacing inconsistencies
+- [PCWorld — I tried Claude Design for half an hour, I'm already locked out for a week](https://www.pcworld.com/article/3117811/i-tried-claude-design-for-half-an-hour-im-already-locked-out-for-a-week.html) — 30-minute session exhausted the weekly allowance
+
 ### The market
 
 Figma (NYSE: FIG) closed **−4.26%** on launch day. Intraday low ~**−7%** per r/FigmaDesign. Adobe unchanged.
+
+- [Victoria Okwuokenye — Claude Design full breakdown](https://medium.com/design-bootcamp/claude-design-is-here-full-breakdown-a32767258fb9) — feature-by-feature read of where Claude Design lands against the incumbent design stack
+- [BSWEN — Good enough for professional websites?](https://docs.bswen.com/blog/2026-04-18-claude-design-quality-professional/) — output-quality bar test; argues the gap to "pro site" is narrower than the discourse claims
 
 ### The fine print
 
@@ -662,6 +685,8 @@ Figma (NYSE: FIG) closed **−4.26%** on launch day. Intraday low ~**−7%** per
 > — [@petergyang](https://x.com/petergyang/status/2045527271650558383)
 
 Early Opus 4.7 hallucination reports on long tasks: [r/ClaudeCode thread](https://www.reddit.com/r/ClaudeCode/comments/1so9uta/) — "$120 of API credits, by god is it bad."
+
+- [Ocasio Consulting — Claude Design review](https://ocasioconsulting.com/claude-design-review/) — direct ask for a flat design-seat fee; "rationing creativity goes against the spirit" of the tool
 
 ## FAQ
 
