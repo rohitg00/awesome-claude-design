@@ -477,6 +477,17 @@ Two related Anthropic resources worth bookmarking:
 
 Anthropic acknowledges the problem in the cookbook: *"You tend to converge toward generic, 'on distribution' outputs. In frontend design, this creates what users call the 'AI slop' aesthetic. Avoid this: make creative, distinctive frontends that surprise and delight."*
 
+### Community anti-slop tools
+
+Beyond Anthropic's own materials, the community has shipped a growing set of skills, plugins, and review workflows specifically aimed at the slop fingerprints catalogued above. Drop-in alternatives or complements to the prompt fragment.
+
+- [**Leonxlnx/taste-skill**](https://github.com/Leonxlnx/taste-skill) <img src="https://img.shields.io/github/stars/Leonxlnx/taste-skill?style=flat-square&logo=github&label=" height="16"> — frontend taste skill: premium UI generation, redesign audits, GSAP motion, brutalist/minimalist/soft variants, 3-dial parameterization (variance, motion, density)
+- [**Dammyjay93/interface-design**](https://github.com/Dammyjay93/interface-design) <img src="https://img.shields.io/github/stars/Dammyjay93/interface-design?style=flat-square&logo=github&label=" height="16"> — design engineering for Claude Code (formerly `claude-design-engineer`): persistent design system file, slash commands for init/audit/extract, enforces token consistency between sessions
+- [**coleam00/excalidraw-diagram-skill**](https://github.com/coleam00/excalidraw-diagram-skill) <img src="https://img.shields.io/github/stars/coleam00/excalidraw-diagram-skill?style=flat-square&logo=github&label=" height="16"> — diagram skill that argues visually instead of slapping boxes-and-arrows; Playwright render-validate loop catches overlap, misalignment, bad spacing
+- [**OneRedOak/claude-code-workflows — design-review**](https://github.com/OneRedOak/claude-code-workflows/tree/main/design-review) <img src="https://img.shields.io/github/stars/OneRedOak/claude-code-workflows?style=flat-square&logo=github&label=" height="16"> — Patrick Ellis's UI/UX review workflow: subagents + `/design-review` slash command + CLAUDE.md memory integration + accessibility coverage via Playwright MCP
+- [**ComposioHQ/awesome-claude-skills — canvas-design**](https://github.com/ComposioHQ/awesome-claude-skills/blob/master/canvas-design/SKILL.md) <img src="https://img.shields.io/github/stars/ComposioHQ/awesome-claude-skills?style=flat-square&logo=github&label=" height="16"> — design philosophy expressed visually: two-phase (philosophy → artifact), 90% visual / 10% essential text, anti-template by construction
+- [**Marie Claire Dean — 63 design skills**](https://marieclairedean.substack.com/p/i-built-63-design-skills-for-claude) ([repo](https://github.com/Owl-Listener/designer-skills) <img src="https://img.shields.io/github/stars/Owl-Listener/designer-skills?style=flat-square&logo=github&label=" height="16">) — 63 skills + 27 commands across research, systems, strategy, UI, interaction, prototyping, ops; teaches Claude *what design actually is* beyond image generation. MIT
+
 ## Skills & Plugins
 
 Claude Code skills and SkillKit plugins that pair with Claude Design.
@@ -491,6 +502,36 @@ Claude Code skills and SkillKit plugins that pair with Claude Design.
 - [**superdesign-mcp**](https://github.com/jonthebeef/superdesign-mcp-claude-code) — SuperDesign as Claude Code MCP server
 
 Install via SkillKit: `npx skillkit install design-shotgun`
+
+### Community installs
+
+The same anti-slop tools listed above, with explicit install commands. Mix and match — most chain cleanly with the SkillKit packs above.
+
+- [**Leonxlnx/taste-skill**](https://github.com/Leonxlnx/taste-skill) <img src="https://img.shields.io/github/stars/Leonxlnx/taste-skill?style=flat-square&logo=github&label=" height="16"> — premium UI gen, redesign audits, GSAP motion, brutalist/minimalist/soft variants
+  ```sh
+  npx skills add Leonxlnx/taste-skill
+  ```
+- [**Dammyjay93/interface-design**](https://github.com/Dammyjay93/interface-design) <img src="https://img.shields.io/github/stars/Dammyjay93/interface-design?style=flat-square&logo=github&label=" height="16"> — persistent design-system memory + `/interface-design:audit` slash command
+  ```sh
+  git clone https://github.com/Dammyjay93/interface-design ~/.claude/plugins/interface-design
+  ```
+- [**coleam00/excalidraw-diagram-skill**](https://github.com/coleam00/excalidraw-diagram-skill) <img src="https://img.shields.io/github/stars/coleam00/excalidraw-diagram-skill?style=flat-square&logo=github&label=" height="16"> — diagrams that argue visually; render-validate loop
+  ```sh
+  git clone https://github.com/coleam00/excalidraw-diagram-skill .claude/skills/excalidraw-diagram
+  ```
+- [**OneRedOak/claude-code-workflows**](https://github.com/OneRedOak/claude-code-workflows/tree/main/design-review) <img src="https://img.shields.io/github/stars/OneRedOak/claude-code-workflows?style=flat-square&logo=github&label=" height="16"> — Patrick Ellis design-review subagents + `/design-review` + CLAUDE.md excerpts; needs Playwright MCP
+  ```sh
+  git clone https://github.com/OneRedOak/claude-code-workflows
+  cp -r claude-code-workflows/design-review/.claude/* .claude/
+  ```
+- [**ComposioHQ/awesome-claude-skills — canvas-design**](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/canvas-design) <img src="https://img.shields.io/github/stars/ComposioHQ/awesome-claude-skills?style=flat-square&logo=github&label=" height="16"> — design philosophy → poster/PDF artifact, two-phase
+  ```sh
+  npx skillkit install composio/canvas-design
+  ```
+- [**Owl-Listener/designer-skills**](https://github.com/Owl-Listener/designer-skills) <img src="https://img.shields.io/github/stars/Owl-Listener/designer-skills?style=flat-square&logo=github&label=" height="16"> — Marie Claire Dean's 63-skill / 27-command Designer Skills Collection. MIT
+  ```sh
+  /plugin marketplace add Owl-Listener/designer-skills
+  ```
 
 ## Integrations
 
