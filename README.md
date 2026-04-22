@@ -101,6 +101,7 @@ What each aesthetic family actually looks like in production. Thumbnails are sta
 - [Prompts & Cookbooks](#prompts--cookbooks)
 - [Anti-Slop Kit](#anti-slop-kit) — including [Claude Design's default fingerprints](#claude-designs-default-fingerprints-avoid)
 - [Skills & Plugins](#skills--plugins)
+- [Integrations](#integrations)
 - [Workflows & Recipes](#workflows--recipes)
 - [Video Teardowns](#video-teardowns)
 - [Comparisons](#comparisons)
@@ -434,6 +435,36 @@ Claude Code skills and SkillKit plugins that pair with Claude Design.
 - [**superdesign-mcp**](https://github.com/jonthebeef/superdesign-mcp-claude-code) — SuperDesign as Claude Code MCP server
 
 Install via SkillKit: `npx skillkit install design-shotgun`
+
+## Integrations
+
+MCP servers, plugins, and IDE adapters that pair with Claude Design or extend it via Claude Code handoff. Most live outside the product surface — wire them up once, then route Claude Design's exports through them.
+
+### MCP servers
+
+- [**Connect Claude Code to tools via MCP**](https://code.claude.com/docs/en/mcp) — official setup docs, scopes, transport modes
+- [**Figma MCP server**](https://www.figma.com/blog/introducing-figmas-dev-mode-mcp-server/) — bridges design-to-code; complements Claude Design's missing Figma export at launch
+- [**Adobe AEM MCP**](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude) — Claude + AEM setup walkthrough, content authoring from chat
+
+### Curated MCP roundups
+
+- [**TurboDocx — Best Claude Code Plugins/Skills/MCP**](https://www.turbodocx.com/blog/best-claude-code-skills-plugins-mcp-servers) — combined plugin/skill/server list, opinionated picks
+- [**claudefa.st — 50+ Best MCP Servers**](https://claudefa.st/blog/tools/mcp-extensions/best-addons) — broad catalog with category tags
+- [**Builder.io — How to Use MCP Servers**](https://www.builder.io/blog/claude-code-mcp-servers) — install + config patterns, with examples
+- [**Toolradar — Best MCP Servers 2026**](https://toolradar.com/blog/best-mcp-servers-claude-code) — ranked list with workflow notes
+- [**LaoZhang — Starter Picks by Workflow**](https://blog.laozhang.ai/en/posts/claude-code-best-mcp-servers) — sorted by use case (research, coding, infra)
+- [**MindStudio — Read/Write Apps via MCP**](https://www.mindstudio.ai/blog/how-to-use-mcp-servers-with-claude-code) — turning third-party apps into MCP-readable surfaces
+
+### Frontier features
+
+Claude Design ships built-in AI outputs that previously needed separate tools — **Voice, Video, 3D, and Shaders** are all generated inline (per the [Anthropic launch post](https://www.anthropic.com/news/claude-design-anthropic-labs)). Connectors (Slack, Drive, internal docs) plug into the design loop without extra MCP wiring; high-leverage but burns quota fast.
+
+### Limitations to know
+
+- **Figma export not yet available at launch** — round-trip back into Figma is manual; use the Figma MCP server above for token sync
+- **No live-cursor multiplayer** — Figma-style co-editing is not in the product
+- **Sharing is org-scoped URL with view/edit only** — no public links, no per-element permissions
+- **Inferred design system can mis-deduce edge cases** — auto-extracted tokens drift on outliers; review before locking ([agence-scroll guide](https://agence-scroll.com/en/blog/claude-design-anthropic-2026-guide))
 
 ## Workflows & Recipes
 
