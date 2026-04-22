@@ -93,6 +93,7 @@ What each aesthetic family actually looks like in production. Thumbnails are sta
 - [What Is Claude Design](#what-is-claude-design)
 - [Feature Map](#feature-map)
 - [Launch Timeline](#launch-timeline)
+- [Quotas & Token Budget](#quotas--token-budget)
 - [Official Resources](#official-resources)
 - [X Signal](#x-signal)
 - [DESIGN.md by Aesthetic Family](#designmd-by-aesthetic-family)
@@ -101,6 +102,7 @@ What each aesthetic family actually looks like in production. Thumbnails are sta
 - [Prompts & Cookbooks](#prompts--cookbooks)
 - [Anti-Slop Kit](#anti-slop-kit) — including [Claude Design's default fingerprints](#claude-designs-default-fingerprints-avoid)
 - [Skills & Plugins](#skills--plugins)
+- [Integrations](#integrations)
 - [Workflows & Recipes](#workflows--recipes)
 - [Video Teardowns](#video-teardowns)
 - [Comparisons](#comparisons)
@@ -146,13 +148,38 @@ Three surfaces:
 | Date | Event | Source |
 |---|---|---|
 | 2026-04-14 | The Information leaks Opus 4.7 + design tool | [r/singularity +889](https://www.reddit.com/r/singularity/comments/1slh72j/) |
+| 2026-04-14 | Mike Krieger (Anthropic CPO) steps off Figma board — pre-launch signal | [Martin Alderson](https://martinalderson.com/posts/anthropic-figma-supplier-conflict/) |
 | 2026-04-17 | Claude Design + Opus 4.7 ship in research preview | [anthropic.com](https://www.anthropic.com/news/claude-design-anthropic-labs) |
 | 2026-04-17 | Official launch tweet | [@claudeai](https://x.com/claudeai/status/2045156267690213649) |
 | 2026-04-17 | r/ClaudeAI launch thread hits 2,293 upvotes | [Reddit](https://www.reddit.com/r/ClaudeAI/comments/1so3k1y/) |
 | 2026-04-17 | Figma closes −4.26% (second thread 1,763 upvotes) | [Reddit](https://www.reddit.com/r/ClaudeAI/comments/1so6z2t/) · [@brewmarkets](https://x.com/brewmarkets/status/2045175784554283228) |
 | 2026-04-17 | r/FigmaDesign reports ~7% intraday dip | [Reddit](https://www.reddit.com/r/FigmaDesign/comments/1soc1ic/) |
+| 2026-04-17 | Mainstream press wave — TechCrunch, VentureBeat, Adweek frame the launch | [TechCrunch](https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/) · [VentureBeat](https://venturebeat.com/ai/anthropic-launches-claude-design-ai-design-tool/) · [Adweek](https://www.adweek.com/media/anthropic-debuts-claude-design-for-building-marketing-assets-decks-and-uis/) |
 | 2026-04-18 | Teardown wave: Isenberg, Malewicz, 02ui, Ray Fernando, WorldofAI, Vivek Mishra, AI for Work | See [Video Teardowns](#video-teardowns) |
 | 2026-04-18 | @petergyang 16-min build: video + slides + website + app + design system | [Tweet](https://x.com/petergyang/status/2045527271650558383) |
+| 2026-04-18 | Sam Henri Gold publishes "Stickley joinery" framing post | [samhenri.gold](https://samhenri.gold/blog/20260418-claude-design/) |
+| 2026-04-18 | Brilliant + Datadog case studies surface in Anthropic launch post | [anthropic.com](https://www.anthropic.com/news/claude-design-anthropic-labs) |
+| 2026-04-19 | Ryan Mather publishes 7-tip thread (system-first, comments-not-chat, connectors) | [@Flomerboy](https://x.com/Flomerboy/status/2045162321589252458) |
+| 2026-04-20 | Follow-on coverage — "hits Figma where it hurts" / "rattles design giants" | [Web And IT News](https://www.webanditnews.com/2026/04/20/claude-design-hits-figma-where-it-hurts-ai-eats-into-non-designer-users/) · [Storyboard18](https://www.storyboard18.com/digital/what-is-claude-design-anthropics-new-ai-tool-rattles-design-software-giants-ws-l-95581.htm) |
+| 2026-04-21 | Pricing controversy — Pro tier loses Claude Code access | [Pasquale Pillitteri](https://pasqualepillitteri.it/en/news/591/ai-app-builders-comparison-2026) |
+| 2026-04-22 | Anthropic publishes Claude Design subscription usage + pricing doc | [support.claude.com](https://support.claude.com/en/articles/14667344-claude-design-subscription-usage-and-pricing) |
+
+## Quotas & Token Budget
+
+Quota burn is the #2 community complaint after AI-slop fingerprints. Here's the math + the recipe so you don't lose a week to a single prompt.
+
+- **Separate meter from chat.** Claude Design has its own usage meter, distinct from regular Claude.ai chat — per the [Anthropic pricing doc](https://support.claude.com/en/articles/14667344-claude-design-subscription-usage-and-pricing).
+- **Per-user, not pooled.** Weekly allowance is per-seat — teams cannot share a pool — per the [Anthropic pricing doc](https://support.claude.com/en/articles/14667344-claude-design-subscription-usage-and-pricing).
+- **One-time promotional credit.** Roughly 20 typical prompts, expiring **2026-07-17** — per the [Anthropic pricing doc](https://support.claude.com/en/articles/14667344-claude-design-subscription-usage-and-pricing). Spend it on experiments, save weekly allowance for production.
+- **Vision tokens cost ~3x text.** Opus 4.7 vision pricing is broadly cited; every screenshot, `.fig`, or web-capture inflates the bill.
+- **Pro can exhaust in 2–3 prompts.** Multiple reports on the [r/ClaudeAI launch thread](https://www.reddit.com/r/ClaudeAI/comments/1so3k1y/) of two prompts eating 95% of a weekly limit.
+- **30 minutes → locked out for a week.** [PCWorld](https://www.pcworld.com/article/3117811/i-tried-claude-design-for-half-an-hour-im-already-locked-out-for-a-week.html) review burned the full allowance in one sitting.
+- **50% of weekly allotment for one design system + one prototype.** Designer field report from [Abhi Chatterjee](https://www.designsystemscollective.com/claude-design-just-launched-a-designers-first-walkthrough-c79d7ce47b9b).
+- **"Rationing creativity goes against the spirit."** [Ocasio Consulting](https://ocasioconsulting.com/claude-design-review/) calls directly for a flat design-seat fee.
+
+Recommended sequence: [`recipes/token-budget-claude-design.md`](recipes/token-budget-claude-design.md) — scaffold once, cap reference screens at 4, switch to inline comments for iteration, branch for variants, bundle to Claude Code in one shot.
+
+Full pricing reference: [Claude Design subscription usage and pricing — support.claude.com](https://support.claude.com/en/articles/14667344-claude-design-subscription-usage-and-pricing).
 
 ## Official Resources
 
@@ -185,7 +212,7 @@ Submit more: handle, verbatim quote ≤280 chars, tweet URL, engagement numbers.
 
 Not sorted by industry. Sorted by **visual character** — because that's how designers actually pick. Each family links to (1) a working `DESIGN.md` in `/design-md/<family>/`, (2) canonical external references, (3) a one-line swatch + type spec so you can eyeball fit before cloning.
 
-**Shipped samples in this repo:** [warm/claude.md](design-md/warm/claude.md) · [terminal/ollama.md](design-md/terminal/ollama.md) · [terminal/warp.md](design-md/terminal/warp.md) · [editorial/linear.md](design-md/editorial/linear.md) · [editorial/vercel.md](design-md/editorial/vercel.md) · [data-dense/clickhouse.md](design-md/data-dense/clickhouse.md) · [data-dense/posthog.md](design-md/data-dense/posthog.md) · [cinematic/runway.md](design-md/cinematic/runway.md) · [playful/figma.md](design-md/playful/figma.md) · [glass/arc.md](design-md/glass/arc.md) · [glass/apple.md](design-md/glass/apple.md) · [brutalist/the-verge.md](design-md/brutalist/the-verge.md) · [indie/granola.md](design-md/indie/granola.md) · [remix/linear-x-claude.md](design-md/remix/linear-x-claude.md) · [remix/warp-x-sentry.md](design-md/remix/warp-x-sentry.md) · [remix/stripe-x-a24.md](design-md/remix/stripe-x-a24.md)
+**Shipped samples in this repo:** [warm/claude.md](design-md/warm/claude.md) · [warm/mercury.md](design-md/warm/mercury.md) · [terminal/ollama.md](design-md/terminal/ollama.md) · [terminal/warp.md](design-md/terminal/warp.md) · [editorial/linear.md](design-md/editorial/linear.md) · [editorial/vercel.md](design-md/editorial/vercel.md) · [data-dense/clickhouse.md](design-md/data-dense/clickhouse.md) · [data-dense/posthog.md](design-md/data-dense/posthog.md) · [data-dense/datadog.md](design-md/data-dense/datadog.md) · [cinematic/runway.md](design-md/cinematic/runway.md) · [cinematic/tavus.md](design-md/cinematic/tavus.md) · [cinematic/cohere.md](design-md/cinematic/cohere.md) · [playful/figma.md](design-md/playful/figma.md) · [playful/canva.md](design-md/playful/canva.md) · [glass/arc.md](design-md/glass/arc.md) · [glass/apple.md](design-md/glass/apple.md) · [brutalist/the-verge.md](design-md/brutalist/the-verge.md) · [indie/granola.md](design-md/indie/granola.md) · [remix/linear-x-claude.md](design-md/remix/linear-x-claude.md) · [remix/warp-x-sentry.md](design-md/remix/warp-x-sentry.md) · [remix/stripe-x-a24.md](design-md/remix/stripe-x-a24.md)
 
 ### 1. Editorial Minimalism
 
@@ -297,9 +324,39 @@ Brands VoltAgent's catalog does NOT cover — indie SaaS, cult tools, magazines,
 
 ### External catalogs
 
-- [**VoltAgent/awesome-claude-design**](https://github.com/VoltAgent/awesome-claude-design) <img src="https://img.shields.io/github/stars/VoltAgent/awesome-claude-design?style=flat-square&logo=github&label=" height="16"> — brand DESIGN.md files, industry-sorted
-- [**VoltAgent/awesome-design-md**](https://github.com/VoltAgent/awesome-design-md) <img src="https://img.shields.io/github/stars/VoltAgent/awesome-design-md?style=flat-square&logo=github&label=" height="16"> — Stitch-format collection, tool-agnostic
-- [**google-labs-code/design-md**](https://github.com/VoltAgent/awesome-agent-skills) — canonical DESIGN.md skill from the format's origin
+The DESIGN.md ecosystem is bigger than this repo. We catalog only what others don't — these are the upstreams, mirrors, sibling lists, and origin-spec sources worth bookmarking.
+
+**DESIGN.md ecosystem**
+
+- [**VoltAgent/awesome-claude-design**](https://github.com/VoltAgent/awesome-claude-design) <img src="https://img.shields.io/github/stars/VoltAgent/awesome-claude-design?style=flat-square&logo=github&label=" height="16"> — 68 brand DESIGN.md files, industry-sorted (the canonical industry catalog)
+- [**VoltAgent/awesome-design-md**](https://github.com/VoltAgent/awesome-design-md) <img src="https://img.shields.io/github/stars/VoltAgent/awesome-design-md?style=flat-square&logo=github&label=" height="16"> — 59+ brands in Stitch-format, every entry ships preview.html (tool-agnostic twin)
+- [**philquist/awesome-claude-design-examples**](https://github.com/philquist/awesome-claude-design-examples) <img src="https://img.shields.io/github/stars/philquist/awesome-claude-design-examples?style=flat-square&logo=github&label=" height="16"> — community mirror/fork of the VoltAgent collection, useful as a discovery surface
+- [**getdesign.md**](https://getdesign.md/) — browseable web UI for 60+ DESIGN.md files (Cursor, Vercel, Warp, Claude, Mistral, xAI, Tesla, Renault, Revolut, Wise, Linear, PostHog)
+- [**google-labs-code/design.md**](https://github.com/google-labs-code/design.md) <img src="https://img.shields.io/github/stars/google-labs-code/design.md?style=flat-square&logo=github&label=" height="16"> — official DESIGN.md spec from Google Labs Code, Apache 2.0; see [`docs/spec.md`](https://github.com/google-labs-code/design.md/blob/main/docs/spec.md)
+
+**Topic hubs**
+
+- [**github.com/topics/design-md**](https://github.com/topics/design-md) — auto-rolling repo feed for the format itself
+- [**github.com/topics/claude-design**](https://github.com/topics/claude-design) — Claude Design–tagged repos (skills, examples, tooling)
+
+**Awesome-Claude meta-lists**
+
+- [**rohitg00/awesome-claude-code-toolkit**](https://github.com/rohitg00/awesome-claude-code-toolkit) <img src="https://img.shields.io/github/stars/rohitg00/awesome-claude-code-toolkit?style=flat-square&logo=github&label=" height="16"> — sibling meta-toolkit: 135 agents, 35 skills, 42 commands, 176 plugins
+- [**hesreallyhim/awesome-claude-code**](https://github.com/hesreallyhim/awesome-claude-code) <img src="https://img.shields.io/github/stars/hesreallyhim/awesome-claude-code?style=flat-square&logo=github&label=" height="16"> — the original awesome-claude-code list; hosts Patrick Ellis's Design Review Workflow entry
+- [**jqueryscript/awesome-claude-code**](https://github.com/jqueryscript/awesome-claude-code) <img src="https://img.shields.io/github/stars/jqueryscript/awesome-claude-code?style=flat-square&logo=github&label=" height="16"> — surfaces claude-design-engineer (1.1k stars) and excalidraw-diagram-skill (1.2k stars)
+- [**sickn33/antigravity-awesome-skills**](https://github.com/sickn33/antigravity-awesome-skills) <img src="https://img.shields.io/github/stars/sickn33/antigravity-awesome-skills?style=flat-square&logo=github&label=" height="16"> — 1,431+ skills incl. Leonxlnx/taste-skill (Stitch design systems, brutalist/minimalist modes)
+- [**ComposioHQ/awesome-claude-skills**](https://github.com/ComposioHQ/awesome-claude-skills) <img src="https://img.shields.io/github/stars/ComposioHQ/awesome-claude-skills?style=flat-square&logo=github&label=" height="16"> — claude.ai + Code + API portability emphasis; ships canvas-design SKILL.md
+- [**BehiSecc/awesome-claude-skills**](https://github.com/BehiSecc/awesome-claude-skills) <img src="https://img.shields.io/github/stars/BehiSecc/awesome-claude-skills?style=flat-square&logo=github&label=" height="16"> — security-flavoured skill list with design-engineering crossover
+- [**travisvn/awesome-claude-skills**](https://github.com/travisvn/awesome-claude-skills) <img src="https://img.shields.io/github/stars/travisvn/awesome-claude-skills?style=flat-square&logo=github&label=" height="16"> — curated skills with subagent guidance and authoring conventions
+- [**heilcheng/awesome-agent-skills**](https://github.com/heilcheng/awesome-agent-skills) <img src="https://img.shields.io/github/stars/heilcheng/awesome-agent-skills?style=flat-square&logo=github&label=" height="16"> — multi-agent (Claude/Cursor/Codex/Gemini) skills with explicit awesome-design-md cross-link
+- [**quemsah/awesome-claude-plugins**](https://github.com/quemsah/awesome-claude-plugins) <img src="https://img.shields.io/github/stars/quemsah/awesome-claude-plugins?style=flat-square&logo=github&label=" height="16"> — design-engineering plugins with craft / memory / enforcement framing
+- [**awesomeclaude.ai**](https://awesomeclaude.ai) — web directory across awesome-claude-* repos with an awesome-claude-agents subsection
+
+**Background reading**
+
+- [**OSS Insight — DESIGN.md Protocol 2026**](https://ossinsight.io/blog/design-md-protocol-2026) — historical timeline of awesome-design-md going viral; useful framing for how the format spread
+- [**Google Stitch open-source announcement**](https://medium.com/design-bootcamp/google-makes-design-md-open-source-on-its-way-to-become-a-industry-standard-16119f2368dd) — fernandocomet's coverage of Google open-sourcing the DESIGN.md spec
+- [**MindStudio — What Is Design.md**](https://www.mindstudio.ai/blog/what-is-design-md) — primer on the format for non-designers / tool buyers
 
 <p align="center"><img src="assets/divider.svg" width="600" alt="divider"></p>
 
@@ -422,6 +479,17 @@ Two related Anthropic resources worth bookmarking:
 
 Anthropic acknowledges the problem in the cookbook: *"You tend to converge toward generic, 'on distribution' outputs. In frontend design, this creates what users call the 'AI slop' aesthetic. Avoid this: make creative, distinctive frontends that surprise and delight."*
 
+### Community anti-slop tools
+
+Beyond Anthropic's own materials, the community has shipped a growing set of skills, plugins, and review workflows specifically aimed at the slop fingerprints catalogued above. Drop-in alternatives or complements to the prompt fragment.
+
+- [**Leonxlnx/taste-skill**](https://github.com/Leonxlnx/taste-skill) <img src="https://img.shields.io/github/stars/Leonxlnx/taste-skill?style=flat-square&logo=github&label=" height="16"> — frontend taste skill: premium UI generation, redesign audits, GSAP motion, brutalist/minimalist/soft variants, 3-dial parameterization (variance, motion, density)
+- [**Dammyjay93/interface-design**](https://github.com/Dammyjay93/interface-design) <img src="https://img.shields.io/github/stars/Dammyjay93/interface-design?style=flat-square&logo=github&label=" height="16"> — design engineering for Claude Code (formerly `claude-design-engineer`): persistent design system file, slash commands for init/audit/extract, enforces token consistency between sessions
+- [**coleam00/excalidraw-diagram-skill**](https://github.com/coleam00/excalidraw-diagram-skill) <img src="https://img.shields.io/github/stars/coleam00/excalidraw-diagram-skill?style=flat-square&logo=github&label=" height="16"> — diagram skill that argues visually instead of slapping boxes-and-arrows; Playwright render-validate loop catches overlap, misalignment, bad spacing
+- [**OneRedOak/claude-code-workflows — design-review**](https://github.com/OneRedOak/claude-code-workflows/tree/main/design-review) <img src="https://img.shields.io/github/stars/OneRedOak/claude-code-workflows?style=flat-square&logo=github&label=" height="16"> — Patrick Ellis's UI/UX review workflow: subagents + `/design-review` slash command + CLAUDE.md memory integration + accessibility coverage via Playwright MCP
+- [**ComposioHQ/awesome-claude-skills — canvas-design**](https://github.com/ComposioHQ/awesome-claude-skills/blob/master/canvas-design/SKILL.md) <img src="https://img.shields.io/github/stars/ComposioHQ/awesome-claude-skills?style=flat-square&logo=github&label=" height="16"> — design philosophy expressed visually: two-phase (philosophy → artifact), 90% visual / 10% essential text, anti-template by construction
+- [**Marie Claire Dean — 63 design skills**](https://marieclairedean.substack.com/p/i-built-63-design-skills-for-claude) ([repo](https://github.com/Owl-Listener/designer-skills) <img src="https://img.shields.io/github/stars/Owl-Listener/designer-skills?style=flat-square&logo=github&label=" height="16">) — 63 skills + 27 commands across research, systems, strategy, UI, interaction, prototyping, ops; teaches Claude *what design actually is* beyond image generation. MIT
+
 ## Skills & Plugins
 
 Claude Code skills and SkillKit plugins that pair with Claude Design.
@@ -437,18 +505,78 @@ Claude Code skills and SkillKit plugins that pair with Claude Design.
 
 Install via SkillKit: `npx skillkit install design-shotgun`
 
+### Community installs
+
+The same anti-slop tools listed above, with explicit install commands. Mix and match — most chain cleanly with the SkillKit packs above.
+
+- [**Leonxlnx/taste-skill**](https://github.com/Leonxlnx/taste-skill) <img src="https://img.shields.io/github/stars/Leonxlnx/taste-skill?style=flat-square&logo=github&label=" height="16"> — premium UI gen, redesign audits, GSAP motion, brutalist/minimalist/soft variants
+  ```sh
+  npx skills add Leonxlnx/taste-skill
+  ```
+- [**Dammyjay93/interface-design**](https://github.com/Dammyjay93/interface-design) <img src="https://img.shields.io/github/stars/Dammyjay93/interface-design?style=flat-square&logo=github&label=" height="16"> — persistent design-system memory + `/interface-design:audit` slash command
+  ```sh
+  git clone https://github.com/Dammyjay93/interface-design ~/.claude/plugins/interface-design
+  ```
+- [**coleam00/excalidraw-diagram-skill**](https://github.com/coleam00/excalidraw-diagram-skill) <img src="https://img.shields.io/github/stars/coleam00/excalidraw-diagram-skill?style=flat-square&logo=github&label=" height="16"> — diagrams that argue visually; render-validate loop
+  ```sh
+  git clone https://github.com/coleam00/excalidraw-diagram-skill .claude/skills/excalidraw-diagram
+  ```
+- [**OneRedOak/claude-code-workflows**](https://github.com/OneRedOak/claude-code-workflows/tree/main/design-review) <img src="https://img.shields.io/github/stars/OneRedOak/claude-code-workflows?style=flat-square&logo=github&label=" height="16"> — Patrick Ellis design-review subagents + `/design-review` + CLAUDE.md excerpts; needs Playwright MCP
+  ```sh
+  git clone https://github.com/OneRedOak/claude-code-workflows
+  cp -r claude-code-workflows/design-review/.claude/* .claude/
+  ```
+- [**ComposioHQ/awesome-claude-skills — canvas-design**](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/canvas-design) <img src="https://img.shields.io/github/stars/ComposioHQ/awesome-claude-skills?style=flat-square&logo=github&label=" height="16"> — design philosophy → poster/PDF artifact, two-phase
+  ```sh
+  npx skillkit install composio/canvas-design
+  ```
+- [**Owl-Listener/designer-skills**](https://github.com/Owl-Listener/designer-skills) <img src="https://img.shields.io/github/stars/Owl-Listener/designer-skills?style=flat-square&logo=github&label=" height="16"> — Marie Claire Dean's 63-skill / 27-command Designer Skills Collection. MIT
+  ```sh
+  /plugin marketplace add Owl-Listener/designer-skills
+  ```
+
+## Integrations
+
+MCP servers, plugins, and IDE adapters that pair with Claude Design or extend it via Claude Code handoff. Most live outside the product surface — wire them up once, then route Claude Design's exports through them.
+
+### MCP servers
+
+- [**Connect Claude Code to tools via MCP**](https://code.claude.com/docs/en/mcp) — official setup docs, scopes, transport modes
+- [**Figma MCP server**](https://www.figma.com/blog/introducing-figmas-dev-mode-mcp-server/) — bridges design-to-code; complements Claude Design's missing Figma export at launch
+- [**Adobe AEM MCP**](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude) — Claude + AEM setup walkthrough, content authoring from chat
+
+### Curated MCP roundups
+
+- [**TurboDocx — Best Claude Code Plugins/Skills/MCP**](https://www.turbodocx.com/blog/best-claude-code-skills-plugins-mcp-servers) — combined plugin/skill/server list, opinionated picks
+- [**claudefa.st — 50+ Best MCP Servers**](https://claudefa.st/blog/tools/mcp-extensions/best-addons) — broad catalog with category tags
+- [**Builder.io — How to Use MCP Servers**](https://www.builder.io/blog/claude-code-mcp-servers) — install + config patterns, with examples
+- [**Toolradar — Best MCP Servers 2026**](https://toolradar.com/blog/best-mcp-servers-claude-code) — ranked list with workflow notes
+- [**LaoZhang — Starter Picks by Workflow**](https://blog.laozhang.ai/en/posts/claude-code-best-mcp-servers) — sorted by use case (research, coding, infra)
+- [**MindStudio — Read/Write Apps via MCP**](https://www.mindstudio.ai/blog/how-to-use-mcp-servers-with-claude-code) — turning third-party apps into MCP-readable surfaces
+
+### Frontier features
+
+Claude Design ships built-in AI outputs that previously needed separate tools — **Voice, Video, 3D, and Shaders** are all generated inline (per the [Anthropic launch post](https://www.anthropic.com/news/claude-design-anthropic-labs)). Connectors (Slack, Drive, internal docs) plug into the design loop without extra MCP wiring; high-leverage but burns quota fast.
+
+### Limitations to know
+
+- **Figma export not yet available at launch** — round-trip back into Figma is manual; use the Figma MCP server above for token sync
+- **No live-cursor multiplayer** — Figma-style co-editing is not in the product
+- **Sharing is org-scoped URL with view/edit only** — no public links, no per-element permissions
+- **Inferred design system can mis-deduce edge cases** — auto-extracted tokens drift on outliers; review before locking ([agence-scroll guide](https://agence-scroll.com/en/blog/claude-design-anthropic-2026-guide))
+
 ## Workflows & Recipes
 
 End-to-end flows in `/recipes/<name>.md`.
 
 1. [**Landing page in 20 minutes**](recipes/landing-page-20-min.md) — DESIGN.md → Claude Design → Claude Code → Vercel
 2. [**Figma file → DESIGN.md**](recipes/figma-to-design-md.md) — drag `.fig` in chat, extract tokens, reuse
-3. **Existing repo → design system** — point Claude at your CSS, get canonical DESIGN.md back
+3. [**Existing repo → design system**](recipes/repo-to-design-system.md) — point Claude at your CSS, get canonical DESIGN.md back
 4. [**Wireframe → hi-fi**](recipes/wireframe-to-hifi.md) — low-fi sketch to pixel-perfect comp
-5. **Pitch deck from README** — 12-slide deck from a project README
+5. [**Pitch deck from README**](recipes/pitch-deck-from-readme.md) — 12-slide deck from a project README
 6. [**Brand extraction**](recipes/brand-extraction.md) — URL → DESIGN.md describing a competitor's system
 7. **Design-system governance** — lock tokens as `SKILL.md` for every future project
-8. **Web capture → prototype** — use the native capture tool on your live site
+8. [**Web capture → prototype**](recipes/web-capture-to-prototype.md) — use the native capture tool on your live site
 9. **16-minute everything build** — per @petergyang: video + slides + website + app + initial system
 10. **Two-brand remix** — combine tokens from two DESIGN.md files coherently
 11. **Claude Design → Canva export** — designer collaboration pathway
@@ -537,6 +665,21 @@ Click thumbnail. View counts refresh live via shields.io.
 
 Launch-week consensus: **Claude Design** wins design-system coherence, web capture, collaboration. **Lovable** wins full-stack shipping. **Figma Make** is safest for Figma teams. **Stitch** is strongest for pure token generation. **SuperDesign** is the only open-source option that lives inside the IDE.
 
+### More launch-week comparisons
+
+- [TechCrunch — Anthropic launches Claude Design](https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/) — mainstream-press launch framing: "quick visuals" tool, not a Figma killer
+- [Adweek — Claude Design for marketing assets, decks, and UIs](https://www.adweek.com/media/anthropic-debuts-claude-design-for-building-marketing-assets-decks-and-uis/) — agency angle, marketing-first read of the surface area
+- [PYMNTS — Anthropic's design tool rivals Adobe and Figma](https://www.pymnts.com/artificial-intelligence-2/2026/anthropics-new-design-tool-rivals-adobe-and-figma/) — competitive positioning against the incumbent stack
+- [Trending Topics — Anthropic challenges Lovable and Figma](https://www.trendingtopics.eu/anthropic-launches-claude-design-challenging-lovable-and-figma/) — EU coverage; Lovable framed as the closer competitor than Figma
+- [Storyboard18 — Claude Design rattles design software giants](https://www.storyboard18.com/digital/what-is-claude-design-anthropics-new-ai-tool-rattles-design-software-giants-ws-l-95581.htm) — India-market read on the ripple to Figma/Adobe
+- [Web And IT News — Hits Figma where it hurts](https://www.webanditnews.com/2026/04/20/claude-design-hits-figma-where-it-hurts-ai-eats-into-non-designer-users/) — argues the wedge is non-designers, not designers
+- [DEV (whoffagents) — CD vs Figma: what actually changed](https://dev.to/whoffagents/claude-design-tool-vs-figma-what-actually-changed-and-when-to-use-each-3gj) — practitioner side-by-side on when to reach for which
+- [MindStudio — Claude Design vs Figma](https://www.mindstudio.ai/blog/claude-design-vs-figma) — feature-grid comparison from the AI-tools vendor angle
+- [Magic Patterns — Claude Design vs Figma Make](https://www.magicpatterns.com/blog/claude-design-vs-figma-make) — narrow head-to-head on the prompt-to-prototype surface
+- [eigent.ai — Claude Design vs Lovable, full 2026 comparison](https://www.eigent.ai/blog/claude-design-vs-lovable) — pricing + output-quality split between design tool and full-stack builder
+- [NxCode — Vibe design tools 2026: Stitch vs v0 vs Lovable vs Bolt](https://www.nxcode.io/resources/news/vibe-design-tools-compared-stitch-v0-lovable-2026) — places Claude Design in the broader vibe-design landscape
+- [Lushbinary — Claude Design vs Figma vs Canva vs Stitch](https://lushbinary.com/blog/claude-design-vs-figma-canva-google-stitch-comparison/) — four-way matrix including Canva, the export target
+
 ## Long-Form Tutorials
 
 The writing worth reading after the launch dust settled. Grouped by platform.
@@ -619,7 +762,9 @@ Anthropic insider, posted day two of launch.
 
 ## Showcase
 
-Submit via PR — live URL, the DESIGN.md used, 2–3 screenshots, one-paragraph story.
+Real builds shipped with Claude Design — launch-week seed of 10 cards (Tom's Guide pizza brand in 30 min, Peter Yang's 16-min everything build, Mercury's 90% inference, Brilliant 20→2 prompts, Datadog week→1-conversation, and more).
+
+See [`showcase/README.md`](showcase/README.md). Submit your own via the [Showcase Submission issue template](.github/ISSUE_TEMPLATE/showcase-submission.yml) or PR.
 
 ## Community Takes
 
@@ -634,6 +779,8 @@ Submit via PR — live URL, the DESIGN.md used, 2–3 screenshots, one-paragraph
 > "The design system integration feels best in class for AI."
 > — [@petergyang](https://x.com/petergyang/status/2045527271650558383)
 
+- [Mejba Ahmed — The visual layer Claude Code was missing](https://www.mejba.me/blog/claude-design-visual-workflow-claude-code) — engineer-positive read: closes the visual gap in the Claude Code loop
+
 ### Pushback
 
 > "Just tested it. This is only hype for people that never worked with real UX/UI designers. Another slop feature that will burn tokens."
@@ -645,9 +792,15 @@ Submit via PR — live URL, the DESIGN.md used, 2–3 screenshots, one-paragraph
 > "Was Google Stitch or Microsoft Designer or Template Monster the quality of a mid-level designer? No. Is this?"
 > — Malewicz, same video
 
+- [Abhi Chatterjee — Designer's first walkthrough](https://www.designsystemscollective.com/claude-design-just-launched-a-designers-first-walkthrough-c79d7ce47b9b) — burned ~50% of weekly allotment on one design system + one prototype; trained eyes still spot spacing inconsistencies
+- [PCWorld — I tried Claude Design for half an hour, I'm already locked out for a week](https://www.pcworld.com/article/3117811/i-tried-claude-design-for-half-an-hour-im-already-locked-out-for-a-week.html) — 30-minute session exhausted the weekly allowance
+
 ### The market
 
 Figma (NYSE: FIG) closed **−4.26%** on launch day. Intraday low ~**−7%** per r/FigmaDesign. Adobe unchanged.
+
+- [Victoria Okwuokenye — Claude Design full breakdown](https://medium.com/design-bootcamp/claude-design-is-here-full-breakdown-a32767258fb9) — feature-by-feature read of where Claude Design lands against the incumbent design stack
+- [BSWEN — Good enough for professional websites?](https://docs.bswen.com/blog/2026-04-18-claude-design-quality-professional/) — output-quality bar test; argues the gap to "pro site" is narrower than the discourse claims
 
 ### The fine print
 
@@ -655,6 +808,8 @@ Figma (NYSE: FIG) closed **−4.26%** on launch day. Intraday low ~**−7%** per
 > — [@petergyang](https://x.com/petergyang/status/2045527271650558383)
 
 Early Opus 4.7 hallucination reports on long tasks: [r/ClaudeCode thread](https://www.reddit.com/r/ClaudeCode/comments/1so9uta/) — "$120 of API credits, by god is it bad."
+
+- [Ocasio Consulting — Claude Design review](https://ocasioconsulting.com/claude-design-review/) — direct ask for a flat design-seat fee; "rationing creativity goes against the spirit" of the tool
 
 ## FAQ
 
