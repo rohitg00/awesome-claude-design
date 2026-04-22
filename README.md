@@ -21,18 +21,6 @@
 </p>
 
 <p align="center">
-  <img src="assets/tags/anthropic.svg" alt="Anthropic">
-  <img src="assets/tags/official.svg" alt="official">
-  <img src="assets/tags/curated.svg" alt="curated">
-  <img src="assets/tags/community.svg" alt="community">
-  <img src="assets/tags/open-source.svg" alt="open source">
-  <img src="assets/tags/new.svg" alt="new">
-  <img src="assets/tags/remix.svg" alt="remix">
-  <img src="assets/tags/hype.svg" alt="hype">
-  <img src="assets/tags/skeptic.svg" alt="skeptic">
-</p>
-
-<p align="center">
   <a href="#1-editorial-minimalism"><img src="assets/tags/family-editorial.svg" alt="editorial minimalism"></a>
   <a href="#2-terminal-core"><img src="assets/tags/family-terminal.svg" alt="terminal-core"></a>
   <a href="#3-warm-editorial"><img src="assets/tags/family-warm.svg" alt="warm editorial"></a>
@@ -44,14 +32,64 @@
   <a href="#9-cult--indie-picks-non-fortune-500"><img src="assets/tags/family-indie.svg" alt="cult · indie picks"></a>
 </p>
 
-<p align="center"><sub>Tags are SVGs under <a href="assets/tags/"><code>/assets/tags/</code></a> — fork and remix.</sub></p>
-
 Claude Design shipped **April 17, 2026**. Figma closed **−4.26%** the same day. YouTube split between "RIP frontend developers" and "another slop feature." This repo collects both.
 
 > **Heads up — typo-squat alert.** A repo named `anthropic-claude-design/claude-design` claiming to "download Claude Design" is NOT affiliated with Anthropic. The real product lives at [claude.ai/design](https://claude.ai/design) behind a Pro/Max/Team/Enterprise login. No download exists. Report the typo-squat.
 
+## Preview Gallery
+
+What each aesthetic family actually looks like in production. Thumbnails are static screenshots of the public homepage of one representative brand per family. Click the image to open the live site, click the caption to open the working `DESIGN.md` in this repo.
+
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="https://linear.app"><img src="assets/previews/linear.jpg" width="100%" alt="Linear — editorial minimalism"></a><br>
+<sub><b><a href="design-md/editorial/linear.md">Linear · editorial</a></b><br><code>#fff / #0f0f14 / #5e6ad2</code></sub>
+</td>
+<td align="center" width="33%">
+<a href="https://ollama.com"><img src="assets/previews/ollama.jpg" width="100%" alt="Ollama — terminal-core"></a><br>
+<sub><b><a href="design-md/terminal/ollama.md">Ollama · terminal</a></b><br><code>#000 / #fff / mono</code></sub>
+</td>
+<td align="center" width="33%">
+<a href="https://www.anthropic.com"><img src="assets/previews/anthropic.jpg" width="100%" alt="Anthropic / Claude — warm editorial"></a><br>
+<sub><b><a href="design-md/warm/claude.md">Claude · warm</a></b><br><code>#f4f3ee / #c96442 / #191817</code></sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://clickhouse.com"><img src="assets/previews/clickhouse.jpg" width="100%" alt="ClickHouse — data-dense pro"></a><br>
+<sub><b><a href="design-md/data-dense/clickhouse.md">ClickHouse · data-dense</a></b><br><code>#181818 / #faff69 / magenta</code></sub>
+</td>
+<td align="center" width="33%">
+<a href="https://runwayml.com"><img src="assets/previews/runwayml.jpg" width="100%" alt="RunwayML — cinematic dark"></a><br>
+<sub><b><a href="design-md/cinematic/runway.md">Runway · cinematic</a></b><br><code>#000 / magenta + cyan</code></sub>
+</td>
+<td align="center" width="33%">
+<a href="https://www.figma.com"><img src="assets/previews/figma.jpg" width="100%" alt="Figma — playful color"></a><br>
+<sub><b><a href="design-md/playful/figma.md">Figma · playful</a></b><br><code>#0acf83 / #f24e1e / #a259ff</code></sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<a href="https://arc.net"><img src="assets/previews/arc.jpg" width="100%" alt="Arc Browser — glass / soft-futurism"></a><br>
+<sub><b><a href="design-md/glass/arc.md">Arc · glass</a></b><br><code>#fff / radial pastel</code></sub>
+</td>
+<td align="center" width="33%">
+<a href="https://www.theverge.com"><img src="assets/previews/theverge.jpg" width="100%" alt="The Verge — neon brutalist"></a><br>
+<sub><b><a href="design-md/brutalist/the-verge.md">The Verge · brutalist</a></b><br><code>#ff6600 / #000 / #fff</code></sub>
+</td>
+<td align="center" width="33%">
+<a href="https://www.granola.ai"><img src="assets/previews/granola.jpg" width="100%" alt="Granola — cult / indie"></a><br>
+<sub><b><a href="design-md/indie/granola.md">Granola · indie</a></b><br><code>#faf8f2 / warm glass</code></sub>
+</td>
+</tr>
+</table>
+
+<sub>Screenshots are public-homepage stills used for editorial reference. Trademarks remain with their respective owners. See <a href="assets/previews/ATTRIBUTION.md">ATTRIBUTION.md</a> for source URLs and refresh policy.</sub>
+
 ## Contents
 
+- [Preview Gallery](#preview-gallery)
 - [What Is Claude Design](#what-is-claude-design)
 - [Feature Map](#feature-map)
 - [Launch Timeline](#launch-timeline)
@@ -61,7 +99,7 @@ Claude Design shipped **April 17, 2026**. Figma closed **−4.26%** the same day
 - [Remix Recipes](#remix-recipes)
 - [Picker: What Should I Use](#picker-what-should-i-use)
 - [Prompts & Cookbooks](#prompts--cookbooks)
-- [Anti-Slop Kit](#anti-slop-kit)
+- [Anti-Slop Kit](#anti-slop-kit) — including [Claude Design's default fingerprints](#claude-designs-default-fingerprints-avoid)
 - [Skills & Plugins](#skills--plugins)
 - [Workflows & Recipes](#workflows--recipes)
 - [Video Teardowns](#video-teardowns)
@@ -70,6 +108,7 @@ Claude Design shipped **April 17, 2026**. Figma closed **−4.26%** the same day
 - [Community Takes](#community-takes)
 - [FAQ](#faq)
 - [Related OSS Projects](#related-oss-projects)
+- [Tag System](#tag-system)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -119,6 +158,9 @@ Three surfaces:
 - [Product — claude.ai/design](https://claude.ai/design)
 - [Anthropic Labs](https://www.anthropic.com/labs)
 - [Anthropic Prompt Library](https://docs.anthropic.com/en/resources/prompt-library/library) — Brand builder, Website wizard, Prose polisher, 40+ more
+- [`anthropics/skills` — `frontend-design` SKILL.md](https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md) — the underlying skill Claude Design routes through; auto-loaded by Claude Code for UI work
+- [`anthropics/skills` PR #210](https://github.com/anthropics/skills/pull/210) — clarity revision; 75% win rate across model tiers, biggest lift on Haiku
+- [`anthropics/claude-cookbooks` — frontend aesthetics notebook](https://github.com/anthropics/claude-cookbooks/blob/main/coding/prompting_for_frontend_aesthetics.ipynb) — Anthropic's own anti-slop primer; quoted in [Anti-Slop Kit](#anti-slop-kit)
 - [Claude Cookbooks — prompting_for_frontend_aesthetics.ipynb](https://github.com/anthropics/claude-cookbooks/blob/main/coding/prompting_for_frontend_aesthetics.ipynb)
 - [Prompt engineering overview](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
 - [Prompt generator (Console)](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/prompt-generator)
@@ -141,7 +183,7 @@ Submit more: handle, verbatim quote ≤280 chars, tweet URL, engagement numbers.
 
 Not sorted by industry. Sorted by **visual character** — because that's how designers actually pick. Each family links to (1) a working `DESIGN.md` in `/design-md/<family>/`, (2) canonical external references, (3) a one-line swatch + type spec so you can eyeball fit before cloning.
 
-**Shipped samples in this repo:** [warm/claude.md](design-md/warm/claude.md) · [terminal/ollama.md](design-md/terminal/ollama.md) · [editorial/linear.md](design-md/editorial/linear.md) · [data-dense/clickhouse.md](design-md/data-dense/clickhouse.md) · [cinematic/runway.md](design-md/cinematic/runway.md) · [playful/figma.md](design-md/playful/figma.md) · [glass/arc.md](design-md/glass/arc.md) · [brutalist/the-verge.md](design-md/brutalist/the-verge.md) · [indie/granola.md](design-md/indie/granola.md) · [remix/linear-x-claude.md](design-md/remix/linear-x-claude.md)
+**Shipped samples in this repo:** [warm/claude.md](design-md/warm/claude.md) · [terminal/ollama.md](design-md/terminal/ollama.md) · [terminal/warp.md](design-md/terminal/warp.md) · [editorial/linear.md](design-md/editorial/linear.md) · [editorial/vercel.md](design-md/editorial/vercel.md) · [data-dense/clickhouse.md](design-md/data-dense/clickhouse.md) · [data-dense/posthog.md](design-md/data-dense/posthog.md) · [cinematic/runway.md](design-md/cinematic/runway.md) · [playful/figma.md](design-md/playful/figma.md) · [glass/arc.md](design-md/glass/arc.md) · [glass/apple.md](design-md/glass/apple.md) · [brutalist/the-verge.md](design-md/brutalist/the-verge.md) · [indie/granola.md](design-md/indie/granola.md) · [remix/linear-x-claude.md](design-md/remix/linear-x-claude.md) · [remix/warp-x-sentry.md](design-md/remix/warp-x-sentry.md) · [remix/stripe-x-a24.md](design-md/remix/stripe-x-a24.md)
 
 ### 1. Editorial Minimalism
 
@@ -350,6 +392,34 @@ DO use:
 
 Malewicz's [teardown](https://www.youtube.com/watch?v=IkspcJdeP3U) <img src="https://img.shields.io/youtube/views/IkspcJdeP3U?style=flat-square&label=views&color=191817" height="16"> opens by flagging Claude Design's own logo as "generic, color palette" — exactly the trap this prompt is built to avoid.
 
+### Claude Design's default fingerprints (avoid)
+
+The single biggest community complaint: every Claude Design output looks the same. Catalogued from launch-week Reddit threads, the [Sam Henri Gold blog post](https://samhenri.gold/blog/20260418-claude-design/), the [Banani review](https://www.banani.co/blog/claude-design-review), and [The Neuron Daily round-up](https://www.theneurondaily.com/p/anthropic-s-claude-design-launched-and-reddit-has-thoughts).
+
+| Fingerprint | What it looks like | Counter-rule |
+|---|---|---|
+| **Teal accent everywhere** | The default `#16d5e6`-adjacent action color appears on CTA, headline accent, focus rings, and chart fill | Pick a brand-specific accent in your DESIGN.md before the first generation |
+| **Blinking status dot** | Animated green/lime dot top-right of nav, signals "live"/"AI" by reflex | Reject in your prompt: "no animated status indicators" |
+| **Container soup** | Pills wrapping cards wrapping cards wrapping content; padding stacking 24/24/24 | Cap nesting depth: "containers nest at most 2 levels" |
+| **Default serif headline** | Tiempos- or Source-Serif-adjacent serif paired with sans body — reads like the Anthropic brand's leftovers | Specify font stack with explicit weight + tracking, not a vibe |
+| **Accent bar left of every card** | 4px coloured rule on every card, regardless of semantic meaning | Reserve left-rule for one role (e.g. severity) — never as decoration |
+| **Three-column feature grid in hero** | Almost every landing the model produces has the same section-2 layout | Brief: "no three-column feature grid; choose marquee, alternating-row, or single-column instead" |
+| **Lucide icon stack** | Default icon set across nav, buttons, empty states | Either commit to a single icon family (Phosphor / Heroicons / custom) or ship type-only |
+| **Generative hero in product palette ignored** | Image generator picks colors that "look right" but ignore the DESIGN.md tokens | Constrain the image: "regenerate hero using only `--bg`, `--accent`, `--text`" |
+
+Use the dedicated prompt pack [`prompts/break-default-aesthetic.md`](prompts/break-default-aesthetic.md) to neutralize these in one paste.
+
+### How the defaults got there
+
+Claude Design routes through Anthropic's open-source [`frontend-design` skill](https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md) — the same skill Claude Code auto-loads for UI work. The skill's defaults bias toward "production-quality first pass" which, in the absence of a DESIGN.md, lands on the same look every time.
+
+Two related Anthropic resources worth bookmarking:
+
+- [**frontend-aesthetics cookbook**](https://github.com/anthropics/claude-cookbooks/blob/main/coding/prompting_for_frontend_aesthetics.ipynb) — Anthropic's own anti-slop primer; the source quoted above
+- [**`skills` PR #210**](https://github.com/anthropics/skills/pull/210) — clarity revision of the frontend-design skill; 75% win rate across model tiers, biggest lift on Haiku
+
+Anthropic acknowledges the problem in the cookbook: *"You tend to converge toward generic, 'on distribution' outputs. In frontend design, this creates what users call the 'AI slop' aesthetic. Avoid this: make creative, distinctive frontends that surprise and delight."*
+
 ## Skills & Plugins
 
 Claude Code skills and SkillKit plugins that pair with Claude Design.
@@ -369,19 +439,19 @@ Install via SkillKit: `npx skillkit install design-shotgun`
 
 End-to-end flows in `/recipes/<name>.md`.
 
-1. **Landing page in 20 minutes** — DESIGN.md → Claude Design → Claude Code → Vercel
-2. **Figma file → DESIGN.md** — drag `.fig` in chat, extract tokens, reuse
+1. [**Landing page in 20 minutes**](recipes/landing-page-20-min.md) — DESIGN.md → Claude Design → Claude Code → Vercel
+2. [**Figma file → DESIGN.md**](recipes/figma-to-design-md.md) — drag `.fig` in chat, extract tokens, reuse
 3. **Existing repo → design system** — point Claude at your CSS, get canonical DESIGN.md back
-4. **Wireframe → hi-fi** — low-fi sketch to pixel-perfect comp
+4. [**Wireframe → hi-fi**](recipes/wireframe-to-hifi.md) — low-fi sketch to pixel-perfect comp
 5. **Pitch deck from README** — 12-slide deck from a project README
-6. **Brand extraction** — URL → DESIGN.md describing a competitor's system
-13. [**Token budget for Claude Design**](recipes/token-budget-claude-design.md) — ship a project on a single Pro plan in a week without burning quota
+6. [**Brand extraction**](recipes/brand-extraction.md) — URL → DESIGN.md describing a competitor's system
 7. **Design-system governance** — lock tokens as `SKILL.md` for every future project
 8. **Web capture → prototype** — use the native capture tool on your live site
 9. **16-minute everything build** — per @petergyang: video + slides + website + app + initial system
 10. **Two-brand remix** — combine tokens from two DESIGN.md files coherently
 11. **Claude Design → Canva export** — designer collaboration pathway
 12. **Org-wide design-system sharing** — view-only URL, group-chat edit mode
+13. [**Token budget for Claude Design**](recipes/token-budget-claude-design.md) — ship a project on a single Pro plan in a week without burning quota
 
 <p align="center"><img src="assets/mascot.svg" width="72" alt="mascot"></p>
 
@@ -557,6 +627,22 @@ No. Typo-squat. Claude Design lives at [claude.ai/design](https://claude.ai/desi
 | [rohitg00/skillkit](https://github.com/rohitg00/skillkit) | <img src="https://img.shields.io/github/stars/rohitg00/skillkit?style=flat-square&logo=github&label="> | Universal CLI for skills across many agents |
 | [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | <img src="https://img.shields.io/github/stars/hesreallyhim/awesome-claude-code?style=flat-square&logo=github&label="> | General Claude Code resources |
 | [github.com/topics/claude-design](https://github.com/topics/claude-design) | — | Live topic feed |
+
+## Tag System
+
+Inline tag badges used across `DESIGN.md`, prompt packs, recipes, and remix files. Fork and remix freely — sources under [`/assets/tags/`](assets/tags/).
+
+<p align="center">
+  <img src="assets/tags/anthropic.svg" alt="Anthropic">
+  <img src="assets/tags/official.svg" alt="official">
+  <img src="assets/tags/curated.svg" alt="curated">
+  <img src="assets/tags/community.svg" alt="community">
+  <img src="assets/tags/open-source.svg" alt="open source">
+  <img src="assets/tags/new.svg" alt="new">
+  <img src="assets/tags/remix.svg" alt="remix">
+  <img src="assets/tags/hype.svg" alt="hype">
+  <img src="assets/tags/skeptic.svg" alt="skeptic">
+</p>
 
 ## Contributing
 

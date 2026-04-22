@@ -11,6 +11,7 @@ Drop these into Claude Design or Claude Code. Each pack ships with a real input 
 | [`3-designer-debate`](./3-designer-debate.md) | Three-voice critique + synthesis | <img src="../assets/tags/community.svg" height="16"> |
 | [`remix-two-brands`](./remix-two-brands.md) | Combine two DESIGN.md files coherently | <img src="../assets/tags/remix.svg" height="16"> |
 | [`family-picker`](./family-picker.md) | 3 questions → recommended aesthetic family | <img src="../assets/tags/new.svg" height="16"> |
+| [`break-default-aesthetic`](./break-default-aesthetic.md) | Neutralize Claude Design's teal-default "AI-slop" output | <img src="../assets/tags/anthropic.svg" height="16"> |
 
 ## Submit your own
 
