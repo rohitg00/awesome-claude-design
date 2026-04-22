@@ -93,6 +93,7 @@ What each aesthetic family actually looks like in production. Thumbnails are sta
 - [What Is Claude Design](#what-is-claude-design)
 - [Feature Map](#feature-map)
 - [Launch Timeline](#launch-timeline)
+- [Quotas & Token Budget](#quotas--token-budget)
 - [Official Resources](#official-resources)
 - [X Signal](#x-signal)
 - [DESIGN.md by Aesthetic Family](#designmd-by-aesthetic-family)
@@ -144,13 +145,38 @@ Three surfaces:
 | Date | Event | Source |
 |---|---|---|
 | 2026-04-14 | The Information leaks Opus 4.7 + design tool | [r/singularity +889](https://www.reddit.com/r/singularity/comments/1slh72j/) |
+| 2026-04-14 | Mike Krieger (Anthropic CPO) steps off Figma board — pre-launch signal | [Martin Alderson](https://martinalderson.com/posts/anthropic-figma-supplier-conflict/) |
 | 2026-04-17 | Claude Design + Opus 4.7 ship in research preview | [anthropic.com](https://www.anthropic.com/news/claude-design-anthropic-labs) |
 | 2026-04-17 | Official launch tweet | [@claudeai](https://x.com/claudeai/status/2045156267690213649) |
 | 2026-04-17 | r/ClaudeAI launch thread hits 2,293 upvotes | [Reddit](https://www.reddit.com/r/ClaudeAI/comments/1so3k1y/) |
 | 2026-04-17 | Figma closes −4.26% (second thread 1,763 upvotes) | [Reddit](https://www.reddit.com/r/ClaudeAI/comments/1so6z2t/) · [@brewmarkets](https://x.com/brewmarkets/status/2045175784554283228) |
 | 2026-04-17 | r/FigmaDesign reports ~7% intraday dip | [Reddit](https://www.reddit.com/r/FigmaDesign/comments/1soc1ic/) |
+| 2026-04-17 | Mainstream press wave — TechCrunch, VentureBeat, Adweek frame the launch | [TechCrunch](https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/) · [VentureBeat](https://venturebeat.com/ai/anthropic-launches-claude-design-ai-design-tool/) · [Adweek](https://www.adweek.com/media/anthropic-debuts-claude-design-for-building-marketing-assets-decks-and-uis/) |
 | 2026-04-18 | Teardown wave: Isenberg, Malewicz, 02ui, Ray Fernando, WorldofAI, Vivek Mishra, AI for Work | See [Video Teardowns](#video-teardowns) |
 | 2026-04-18 | @petergyang 16-min build: video + slides + website + app + design system | [Tweet](https://x.com/petergyang/status/2045527271650558383) |
+| 2026-04-18 | Sam Henri Gold publishes "Stickley joinery" framing post | [samhenri.gold](https://samhenri.gold/blog/20260418-claude-design/) |
+| 2026-04-18 | Brilliant + Datadog case studies surface in Anthropic launch post | [anthropic.com](https://www.anthropic.com/news/claude-design-anthropic-labs) |
+| 2026-04-19 | Ryan Mather publishes 7-tip thread (system-first, comments-not-chat, connectors) | [@Flomerboy](https://x.com/Flomerboy/status/2045162321589252458) |
+| 2026-04-20 | Follow-on coverage — "hits Figma where it hurts" / "rattles design giants" | [Web And IT News](https://www.webanditnews.com/2026/04/20/claude-design-hits-figma-where-it-hurts-ai-eats-into-non-designer-users/) · [Storyboard18](https://www.storyboard18.com/digital/what-is-claude-design-anthropics-new-ai-tool-rattles-design-software-giants-ws-l-95581.htm) |
+| 2026-04-21 | Pricing controversy — Pro tier loses Claude Code access | [Pasquale Pillitteri](https://pasqualepillitteri.it/en/news/591/ai-app-builders-comparison-2026) |
+| 2026-04-22 | Anthropic publishes Claude Design subscription usage + pricing doc | [support.claude.com](https://support.claude.com/en/articles/14667344-claude-design-subscription-usage-and-pricing) |
+
+## Quotas & Token Budget
+
+Quota burn is the #2 community complaint after AI-slop fingerprints. Here's the math + the recipe so you don't lose a week to a single prompt.
+
+- **Separate meter from chat.** Claude Design has its own usage meter, distinct from regular Claude.ai chat — per the [Anthropic pricing doc](https://support.claude.com/en/articles/14667344-claude-design-subscription-usage-and-pricing).
+- **Per-user, not pooled.** Weekly allowance is per-seat — teams cannot share a pool — per the [Anthropic pricing doc](https://support.claude.com/en/articles/14667344-claude-design-subscription-usage-and-pricing).
+- **One-time promotional credit.** Roughly 20 typical prompts, expiring **2026-07-17** — per the [Anthropic pricing doc](https://support.claude.com/en/articles/14667344-claude-design-subscription-usage-and-pricing). Spend it on experiments, save weekly allowance for production.
+- **Vision tokens cost ~3x text.** Opus 4.7 vision pricing is broadly cited; every screenshot, `.fig`, or web-capture inflates the bill.
+- **Pro can exhaust in 2–3 prompts.** Multiple reports on the [r/ClaudeAI launch thread](https://www.reddit.com/r/ClaudeAI/comments/1so3k1y/) of two prompts eating 95% of a weekly limit.
+- **30 minutes → locked out for a week.** [PCWorld](https://www.pcworld.com/article/3117811/i-tried-claude-design-for-half-an-hour-im-already-locked-out-for-a-week.html) review burned the full allowance in one sitting.
+- **50% of weekly allotment for one design system + one prototype.** Designer field report from [Abhi Chatterjee](https://www.designsystemscollective.com/claude-design-just-launched-a-designers-first-walkthrough-c79d7ce47b9b).
+- **"Rationing creativity goes against the spirit."** [Ocasio Consulting](https://ocasioconsulting.com/claude-design-review/) calls directly for a flat design-seat fee.
+
+Recommended sequence: [`recipes/token-budget-claude-design.md`](recipes/token-budget-claude-design.md) — scaffold once, cap reference screens at 4, switch to inline comments for iteration, branch for variants, bundle to Claude Code in one shot.
+
+Full pricing reference: [Claude Design subscription usage and pricing — support.claude.com](https://support.claude.com/en/articles/14667344-claude-design-subscription-usage-and-pricing).
 
 ## Official Resources
 
