@@ -21,18 +21,6 @@
 </p>
 
 <p align="center">
-  <img src="assets/tags/anthropic.svg" alt="Anthropic">
-  <img src="assets/tags/official.svg" alt="official">
-  <img src="assets/tags/curated.svg" alt="curated">
-  <img src="assets/tags/community.svg" alt="community">
-  <img src="assets/tags/open-source.svg" alt="open source">
-  <img src="assets/tags/new.svg" alt="new">
-  <img src="assets/tags/remix.svg" alt="remix">
-  <img src="assets/tags/hype.svg" alt="hype">
-  <img src="assets/tags/skeptic.svg" alt="skeptic">
-</p>
-
-<p align="center">
   <a href="#1-editorial-minimalism"><img src="assets/tags/family-editorial.svg" alt="editorial minimalism"></a>
   <a href="#2-terminal-core"><img src="assets/tags/family-terminal.svg" alt="terminal-core"></a>
   <a href="#3-warm-editorial"><img src="assets/tags/family-warm.svg" alt="warm editorial"></a>
@@ -43,8 +31,6 @@
   <a href="#8-neon-brutalist"><img src="assets/tags/family-brutalist.svg" alt="neon brutalist"></a>
   <a href="#9-cult--indie-picks-non-fortune-500"><img src="assets/tags/family-indie.svg" alt="cult · indie picks"></a>
 </p>
-
-<p align="center"><sub>Tags are SVGs under <a href="assets/tags/"><code>/assets/tags/</code></a> — fork and remix.</sub></p>
 
 Claude Design shipped **April 17, 2026**. Figma closed **−4.26%** the same day. YouTube split between "RIP frontend developers" and "another slop feature." This repo collects both.
 
@@ -70,6 +56,7 @@ Claude Design shipped **April 17, 2026**. Figma closed **−4.26%** the same day
 - [Community Takes](#community-takes)
 - [FAQ](#faq)
 - [Related OSS Projects](#related-oss-projects)
+- [Tag System](#tag-system)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -553,6 +540,22 @@ No. Typo-squat. Claude Design lives at [claude.ai/design](https://claude.ai/desi
 | [rohitg00/skillkit](https://github.com/rohitg00/skillkit) | <img src="https://img.shields.io/github/stars/rohitg00/skillkit?style=flat-square&logo=github&label="> | Universal CLI for skills across many agents |
 | [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | <img src="https://img.shields.io/github/stars/hesreallyhim/awesome-claude-code?style=flat-square&logo=github&label="> | General Claude Code resources |
 | [github.com/topics/claude-design](https://github.com/topics/claude-design) | — | Live topic feed |
+
+## Tag System
+
+Inline tag badges used across `DESIGN.md`, prompt packs, recipes, and remix files. Fork and remix freely — sources under [`/assets/tags/`](assets/tags/).
+
+<p align="center">
+  <img src="assets/tags/anthropic.svg" alt="Anthropic">
+  <img src="assets/tags/official.svg" alt="official">
+  <img src="assets/tags/curated.svg" alt="curated">
+  <img src="assets/tags/community.svg" alt="community">
+  <img src="assets/tags/open-source.svg" alt="open source">
+  <img src="assets/tags/new.svg" alt="new">
+  <img src="assets/tags/remix.svg" alt="remix">
+  <img src="assets/tags/hype.svg" alt="hype">
+  <img src="assets/tags/skeptic.svg" alt="skeptic">
+</p>
 
 ## Contributing
 
