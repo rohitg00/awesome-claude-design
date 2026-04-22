@@ -144,7 +144,7 @@ Submit more: handle, verbatim quote ≤280 chars, tweet URL, engagement numbers.
 
 Not sorted by industry. Sorted by **visual character** — because that's how designers actually pick. Each family links to (1) a working `DESIGN.md` in `/design-md/<family>/`, (2) canonical external references, (3) a one-line swatch + type spec so you can eyeball fit before cloning.
 
-**Shipped samples in this repo:** [warm/claude.md](design-md/warm/claude.md) · [terminal/ollama.md](design-md/terminal/ollama.md) · [editorial/linear.md](design-md/editorial/linear.md) · [data-dense/clickhouse.md](design-md/data-dense/clickhouse.md) · [cinematic/runway.md](design-md/cinematic/runway.md) · [playful/figma.md](design-md/playful/figma.md) · [glass/arc.md](design-md/glass/arc.md) · [brutalist/the-verge.md](design-md/brutalist/the-verge.md) · [indie/granola.md](design-md/indie/granola.md) · [remix/linear-x-claude.md](design-md/remix/linear-x-claude.md)
+**Shipped samples in this repo:** [warm/claude.md](design-md/warm/claude.md) · [terminal/ollama.md](design-md/terminal/ollama.md) · [terminal/warp.md](design-md/terminal/warp.md) · [editorial/linear.md](design-md/editorial/linear.md) · [editorial/vercel.md](design-md/editorial/vercel.md) · [data-dense/clickhouse.md](design-md/data-dense/clickhouse.md) · [data-dense/posthog.md](design-md/data-dense/posthog.md) · [cinematic/runway.md](design-md/cinematic/runway.md) · [playful/figma.md](design-md/playful/figma.md) · [glass/arc.md](design-md/glass/arc.md) · [glass/apple.md](design-md/glass/apple.md) · [brutalist/the-verge.md](design-md/brutalist/the-verge.md) · [indie/granola.md](design-md/indie/granola.md) · [remix/linear-x-claude.md](design-md/remix/linear-x-claude.md) · [remix/warp-x-sentry.md](design-md/remix/warp-x-sentry.md) · [remix/stripe-x-a24.md](design-md/remix/stripe-x-a24.md)
 
 ### 1. Editorial Minimalism
 
@@ -400,12 +400,12 @@ Install via SkillKit: `npx skillkit install design-shotgun`
 
 End-to-end flows in `/recipes/<name>.md`.
 
-1. **Landing page in 20 minutes** — DESIGN.md → Claude Design → Claude Code → Vercel
-2. **Figma file → DESIGN.md** — drag `.fig` in chat, extract tokens, reuse
+1. [**Landing page in 20 minutes**](recipes/landing-page-20-min.md) — DESIGN.md → Claude Design → Claude Code → Vercel
+2. [**Figma file → DESIGN.md**](recipes/figma-to-design-md.md) — drag `.fig` in chat, extract tokens, reuse
 3. **Existing repo → design system** — point Claude at your CSS, get canonical DESIGN.md back
-4. **Wireframe → hi-fi** — low-fi sketch to pixel-perfect comp
+4. [**Wireframe → hi-fi**](recipes/wireframe-to-hifi.md) — low-fi sketch to pixel-perfect comp
 5. **Pitch deck from README** — 12-slide deck from a project README
-6. **Brand extraction** — URL → DESIGN.md describing a competitor's system
+6. [**Brand extraction**](recipes/brand-extraction.md) — URL → DESIGN.md describing a competitor's system
 7. **Design-system governance** — lock tokens as `SKILL.md` for every future project
 8. **Web capture → prototype** — use the native capture tool on your live site
 9. **16-minute everything build** — per @petergyang: video + slides + website + app + initial system
