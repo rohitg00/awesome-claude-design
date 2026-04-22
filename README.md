@@ -375,6 +375,7 @@ End-to-end flows in `/recipes/<name>.md`.
 4. **Wireframe → hi-fi** — low-fi sketch to pixel-perfect comp
 5. **Pitch deck from README** — 12-slide deck from a project README
 6. **Brand extraction** — URL → DESIGN.md describing a competitor's system
+13. [**Token budget for Claude Design**](recipes/token-budget-claude-design.md) — ship a project on a single Pro plan in a week without burning quota
 7. **Design-system governance** — lock tokens as `SKILL.md` for every future project
 8. **Web capture → prototype** — use the native capture tool on your live site
 9. **16-minute everything build** — per @petergyang: video + slides + website + app + initial system
@@ -516,6 +517,9 @@ Yes — drag `.fig` in chat. Single pages work well; multi-file libraries hit-or
 
 **Price?**
 Bundled in Pro / Max / Team / Enterprise. Per-seat Team pricing not yet published.
+
+**Will I burn through my Pro quota?**
+Almost certainly, if you chat-prompt every change. Reddit reports of "two prompts ate 95% of my weekly limit" are real — Opus 4.7 vision tokens cost roughly 3x equivalent text. Use the [`token-budget-claude-design`](recipes/token-budget-claude-design.md) recipe: scaffold once, cap at 4 reference screens, switch to inline comments for iteration, branch for variants, bundle to Claude Code in one shot. Claude Design has its own quota separate from chat — but if you also use Claude Code, that quota is shared.
 
 **Data training?**
 Per Anthropic's policy: no, not by default for paid tiers. Verify on [anthropic.com/legal/privacy](https://www.anthropic.com/legal/privacy) before shipping sensitive work.
