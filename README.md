@@ -106,6 +106,8 @@ What each aesthetic family actually looks like in production. Thumbnails are sta
 - [Workflows & Recipes](#workflows--recipes)
 - [Video Teardowns](#video-teardowns)
 - [Comparisons](#comparisons)
+- [Long-Form Tutorials](#long-form-tutorials)
+- [Tips & Tricks](#tips--tricks)
 - [Showcase](#showcase)
 - [Community Takes](#community-takes)
 - [FAQ](#faq)
@@ -677,6 +679,86 @@ Launch-week consensus: **Claude Design** wins design-system coherence, web captu
 - [eigent.ai — Claude Design vs Lovable, full 2026 comparison](https://www.eigent.ai/blog/claude-design-vs-lovable) — pricing + output-quality split between design tool and full-stack builder
 - [NxCode — Vibe design tools 2026: Stitch vs v0 vs Lovable vs Bolt](https://www.nxcode.io/resources/news/vibe-design-tools-compared-stitch-v0-lovable-2026) — places Claude Design in the broader vibe-design landscape
 - [Lushbinary — Claude Design vs Figma vs Canva vs Stitch](https://lushbinary.com/blog/claude-design-vs-figma-canva-google-stitch-comparison/) — four-way matrix including Canva, the export target
+
+## Long-Form Tutorials
+
+The writing worth reading after the launch dust settled. Grouped by platform.
+
+### Substack
+
+| Title | Author | URL | Value |
+|---|---|---|---|
+| Claude Design | Ruben Hassid | [ruben.substack.com](https://ruben.substack.com/p/claude-design) | Admin-toggle setup steps + advanced workflow |
+| Claude Design is here | Department of Product | [departmentofproduct.substack.com](https://departmentofproduct.substack.com/p/claude-design-is-here-everything) | Five worked examples + GitHub mock setup |
+| Founder's Playbook | Linas Beliūnas | [linas.substack.com](https://linas.substack.com/p/claude-design-founders-playbook) | Eight workflows, 7-step logo flow, master prompts; cites Mercury 90% inference |
+| How to Actually Use Claude Design | AI For Developers | [aifordevelopers.substack.com](https://aifordevelopers.substack.com/p/how-to-actually-use-claude-design) | The subdirectory-not-monorepo tip in full |
+| Claude for Designers Ultimate Guide | Sorted Pixels (nervegna) | [nervegna.substack.com](https://nervegna.substack.com/p/claude-for-designers-the-ultimate) | Three-tier model: novice / practitioner / orchestrator |
+| Solopreneur Initial Guide | solopreneurcode | [solopreneurcode.substack.com](https://solopreneurcode.substack.com/p/claude-design-complete-guide-solopreneurs) | Solo-founder-shaped scope, no agency assumptions |
+| Everything You Need to Know | getpushtoprod | [getpushtoprod.substack.com](https://getpushtoprod.substack.com/p/everything-you-need-to-know-about) | Four-template workflow: Prototype / Slide / Template / Other |
+| I Tested It On Launch Day | aifromthefield | [aifromthefield.substack.com](https://aifromthefield.substack.com/p/i-tested-claude-design-on-launch) | Day-one hands-on, before the takes consolidated |
+| What Claude Design is actually good for | Lenny's Newsletter | [lennysnewsletter.com](https://www.lennysnewsletter.com/p/what-claude-design-is-actually-good) | Landing page + slides + "unhinged redesign" stress tests |
+
+### Medium
+
+| Title | Author | URL | Value |
+|---|---|---|---|
+| What Claude Design actually changes for designers | Fanny | [medium.com/design-bootcamp](https://medium.com/design-bootcamp/what-claude-design-actually-changes-for-designers-0c5b04fae343) | Brief → Claude Code pipeline collapse, designer POV |
+| What's New, What You Can Build, How to Use It | Ai Studio | [medium.com/the-ai-studio](https://medium.com/the-ai-studio/claude-design-whats-new-what-you-can-build-and-how-to-use-it-92283bfe8c82) | Surface scan covering all three product surfaces |
+| The Non-Designer's Walkthrough | Alex P. | [medium.com/@0xmega](https://medium.com/@0xmega/how-to-use-claude-design-the-non-designers-walkthrough-2adc18053a5c) | Six export paths, end-to-end |
+| Designer's First Walkthrough | Abhi Chatterjee | [designsystemscollective.com](https://www.designsystemscollective.com/claude-design-just-launched-a-designers-first-walkthrough-c79d7ce47b9b) | "50% of weekly allotment burned in one design system + one prototype" |
+| Full Breakdown | Victoria Okwuokenye | [medium.com/design-bootcamp](https://medium.com/design-bootcamp/claude-design-is-here-full-breakdown-a32767258fb9) | Section-by-section product walkthrough |
+| Google makes DESIGN.md open source | fernandocomet | [medium.com/design-bootcamp](https://medium.com/design-bootcamp/google-makes-design-md-open-source-on-its-way-to-become-a-industry-standard-16119f2368dd) | DESIGN.md spec context — useful before adopting |
+
+### Blog / Other
+
+| Title | Author | URL | Value |
+|---|---|---|---|
+| How to Use Claude Design for UX/UI | DesignerUp | [designerup.co](https://designerup.co/blog/how-to-use-claude-design-for-ux-ui/) | Education-house framing for design-curious devs |
+| Getting Started | Muzli | [muz.li/blog](https://muz.li/blog/getting-started-with-claude-design-a-collaborator-for-your-design-workflow/) | Designer-newsletter intro, low-friction onboarding |
+| Good Enough for Professional Websites? | BSWEN | [docs.bswen.com](https://docs.bswen.com/blog/2026-04-18-claude-design-quality-professional/) | Quality bar honest assessment, mostly skeptical |
+| The Visual Layer Claude Code Was Missing | Mejba Ahmed | [mejba.me](https://www.mejba.me/blog/claude-design-visual-workflow-claude-code) | Engineer-positive read; pairs with Claude Code workflow |
+| 15 Minutes to a Design System | Ocasio Consulting | [ocasioconsulting.com](https://ocasioconsulting.com/claude-design-review/) | Direct ask to Anthropic for a flat design-seat fee |
+| Complete Guide | Tosea.ai | [tosea.ai/blog](https://tosea.ai/blog/claude-design-complete-guide) | Reference-doc shape; useful as deep-link target |
+| First Impressions | Banani | [banani.co/blog](https://www.banani.co/blog/claude-design-review) | Competitor's review — read with that in mind |
+| Anthropic's Answer to Lovable / v0 | Aurora Designs | [aurora-designs.ca](https://aurora-designs.ca/blog/claude-design-anthropic-labs/) | Positions Claude Design in the AI builder field |
+| Complete 2026 Guide | agence-scroll | [agence-scroll.com](https://agence-scroll.com/en/blog/claude-design-anthropic-2026-guide) | Agency-side adoption framing |
+| Complete Guide for Non-Designers | BuildFastWithAI | [buildfastwithai.com](https://www.buildfastwithai.com/blogs/claude-design-anthropic-guide-2026) | Explicit non-designer scaffolding |
+| 2026 Business Guide | Spicy Advisory | [spicyadvisory.com](https://www.spicyadvisory.com/blog/claude-design-anthropic-labs-guide-workflows-2026) | Workflows for SMB / consulting context |
+| Features + Pricing | ALM Corp | [almcorp.com](https://almcorp.com/blog/claude-design-anthropic-labs/) | Plain pricing/features summary, low fluff |
+
+## Tips & Tricks
+
+High-leverage tactics from creators who actually shipped with it. Attribution on every claim.
+
+### Ryan Mather's 7 tips ([thread](https://x.com/Flomerboy/status/2045162321589252458) · [Skills explainer](https://x.com/Flomerboy/status/2034094212161945965))
+
+Anthropic insider, posted day two of launch.
+
+1. **System-first.** Build the design system before any prototype — Claude reuses tokens across every later artifact.
+2. **Comment, don't chat.** Inline comments on the canvas cost less and target faster than a new chat turn.
+3. **Demo with video.** Drop screen recordings into context; Claude follows motion intent better than written specs.
+4. **Connectors to Slack and docs.** Wire up your knowledge sources so brand voice and copy stay consistent (burns quota fast — see weekly allowance note below).
+5. **Build custom one-off tools.** Claude can spin a small utility for the exact micro-task instead of you wrestling a generic one.
+6. **Slow down at the moments that matter.** Hero, pricing, empty states — let Claude take more passes there, less elsewhere.
+7. **Skillify it.** Bundle the working `DESIGN.md` as a `SKILL.md` for cross-project reuse — see the Skills explainer thread for what that unlocks.
+
+### Builder examples worth studying
+
+- **Ran Segall — homeschooling app.** Called Claude Design "10x better than Lovable or Replit" for full-app builds. Read his timeline for prompt cadence.
+- **Jerrod Lew — personal dashboard OS in two prompts.** Demonstrates how far one good `DESIGN.md` carries.
+- **[Peter Yang — 16-min everything build](https://x.com/petergyang/status/2045527271650558383).** Video + slides + website + app + design system. Also the source of "fun but burns through usage quickly."
+
+### Token economics
+
+- **[Quasa.io — Claude Design token tips](https://www.quasa.io/)** — community write-up on quota survival; pairs with the [`token-budget-claude-design`](recipes/token-budget-claude-design.md) recipe.
+- **Promotional credit gets consumed first.** Anthropic ships every paying user a one-time credit equal to a typical $20 prompt; spend it on experimentation, save the weekly allowance for production work.
+- **Weekly allowance is per-user, not pooled.** Important when planning team usage — admins can't redistribute someone else's leftover budget.
+- Both above per [Anthropic — Claude Design subscription usage and pricing](https://support.claude.com/en/articles/14667344-claude-design-subscription-usage-and-pricing).
+
+### Workflow callouts
+
+- **Connectors to Slack and docs** are the single highest-leverage integration for brand consistency, but also the fastest way to burn weekly allowance. Wire them only on production projects, not exploration.
+- **Subdirectory, not monorepo.** Per [AI For Developers](https://aifordevelopers.substack.com/p/how-to-actually-use-claude-design), point Claude Design at one subdirectory per project — full-monorepo context is slow and noisy. One `DESIGN.md` per app, linked from the subdirectory.
 
 ## Showcase
 
