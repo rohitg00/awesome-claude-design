@@ -295,9 +295,39 @@ Brands VoltAgent's catalog does NOT cover — indie SaaS, cult tools, magazines,
 
 ### External catalogs
 
-- [**VoltAgent/awesome-claude-design**](https://github.com/VoltAgent/awesome-claude-design) <img src="https://img.shields.io/github/stars/VoltAgent/awesome-claude-design?style=flat-square&logo=github&label=" height="16"> — brand DESIGN.md files, industry-sorted
-- [**VoltAgent/awesome-design-md**](https://github.com/VoltAgent/awesome-design-md) <img src="https://img.shields.io/github/stars/VoltAgent/awesome-design-md?style=flat-square&logo=github&label=" height="16"> — Stitch-format collection, tool-agnostic
-- [**google-labs-code/design-md**](https://github.com/VoltAgent/awesome-agent-skills) — canonical DESIGN.md skill from the format's origin
+The DESIGN.md ecosystem is bigger than this repo. We catalog only what others don't — these are the upstreams, mirrors, sibling lists, and origin-spec sources worth bookmarking.
+
+**DESIGN.md ecosystem**
+
+- [**VoltAgent/awesome-claude-design**](https://github.com/VoltAgent/awesome-claude-design) <img src="https://img.shields.io/github/stars/VoltAgent/awesome-claude-design?style=flat-square&logo=github&label=" height="16"> — 68 brand DESIGN.md files, industry-sorted (the canonical industry catalog)
+- [**VoltAgent/awesome-design-md**](https://github.com/VoltAgent/awesome-design-md) <img src="https://img.shields.io/github/stars/VoltAgent/awesome-design-md?style=flat-square&logo=github&label=" height="16"> — 59+ brands in Stitch-format, every entry ships preview.html (tool-agnostic twin)
+- [**philquist/awesome-claude-design-examples**](https://github.com/philquist/awesome-claude-design-examples) <img src="https://img.shields.io/github/stars/philquist/awesome-claude-design-examples?style=flat-square&logo=github&label=" height="16"> — community mirror/fork of the VoltAgent collection, useful as a discovery surface
+- [**getdesign.md**](https://getdesign.md/) — browseable web UI for 60+ DESIGN.md files (Cursor, Vercel, Warp, Claude, Mistral, xAI, Tesla, Renault, Revolut, Wise, Linear, PostHog)
+- [**google-labs-code/design.md**](https://github.com/google-labs-code/design.md) <img src="https://img.shields.io/github/stars/google-labs-code/design.md?style=flat-square&logo=github&label=" height="16"> — official DESIGN.md spec from Google Labs Code, Apache 2.0; see [`docs/spec.md`](https://github.com/google-labs-code/design.md/blob/main/docs/spec.md)
+
+**Topic hubs**
+
+- [**github.com/topics/design-md**](https://github.com/topics/design-md) — auto-rolling repo feed for the format itself
+- [**github.com/topics/claude-design**](https://github.com/topics/claude-design) — Claude Design–tagged repos (skills, examples, tooling)
+
+**Awesome-Claude meta-lists**
+
+- [**rohitg00/awesome-claude-code-toolkit**](https://github.com/rohitg00/awesome-claude-code-toolkit) <img src="https://img.shields.io/github/stars/rohitg00/awesome-claude-code-toolkit?style=flat-square&logo=github&label=" height="16"> — sibling meta-toolkit: 135 agents, 35 skills, 42 commands, 176 plugins
+- [**hesreallyhim/awesome-claude-code**](https://github.com/hesreallyhim/awesome-claude-code) <img src="https://img.shields.io/github/stars/hesreallyhim/awesome-claude-code?style=flat-square&logo=github&label=" height="16"> — the original awesome-claude-code list; hosts Patrick Ellis's Design Review Workflow entry
+- [**jqueryscript/awesome-claude-code**](https://github.com/jqueryscript/awesome-claude-code) <img src="https://img.shields.io/github/stars/jqueryscript/awesome-claude-code?style=flat-square&logo=github&label=" height="16"> — surfaces claude-design-engineer (1.1k stars) and excalidraw-diagram-skill (1.2k stars)
+- [**sickn33/antigravity-awesome-skills**](https://github.com/sickn33/antigravity-awesome-skills) <img src="https://img.shields.io/github/stars/sickn33/antigravity-awesome-skills?style=flat-square&logo=github&label=" height="16"> — 1,431+ skills incl. Leonxlnx/taste-skill (Stitch design systems, brutalist/minimalist modes)
+- [**ComposioHQ/awesome-claude-skills**](https://github.com/ComposioHQ/awesome-claude-skills) <img src="https://img.shields.io/github/stars/ComposioHQ/awesome-claude-skills?style=flat-square&logo=github&label=" height="16"> — claude.ai + Code + API portability emphasis; ships canvas-design SKILL.md
+- [**BehiSecc/awesome-claude-skills**](https://github.com/BehiSecc/awesome-claude-skills) <img src="https://img.shields.io/github/stars/BehiSecc/awesome-claude-skills?style=flat-square&logo=github&label=" height="16"> — security-flavoured skill list with design-engineering crossover
+- [**travisvn/awesome-claude-skills**](https://github.com/travisvn/awesome-claude-skills) <img src="https://img.shields.io/github/stars/travisvn/awesome-claude-skills?style=flat-square&logo=github&label=" height="16"> — curated skills with subagent guidance and authoring conventions
+- [**heilcheng/awesome-agent-skills**](https://github.com/heilcheng/awesome-agent-skills) <img src="https://img.shields.io/github/stars/heilcheng/awesome-agent-skills?style=flat-square&logo=github&label=" height="16"> — multi-agent (Claude/Cursor/Codex/Gemini) skills with explicit awesome-design-md cross-link
+- [**quemsah/awesome-claude-plugins**](https://github.com/quemsah/awesome-claude-plugins) <img src="https://img.shields.io/github/stars/quemsah/awesome-claude-plugins?style=flat-square&logo=github&label=" height="16"> — design-engineering plugins with craft / memory / enforcement framing
+- [**awesomeclaude.ai**](https://awesomeclaude.ai) — web directory across awesome-claude-* repos with an awesome-claude-agents subsection
+
+**Background reading**
+
+- [**OSS Insight — DESIGN.md Protocol 2026**](https://ossinsight.io/blog/design-md-protocol-2026) — historical timeline of awesome-design-md going viral; useful framing for how the format spread
+- [**Google Stitch open-source announcement**](https://medium.com/design-bootcamp/google-makes-design-md-open-source-on-its-way-to-become-a-industry-standard-16119f2368dd) — fernandocomet's coverage of Google open-sourcing the DESIGN.md spec
+- [**MindStudio — What Is Design.md**](https://www.mindstudio.ai/blog/what-is-design-md) — primer on the format for non-designers / tool buyers
 
 <p align="center"><img src="assets/divider.svg" width="600" alt="divider"></p>
 
