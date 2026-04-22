@@ -61,7 +61,7 @@ Claude Design shipped **April 17, 2026**. Figma closed **−4.26%** the same day
 - [Remix Recipes](#remix-recipes)
 - [Picker: What Should I Use](#picker-what-should-i-use)
 - [Prompts & Cookbooks](#prompts--cookbooks)
-- [Anti-Slop Kit](#anti-slop-kit)
+- [Anti-Slop Kit](#anti-slop-kit) — including [Claude Design's default fingerprints](#claude-designs-default-fingerprints-avoid)
 - [Skills & Plugins](#skills--plugins)
 - [Workflows & Recipes](#workflows--recipes)
 - [Video Teardowns](#video-teardowns)
@@ -119,6 +119,9 @@ Three surfaces:
 - [Product — claude.ai/design](https://claude.ai/design)
 - [Anthropic Labs](https://www.anthropic.com/labs)
 - [Anthropic Prompt Library](https://docs.anthropic.com/en/resources/prompt-library/library) — Brand builder, Website wizard, Prose polisher, 40+ more
+- [`anthropics/skills` — `frontend-design` SKILL.md](https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md) — the underlying skill Claude Design routes through; auto-loaded by Claude Code for UI work
+- [`anthropics/skills` PR #210](https://github.com/anthropics/skills/pull/210) — clarity revision; 75% win rate across model tiers, biggest lift on Haiku
+- [`anthropics/claude-cookbooks` — frontend aesthetics notebook](https://github.com/anthropics/claude-cookbooks/blob/main/coding/prompting_for_frontend_aesthetics.ipynb) — Anthropic's own anti-slop primer; quoted in [Anti-Slop Kit](#anti-slop-kit)
 - [Claude Cookbooks — prompting_for_frontend_aesthetics.ipynb](https://github.com/anthropics/claude-cookbooks/blob/main/coding/prompting_for_frontend_aesthetics.ipynb)
 - [Prompt engineering overview](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
 - [Prompt generator (Console)](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/prompt-generator)
@@ -349,6 +352,34 @@ DO use:
 ```
 
 Malewicz's [teardown](https://www.youtube.com/watch?v=IkspcJdeP3U) <img src="https://img.shields.io/youtube/views/IkspcJdeP3U?style=flat-square&label=views&color=191817" height="16"> opens by flagging Claude Design's own logo as "generic, color palette" — exactly the trap this prompt is built to avoid.
+
+### Claude Design's default fingerprints (avoid)
+
+The single biggest community complaint: every Claude Design output looks the same. Catalogued from launch-week Reddit threads, the [Sam Henri Gold blog post](https://samhenri.gold/blog/20260418-claude-design/), the [Banani review](https://www.banani.co/blog/claude-design-review), and [The Neuron Daily round-up](https://www.theneurondaily.com/p/anthropic-s-claude-design-launched-and-reddit-has-thoughts).
+
+| Fingerprint | What it looks like | Counter-rule |
+|---|---|---|
+| **Teal accent everywhere** | The default `#16d5e6`-adjacent action color appears on CTA, headline accent, focus rings, and chart fill | Pick a brand-specific accent in your DESIGN.md before the first generation |
+| **Blinking status dot** | Animated green/lime dot top-right of nav, signals "live"/"AI" by reflex | Reject in your prompt: "no animated status indicators" |
+| **Container soup** | Pills wrapping cards wrapping cards wrapping content; padding stacking 24/24/24 | Cap nesting depth: "containers nest at most 2 levels" |
+| **Default serif headline** | Tiempos- or Source-Serif-adjacent serif paired with sans body — reads like the Anthropic brand's leftovers | Specify font stack with explicit weight + tracking, not a vibe |
+| **Accent bar left of every card** | 4px coloured rule on every card, regardless of semantic meaning | Reserve left-rule for one role (e.g. severity) — never as decoration |
+| **Three-column feature grid in hero** | Almost every landing the model produces has the same section-2 layout | Brief: "no three-column feature grid; choose marquee, alternating-row, or single-column instead" |
+| **Lucide icon stack** | Default icon set across nav, buttons, empty states | Either commit to a single icon family (Phosphor / Heroicons / custom) or ship type-only |
+| **Generative hero in product palette ignored** | Image generator picks colors that "look right" but ignore the DESIGN.md tokens | Constrain the image: "regenerate hero using only `--bg`, `--accent`, `--text`" |
+
+Use the dedicated prompt pack [`prompts/break-default-aesthetic.md`](prompts/break-default-aesthetic.md) to neutralize these in one paste.
+
+### How the defaults got there
+
+Claude Design routes through Anthropic's open-source [`frontend-design` skill](https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md) — the same skill Claude Code auto-loads for UI work. The skill's defaults bias toward "production-quality first pass" which, in the absence of a DESIGN.md, lands on the same look every time.
+
+Two related Anthropic resources worth bookmarking:
+
+- [**frontend-aesthetics cookbook**](https://github.com/anthropics/claude-cookbooks/blob/main/coding/prompting_for_frontend_aesthetics.ipynb) — Anthropic's own anti-slop primer; the source quoted above
+- [**`skills` PR #210**](https://github.com/anthropics/skills/pull/210) — clarity revision of the frontend-design skill; 75% win rate across model tiers, biggest lift on Haiku
+
+Anthropic acknowledges the problem in the cookbook: *"You tend to converge toward generic, 'on distribution' outputs. In frontend design, this creates what users call the 'AI slop' aesthetic. Avoid this: make creative, distinctive frontends that surprise and delight."*
 
 ## Skills & Plugins
 
