@@ -91,6 +91,10 @@ What each aesthetic family actually looks like in production. Thumbnails are sta
 
 - [Preview Gallery](#preview-gallery)
 - [What Is Claude Design](#what-is-claude-design)
+- [Video Teardowns](#video-teardowns)
+- [Comparisons](#comparisons)
+- [Showcase](#showcase)
+- [Community Takes](#community-takes)
 - [Feature Map](#feature-map)
 - [Launch Timeline](#launch-timeline)
 - [Quotas & Token Budget](#quotas--token-budget)
@@ -104,12 +108,8 @@ What each aesthetic family actually looks like in production. Thumbnails are sta
 - [Skills & Plugins](#skills--plugins)
 - [Integrations](#integrations)
 - [Workflows & Recipes](#workflows--recipes)
-- [Video Teardowns](#video-teardowns)
-- [Comparisons](#comparisons)
 - [Long-Form Tutorials](#long-form-tutorials)
 - [Tips & Tricks](#tips--tricks)
-- [Showcase](#showcase)
-- [Community Takes](#community-takes)
 - [FAQ](#faq)
 - [Related OSS Projects](#related-oss-projects)
 - [Tag System](#tag-system)
@@ -126,6 +126,152 @@ Three surfaces:
 - **Prototypes** — from text, screenshot, Figma `.fig`, repo URL, or scraped live site
 - **Design systems** — persistent per-project tokens/components via `DESIGN.md`; teams hold multiple
 - **Collateral** — pitch decks, marketing pages, carousels, one-time posts, brand videos
+
+## Video Teardowns
+
+Click thumbnail. View counts refresh live via shields.io.
+
+<table>
+<tr>
+<td align="center" width="25%">
+<a href="https://www.youtube.com/watch?v=IkspcJdeP3U"><img src="https://img.youtube.com/vi/IkspcJdeP3U/mqdefault.jpg" width="220"></a><br>
+<b>Malewicz</b><br>
+<img src="https://img.shields.io/youtube/views/IkspcJdeP3U?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/IkspcJdeP3U?style=flat-square&label=likes&color=c96442"><br>
+<sub>Skeptical senior-designer teardown</sub>
+</td>
+<td align="center" width="25%">
+<a href="https://www.youtube.com/watch?v=o4jIKc_DIoM"><img src="https://img.youtube.com/vi/o4jIKc_DIoM/mqdefault.jpg" width="220"></a><br>
+<b>02ui · Murat Bayral</b><br>
+<img src="https://img.shields.io/youtube/views/o4jIKc_DIoM?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/o4jIKc_DIoM?style=flat-square&label=likes&color=c96442"><br>
+<sub>vs Lovable head-to-head</sub>
+</td>
+<td align="center" width="25%">
+<a href="https://www.youtube.com/watch?v=uhQfErAzdiA"><img src="https://img.youtube.com/vi/uhQfErAzdiA/mqdefault.jpg" width="220"></a><br>
+<b>WorldofAI</b><br>
+<img src="https://img.shields.io/youtube/views/uhQfErAzdiA?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/uhQfErAzdiA?style=flat-square&label=likes&color=c96442"><br>
+<sub>Hype walkthrough</sub>
+</td>
+<td align="center" width="25%">
+<a href="https://www.youtube.com/watch?v=Qct36RA3y9k"><img src="https://img.youtube.com/vi/Qct36RA3y9k/mqdefault.jpg" width="220"></a><br>
+<b>Ray Fernando</b><br>
+<img src="https://img.shields.io/youtube/views/Qct36RA3y9k?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/Qct36RA3y9k?style=flat-square&label=likes&color=c96442"><br>
+<sub>Live blog redesign</sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="25%">
+<a href="https://www.youtube.com/watch?v=A2eEv3KYGPg"><img src="https://img.youtube.com/vi/A2eEv3KYGPg/mqdefault.jpg" width="220"></a><br>
+<b>Vivek Mishra</b><br>
+<img src="https://img.shields.io/youtube/views/A2eEv3KYGPg?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/A2eEv3KYGPg?style=flat-square&label=likes&color=c96442"><br>
+<sub>Launch-day walkthrough</sub>
+</td>
+<td align="center" width="25%">
+<a href="https://www.youtube.com/watch?v=4q2F4zblOLQ"><img src="https://img.youtube.com/vi/4q2F4zblOLQ/mqdefault.jpg" width="220"></a><br>
+<b>AI for Work</b><br>
+<img src="https://img.shields.io/youtube/views/4q2F4zblOLQ?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/4q2F4zblOLQ?style=flat-square&label=likes&color=c96442"><br>
+<sub>System from prompt</sub>
+</td>
+<td align="center" width="25%">
+<a href="https://www.youtube.com/watch?v=vyLaimDeK_g"><img src="https://img.youtube.com/vi/vyLaimDeK_g/mqdefault.jpg" width="220"></a><br>
+<b>Greg Isenberg</b><br>
+<img src="https://img.shields.io/youtube/views/vyLaimDeK_g?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/vyLaimDeK_g?style=flat-square&label=likes&color=c96442"><br>
+<sub>Hands-on edges</sub>
+</td>
+<td align="center" width="25%">
+<a href="https://www.youtube.com/watch?v=Hcvkc1XUhMg"><img src="https://img.youtube.com/vi/Hcvkc1XUhMg/mqdefault.jpg" width="220"></a><br>
+<b>Ramanpal Singh</b><br>
+<img src="https://img.shields.io/youtube/views/Hcvkc1XUhMg?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/Hcvkc1XUhMg?style=flat-square&label=likes&color=c96442"><br>
+<sub>Beginner tutorial</sub>
+</td>
+</tr>
+</table>
+
+## Comparisons
+
+| Feature | Claude Design | [Figma Make](https://www.figma.com/make) | [Lovable](https://lovable.dev) | [v0](https://v0.dev) | [Stitch](https://stitch.withgoogle.com) | [SuperDesign](https://github.com/superdesigndev/superdesign) |
+|---|---|---|---|---|---|---|
+| Prompt → hi-fi | Yes | Yes | Yes | Yes | Yes | Yes |
+| DESIGN.md native | **Yes** | No | Partial | No | Originated | Yes |
+| Screenshot → system | Yes | No | Partial | No | Yes | Yes |
+| Figma `.fig` import | Yes | Native | Yes | Partial | No | No |
+| Web capture on live site | **Native** | No | Partial | No | No | Partial |
+| Inline comments / knobs | **Yes** | Yes | No | No | No | No |
+| Persistent per-project tokens | **Yes** | Yes | Partial | No | No | Yes |
+| Org-scoped collab + group chat | **Yes** | Yes | No | No | No | No |
+| Export paths | Canva/PDF/PPTX/HTML | Figma | Full-stack app | React | HTML | Local files |
+| Multi-system per team | **Yes** | Yes | No | No | No | Yes |
+| Open source | No | No | No | No | No | **Yes (MIT)** |
+| Runs in your IDE | No | No | No | No | No | **Yes** |
+| Underlying model | Opus 4.7 | GPT-based | Claude/GPT | GPT + Claude | Gemini | BYO |
+| Pricing | Pro/Max/Team/Ent. | Figma Pro add-on | Freemium | Freemium | Free beta | Free |
+
+Launch-week consensus: **Claude Design** wins design-system coherence, web capture, collaboration. **Lovable** wins full-stack shipping. **Figma Make** is safest for Figma teams. **Stitch** is strongest for pure token generation. **SuperDesign** is the only open-source option that lives inside the IDE.
+
+### More launch-week comparisons
+
+- [TechCrunch — Anthropic launches Claude Design](https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/) — mainstream-press launch framing: "quick visuals" tool, not a Figma killer
+- [Adweek — Claude Design for marketing assets, decks, and UIs](https://www.adweek.com/media/anthropic-debuts-claude-design-for-building-marketing-assets-decks-and-uis/) — agency angle, marketing-first read of the surface area
+- [PYMNTS — Anthropic's design tool rivals Adobe and Figma](https://www.pymnts.com/artificial-intelligence-2/2026/anthropics-new-design-tool-rivals-adobe-and-figma/) — competitive positioning against the incumbent stack
+- [Trending Topics — Anthropic challenges Lovable and Figma](https://www.trendingtopics.eu/anthropic-launches-claude-design-challenging-lovable-and-figma/) — EU coverage; Lovable framed as the closer competitor than Figma
+- [Storyboard18 — Claude Design rattles design software giants](https://www.storyboard18.com/digital/what-is-claude-design-anthropics-new-ai-tool-rattles-design-software-giants-ws-l-95581.htm) — India-market read on the ripple to Figma/Adobe
+- [Web And IT News — Hits Figma where it hurts](https://www.webanditnews.com/2026/04/20/claude-design-hits-figma-where-it-hurts-ai-eats-into-non-designer-users/) — argues the wedge is non-designers, not designers
+- [DEV (whoffagents) — CD vs Figma: what actually changed](https://dev.to/whoffagents/claude-design-tool-vs-figma-what-actually-changed-and-when-to-use-each-3gj) — practitioner side-by-side on when to reach for which
+- [MindStudio — Claude Design vs Figma](https://www.mindstudio.ai/blog/claude-design-vs-figma) — feature-grid comparison from the AI-tools vendor angle
+- [Magic Patterns — Claude Design vs Figma Make](https://www.magicpatterns.com/blog/claude-design-vs-figma-make) — narrow head-to-head on the prompt-to-prototype surface
+- [eigent.ai — Claude Design vs Lovable, full 2026 comparison](https://www.eigent.ai/blog/claude-design-vs-lovable) — pricing + output-quality split between design tool and full-stack builder
+- [NxCode — Vibe design tools 2026: Stitch vs v0 vs Lovable vs Bolt](https://www.nxcode.io/resources/news/vibe-design-tools-compared-stitch-v0-lovable-2026) — places Claude Design in the broader vibe-design landscape
+- [Lushbinary — Claude Design vs Figma vs Canva vs Stitch](https://lushbinary.com/blog/claude-design-vs-figma-canva-google-stitch-comparison/) — four-way matrix including Canva, the export target
+
+## Showcase
+
+Real builds shipped with Claude Design — launch-week seed of 10 cards (Tom's Guide pizza brand in 30 min, Peter Yang's 16-min everything build, Mercury's 90% inference, Brilliant 20→2 prompts, Datadog week→1-conversation, and more).
+
+See [`showcase/README.md`](showcase/README.md). Submit your own via the [Showcase Submission issue template](.github/ISSUE_TEMPLATE/showcase-submission.yml) or PR.
+
+## Community Takes
+
+### Hype
+
+> "Would suck to be Figma right now."
+> — [r/ClaudeAI launch thread](https://www.reddit.com/r/ClaudeAI/comments/1so3k1y/)
+
+> "After 29 years of being a designer, this is the only better way of working."
+> — [AI for Work](https://www.youtube.com/watch?v=4q2F4zblOLQ)
+
+> "The design system integration feels best in class for AI."
+> — [@petergyang](https://x.com/petergyang/status/2045527271650558383)
+
+- [Mejba Ahmed — The visual layer Claude Code was missing](https://www.mejba.me/blog/claude-design-visual-workflow-claude-code) — engineer-positive read: closes the visual gap in the Claude Code loop
+
+### Pushback
+
+> "Just tested it. This is only hype for people that never worked with real UX/UI designers. Another slop feature that will burn tokens."
+> — [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/comments/1so3k1y/)
+
+> "Anthropic is saying 'look at this hand, see the coin?' — I'm going to open the hand, and the coin is not there. But it was never there. The whole goal was so you're not looking at the other hand while they're taking your subscription money."
+> — [Malewicz](https://www.youtube.com/watch?v=IkspcJdeP3U)
+
+> "Was Google Stitch or Microsoft Designer or Template Monster the quality of a mid-level designer? No. Is this?"
+> — Malewicz, same video
+
+- [Abhi Chatterjee — Designer's first walkthrough](https://www.designsystemscollective.com/claude-design-just-launched-a-designers-first-walkthrough-c79d7ce47b9b) — burned ~50% of weekly allotment on one design system + one prototype; trained eyes still spot spacing inconsistencies
+- [PCWorld — I tried Claude Design for half an hour, I'm already locked out for a week](https://www.pcworld.com/article/3117811/i-tried-claude-design-for-half-an-hour-im-already-locked-out-for-a-week.html) — 30-minute session exhausted the weekly allowance
+
+### The market
+
+Figma (NYSE: FIG) closed **−4.26%** on launch day. Intraday low ~**−7%** per r/FigmaDesign. Adobe unchanged.
+
+- [Victoria Okwuokenye — Claude Design full breakdown](https://medium.com/design-bootcamp/claude-design-is-here-full-breakdown-a32767258fb9) — feature-by-feature read of where Claude Design lands against the incumbent design stack
+- [BSWEN — Good enough for professional websites?](https://docs.bswen.com/blog/2026-04-18-claude-design-quality-professional/) — output-quality bar test; argues the gap to "pro site" is narrower than the discourse claims
+
+### The fine print
+
+> "Fun but burns through usage quickly."
+> — [@petergyang](https://x.com/petergyang/status/2045527271650558383)
+
+Early Opus 4.7 hallucination reports on long tasks: [r/ClaudeCode thread](https://www.reddit.com/r/ClaudeCode/comments/1so9uta/) — "$120 of API credits, by god is it bad."
+
+- [Ocasio Consulting — Claude Design review](https://ocasioconsulting.com/claude-design-review/) — direct ask for a flat design-seat fee; "rationing creativity goes against the spirit" of the tool
 
 ## Feature Map
 
@@ -585,101 +731,6 @@ End-to-end flows in `/recipes/<name>.md`.
 
 <p align="center"><img src="assets/mascot.svg" width="72" alt="mascot"></p>
 
-## Video Teardowns
-
-Click thumbnail. View counts refresh live via shields.io.
-
-<table>
-<tr>
-<td align="center" width="25%">
-<a href="https://www.youtube.com/watch?v=IkspcJdeP3U"><img src="https://img.youtube.com/vi/IkspcJdeP3U/mqdefault.jpg" width="220"></a><br>
-<b>Malewicz</b><br>
-<img src="https://img.shields.io/youtube/views/IkspcJdeP3U?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/IkspcJdeP3U?style=flat-square&label=likes&color=c96442"><br>
-<sub>Skeptical senior-designer teardown</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://www.youtube.com/watch?v=o4jIKc_DIoM"><img src="https://img.youtube.com/vi/o4jIKc_DIoM/mqdefault.jpg" width="220"></a><br>
-<b>02ui · Murat Bayral</b><br>
-<img src="https://img.shields.io/youtube/views/o4jIKc_DIoM?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/o4jIKc_DIoM?style=flat-square&label=likes&color=c96442"><br>
-<sub>vs Lovable head-to-head</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://www.youtube.com/watch?v=uhQfErAzdiA"><img src="https://img.youtube.com/vi/uhQfErAzdiA/mqdefault.jpg" width="220"></a><br>
-<b>WorldofAI</b><br>
-<img src="https://img.shields.io/youtube/views/uhQfErAzdiA?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/uhQfErAzdiA?style=flat-square&label=likes&color=c96442"><br>
-<sub>Hype walkthrough</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://www.youtube.com/watch?v=Qct36RA3y9k"><img src="https://img.youtube.com/vi/Qct36RA3y9k/mqdefault.jpg" width="220"></a><br>
-<b>Ray Fernando</b><br>
-<img src="https://img.shields.io/youtube/views/Qct36RA3y9k?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/Qct36RA3y9k?style=flat-square&label=likes&color=c96442"><br>
-<sub>Live blog redesign</sub>
-</td>
-</tr>
-<tr>
-<td align="center" width="25%">
-<a href="https://www.youtube.com/watch?v=A2eEv3KYGPg"><img src="https://img.youtube.com/vi/A2eEv3KYGPg/mqdefault.jpg" width="220"></a><br>
-<b>Vivek Mishra</b><br>
-<img src="https://img.shields.io/youtube/views/A2eEv3KYGPg?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/A2eEv3KYGPg?style=flat-square&label=likes&color=c96442"><br>
-<sub>Launch-day walkthrough</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://www.youtube.com/watch?v=4q2F4zblOLQ"><img src="https://img.youtube.com/vi/4q2F4zblOLQ/mqdefault.jpg" width="220"></a><br>
-<b>AI for Work</b><br>
-<img src="https://img.shields.io/youtube/views/4q2F4zblOLQ?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/4q2F4zblOLQ?style=flat-square&label=likes&color=c96442"><br>
-<sub>System from prompt</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://www.youtube.com/watch?v=vyLaimDeK_g"><img src="https://img.youtube.com/vi/vyLaimDeK_g/mqdefault.jpg" width="220"></a><br>
-<b>Greg Isenberg</b><br>
-<img src="https://img.shields.io/youtube/views/vyLaimDeK_g?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/vyLaimDeK_g?style=flat-square&label=likes&color=c96442"><br>
-<sub>Hands-on edges</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://www.youtube.com/watch?v=Hcvkc1XUhMg"><img src="https://img.youtube.com/vi/Hcvkc1XUhMg/mqdefault.jpg" width="220"></a><br>
-<b>Ramanpal Singh</b><br>
-<img src="https://img.shields.io/youtube/views/Hcvkc1XUhMg?style=flat-square&label=views&color=191817"> <img src="https://img.shields.io/youtube/likes/Hcvkc1XUhMg?style=flat-square&label=likes&color=c96442"><br>
-<sub>Beginner tutorial</sub>
-</td>
-</tr>
-</table>
-
-## Comparisons
-
-| Feature | Claude Design | [Figma Make](https://www.figma.com/make) | [Lovable](https://lovable.dev) | [v0](https://v0.dev) | [Stitch](https://stitch.withgoogle.com) | [SuperDesign](https://github.com/superdesigndev/superdesign) |
-|---|---|---|---|---|---|---|
-| Prompt → hi-fi | Yes | Yes | Yes | Yes | Yes | Yes |
-| DESIGN.md native | **Yes** | No | Partial | No | Originated | Yes |
-| Screenshot → system | Yes | No | Partial | No | Yes | Yes |
-| Figma `.fig` import | Yes | Native | Yes | Partial | No | No |
-| Web capture on live site | **Native** | No | Partial | No | No | Partial |
-| Inline comments / knobs | **Yes** | Yes | No | No | No | No |
-| Persistent per-project tokens | **Yes** | Yes | Partial | No | No | Yes |
-| Org-scoped collab + group chat | **Yes** | Yes | No | No | No | No |
-| Export paths | Canva/PDF/PPTX/HTML | Figma | Full-stack app | React | HTML | Local files |
-| Multi-system per team | **Yes** | Yes | No | No | No | Yes |
-| Open source | No | No | No | No | No | **Yes (MIT)** |
-| Runs in your IDE | No | No | No | No | No | **Yes** |
-| Underlying model | Opus 4.7 | GPT-based | Claude/GPT | GPT + Claude | Gemini | BYO |
-| Pricing | Pro/Max/Team/Ent. | Figma Pro add-on | Freemium | Freemium | Free beta | Free |
-
-Launch-week consensus: **Claude Design** wins design-system coherence, web capture, collaboration. **Lovable** wins full-stack shipping. **Figma Make** is safest for Figma teams. **Stitch** is strongest for pure token generation. **SuperDesign** is the only open-source option that lives inside the IDE.
-
-### More launch-week comparisons
-
-- [TechCrunch — Anthropic launches Claude Design](https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/) — mainstream-press launch framing: "quick visuals" tool, not a Figma killer
-- [Adweek — Claude Design for marketing assets, decks, and UIs](https://www.adweek.com/media/anthropic-debuts-claude-design-for-building-marketing-assets-decks-and-uis/) — agency angle, marketing-first read of the surface area
-- [PYMNTS — Anthropic's design tool rivals Adobe and Figma](https://www.pymnts.com/artificial-intelligence-2/2026/anthropics-new-design-tool-rivals-adobe-and-figma/) — competitive positioning against the incumbent stack
-- [Trending Topics — Anthropic challenges Lovable and Figma](https://www.trendingtopics.eu/anthropic-launches-claude-design-challenging-lovable-and-figma/) — EU coverage; Lovable framed as the closer competitor than Figma
-- [Storyboard18 — Claude Design rattles design software giants](https://www.storyboard18.com/digital/what-is-claude-design-anthropics-new-ai-tool-rattles-design-software-giants-ws-l-95581.htm) — India-market read on the ripple to Figma/Adobe
-- [Web And IT News — Hits Figma where it hurts](https://www.webanditnews.com/2026/04/20/claude-design-hits-figma-where-it-hurts-ai-eats-into-non-designer-users/) — argues the wedge is non-designers, not designers
-- [DEV (whoffagents) — CD vs Figma: what actually changed](https://dev.to/whoffagents/claude-design-tool-vs-figma-what-actually-changed-and-when-to-use-each-3gj) — practitioner side-by-side on when to reach for which
-- [MindStudio — Claude Design vs Figma](https://www.mindstudio.ai/blog/claude-design-vs-figma) — feature-grid comparison from the AI-tools vendor angle
-- [Magic Patterns — Claude Design vs Figma Make](https://www.magicpatterns.com/blog/claude-design-vs-figma-make) — narrow head-to-head on the prompt-to-prototype surface
-- [eigent.ai — Claude Design vs Lovable, full 2026 comparison](https://www.eigent.ai/blog/claude-design-vs-lovable) — pricing + output-quality split between design tool and full-stack builder
-- [NxCode — Vibe design tools 2026: Stitch vs v0 vs Lovable vs Bolt](https://www.nxcode.io/resources/news/vibe-design-tools-compared-stitch-v0-lovable-2026) — places Claude Design in the broader vibe-design landscape
-- [Lushbinary — Claude Design vs Figma vs Canva vs Stitch](https://lushbinary.com/blog/claude-design-vs-figma-canva-google-stitch-comparison/) — four-way matrix including Canva, the export target
-
 ## Long-Form Tutorials
 
 The writing worth reading after the launch dust settled. Grouped by platform.
@@ -759,57 +810,6 @@ Anthropic insider, posted day two of launch.
 
 - **Connectors to Slack and docs** are the single highest-leverage integration for brand consistency, but also the fastest way to burn weekly allowance. Wire them only on production projects, not exploration.
 - **Subdirectory, not monorepo.** Per [AI For Developers](https://aifordevelopers.substack.com/p/how-to-actually-use-claude-design), point Claude Design at one subdirectory per project — full-monorepo context is slow and noisy. One `DESIGN.md` per app, linked from the subdirectory.
-
-## Showcase
-
-Real builds shipped with Claude Design — launch-week seed of 10 cards (Tom's Guide pizza brand in 30 min, Peter Yang's 16-min everything build, Mercury's 90% inference, Brilliant 20→2 prompts, Datadog week→1-conversation, and more).
-
-See [`showcase/README.md`](showcase/README.md). Submit your own via the [Showcase Submission issue template](.github/ISSUE_TEMPLATE/showcase-submission.yml) or PR.
-
-## Community Takes
-
-### Hype
-
-> "Would suck to be Figma right now."
-> — [r/ClaudeAI launch thread](https://www.reddit.com/r/ClaudeAI/comments/1so3k1y/)
-
-> "After 29 years of being a designer, this is the only better way of working."
-> — [AI for Work](https://www.youtube.com/watch?v=4q2F4zblOLQ)
-
-> "The design system integration feels best in class for AI."
-> — [@petergyang](https://x.com/petergyang/status/2045527271650558383)
-
-- [Mejba Ahmed — The visual layer Claude Code was missing](https://www.mejba.me/blog/claude-design-visual-workflow-claude-code) — engineer-positive read: closes the visual gap in the Claude Code loop
-
-### Pushback
-
-> "Just tested it. This is only hype for people that never worked with real UX/UI designers. Another slop feature that will burn tokens."
-> — [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/comments/1so3k1y/)
-
-> "Anthropic is saying 'look at this hand, see the coin?' — I'm going to open the hand, and the coin is not there. But it was never there. The whole goal was so you're not looking at the other hand while they're taking your subscription money."
-> — [Malewicz](https://www.youtube.com/watch?v=IkspcJdeP3U)
-
-> "Was Google Stitch or Microsoft Designer or Template Monster the quality of a mid-level designer? No. Is this?"
-> — Malewicz, same video
-
-- [Abhi Chatterjee — Designer's first walkthrough](https://www.designsystemscollective.com/claude-design-just-launched-a-designers-first-walkthrough-c79d7ce47b9b) — burned ~50% of weekly allotment on one design system + one prototype; trained eyes still spot spacing inconsistencies
-- [PCWorld — I tried Claude Design for half an hour, I'm already locked out for a week](https://www.pcworld.com/article/3117811/i-tried-claude-design-for-half-an-hour-im-already-locked-out-for-a-week.html) — 30-minute session exhausted the weekly allowance
-
-### The market
-
-Figma (NYSE: FIG) closed **−4.26%** on launch day. Intraday low ~**−7%** per r/FigmaDesign. Adobe unchanged.
-
-- [Victoria Okwuokenye — Claude Design full breakdown](https://medium.com/design-bootcamp/claude-design-is-here-full-breakdown-a32767258fb9) — feature-by-feature read of where Claude Design lands against the incumbent design stack
-- [BSWEN — Good enough for professional websites?](https://docs.bswen.com/blog/2026-04-18-claude-design-quality-professional/) — output-quality bar test; argues the gap to "pro site" is narrower than the discourse claims
-
-### The fine print
-
-> "Fun but burns through usage quickly."
-> — [@petergyang](https://x.com/petergyang/status/2045527271650558383)
-
-Early Opus 4.7 hallucination reports on long tasks: [r/ClaudeCode thread](https://www.reddit.com/r/ClaudeCode/comments/1so9uta/) — "$120 of API credits, by god is it bad."
-
-- [Ocasio Consulting — Claude Design review](https://ocasioconsulting.com/claude-design-review/) — direct ask for a flat design-seat fee; "rationing creativity goes against the spirit" of the tool
 
 ## FAQ
 
