@@ -1,0 +1,87 @@
+name: Showcase submission
+description: Submit a build you shipped with Claude Design for the showcase.
+title: "[showcase] <project name> — <one-line description>"
+labels:
+  - showcase
+  - triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing your build. Submissions land in `showcase/README.md` once reviewed.
+
+        Conventions: no marketing filler, link the live URL (not a screenshot host login wall), include the DESIGN.md (or prompt) you actually used so other builders can reproduce.
+
+  - type: input
+    id: builder_name
+    attributes:
+      label: Your name (or team)
+      description: How you want to be credited.
+      placeholder: e.g. Jane Doe / Acme Inc
+    validations:
+      required: true
+
+  - type: input
+    id: project_url
+    attributes:
+      label: Project URL
+      description: Live link to the thing you built. No login walls.
+      placeholder: https://example.com
+    validations:
+      required: true
+
+  - type: textarea
+    id: what_built
+    attributes:
+      label: What Claude Design built
+      description: One paragraph. What did Claude Design generate? What did you do by hand? Be specific.
+      placeholder: |
+        Generated full landing page + brand system from a 3-line brief. I tweaked the hero copy and swapped the CTA color. Dev work was Claude Code, ~40 LOC of glue.
+    validations:
+      required: true
+
+  - type: input
+    id: screenshot_url
+    attributes:
+      label: Screenshot URL
+      description: Direct link to a hosted image. Use the repo's `assets/` if you're opening a PR.
+      placeholder: https://...
+    validations:
+      required: true
+
+  - type: textarea
+    id: design_md
+    attributes:
+      label: DESIGN.md (or prompt) used
+      description: Paste the DESIGN.md, prompt, or brief that drove the build. If it's in this repo, link the file path. If it's custom, paste the full text.
+      render: markdown
+    validations:
+      required: true
+
+  - type: input
+    id: time_to_build
+    attributes:
+      label: Time to build
+      description: Wall-clock time from blank canvas to shipped. Be honest.
+      placeholder: e.g. 30 min, 2 hours, one weekend
+    validations:
+      required: true
+
+  - type: input
+    id: social_link
+    attributes:
+      label: Social link (optional)
+      description: Tweet, LinkedIn post, blog, or video where you talked about the build. Helps us link back.
+      placeholder: https://x.com/...
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I built this. I'm okay with the link, screenshot, and credit appearing in this repo's showcase under MIT.
+          required: true
+        - label: I've read [AGENTS.md](../AGENTS.md) (if visible) and the [CONTRIBUTING](../CONTRIBUTING.md) guide.
+          required: false

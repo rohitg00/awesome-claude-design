@@ -536,7 +536,9 @@ Launch-week consensus: **Claude Design** wins design-system coherence, web captu
 
 ## Showcase
 
-Submit via PR — live URL, the DESIGN.md used, 2–3 screenshots, one-paragraph story.
+Real builds shipped with Claude Design — launch-week seed of 10 cards (Tom's Guide pizza brand in 30 min, Peter Yang's 16-min everything build, Mercury's 90% inference, Brilliant 20→2 prompts, Datadog week→1-conversation, and more).
+
+See [`showcase/README.md`](showcase/README.md). Submit your own via the [Showcase Submission issue template](.github/ISSUE_TEMPLATE/showcase-submission.yml) or PR.
 
 ## Community Takes
 
