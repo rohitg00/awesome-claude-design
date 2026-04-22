@@ -441,12 +441,12 @@ End-to-end flows in `/recipes/<name>.md`.
 
 1. [**Landing page in 20 minutes**](recipes/landing-page-20-min.md) — DESIGN.md → Claude Design → Claude Code → Vercel
 2. [**Figma file → DESIGN.md**](recipes/figma-to-design-md.md) — drag `.fig` in chat, extract tokens, reuse
-3. **Existing repo → design system** — point Claude at your CSS, get canonical DESIGN.md back
+3. [**Existing repo → design system**](recipes/repo-to-design-system.md) — point Claude at your CSS, get canonical DESIGN.md back
 4. [**Wireframe → hi-fi**](recipes/wireframe-to-hifi.md) — low-fi sketch to pixel-perfect comp
-5. **Pitch deck from README** — 12-slide deck from a project README
+5. [**Pitch deck from README**](recipes/pitch-deck-from-readme.md) — 12-slide deck from a project README
 6. [**Brand extraction**](recipes/brand-extraction.md) — URL → DESIGN.md describing a competitor's system
 7. **Design-system governance** — lock tokens as `SKILL.md` for every future project
-8. **Web capture → prototype** — use the native capture tool on your live site
+8. [**Web capture → prototype**](recipes/web-capture-to-prototype.md) — use the native capture tool on your live site
 9. **16-minute everything build** — per @petergyang: video + slides + website + app + initial system
 10. **Two-brand remix** — combine tokens from two DESIGN.md files coherently
 11. **Claude Design → Canva export** — designer collaboration pathway
