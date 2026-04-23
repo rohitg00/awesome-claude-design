@@ -669,6 +669,13 @@ Beyond Anthropic's own materials, the community has shipped a growing set of ski
 - [**ComposioHQ/awesome-claude-skills — canvas-design**](https://github.com/ComposioHQ/awesome-claude-skills/blob/master/canvas-design/SKILL.md) <img src="https://img.shields.io/github/stars/ComposioHQ/awesome-claude-skills?style=flat-square&logo=github&label=" height="16"> — design philosophy expressed visually: two-phase (philosophy → artifact), 90% visual / 10% essential text, anti-template by construction
 - [**Marie Claire Dean — 63 design skills**](https://marieclairedean.substack.com/p/i-built-63-design-skills-for-claude) ([repo](https://github.com/Owl-Listener/designer-skills) <img src="https://img.shields.io/github/stars/Owl-Listener/designer-skills?style=flat-square&logo=github&label=" height="16">) — 63 skills + 27 commands across research, systems, strategy, UI, interaction, prototyping, ops; teaches Claude *what design actually is* beyond image generation. MIT
 
+### Leaked system prompts
+
+What Claude Design's frontend-design skill actually says, sourced from community reverse-engineering. Read these before tuning your DESIGN.md — every counter-rule above maps back to a default in this prompt.
+
+- [**GordenSun gist — extracted Claude Design system prompt**](https://gist.github.com/GordenSun/b5c6316f078d694645ca466386875296) — full extracted prompt; frames Claude as "an expert designer working with the user as a manager," routes through the Frontend design skill, and instructs the model to "understand visual vocabulary first." Primary anti-slop reference: explains *exactly* why outputs default to the teal-aesthetic fingerprints catalogued above.
+- [**hqman gist — alternate system prompt extraction**](https://gist.github.com/hqman/f46d5479a5b663c282c94faa8be866de) — second leaked extraction; cross-reference for divergence between sessions / model tiers. Useful for spotting which directives are stable defaults vs. session-injected variations.
+
 ## Skills & Plugins
 
 Claude Code skills and SkillKit plugins that pair with Claude Design.
@@ -709,10 +716,12 @@ The same anti-slop tools listed above, with explicit install commands. Mix and m
   ```sh
   npx skillkit install composio/canvas-design
   ```
-- [**Owl-Listener/designer-skills**](https://github.com/Owl-Listener/designer-skills) <img src="https://img.shields.io/github/stars/Owl-Listener/designer-skills?style=flat-square&logo=github&label=" height="16"> — Marie Claire Dean's 63-skill / 27-command Designer Skills Collection. MIT
+- [**Owl-Listener/designer-skills**](https://github.com/Owl-Listener/designer-skills) <img src="https://img.shields.io/github/stars/Owl-Listener/designer-skills?style=flat-square&logo=github&label=" height="16"> — [Marie-Claire Dean's 63 skills + 27 commands + 8 plugins](https://marieclairedean.substack.com/p/i-built-63-design-skills-for-claude), MIT — covering research, systems, strategy, UI, interaction, prototyping, ops, and the toolkit itself
   ```sh
   /plugin marketplace add Owl-Listener/designer-skills
   ```
+- [**Snyk — Top 8 Claude Skills for UI/UX Engineers**](https://snyk.io/articles/top-claude-skills-ui-ux-engineers/) — third-party roundup; explains the frontend-design skill (277k+ installs), `ui-ux-pro-max`, and the Vercel companion skills with install commands
+- [**Snyk — Top 8 Claude Skills for Entrepreneurs / Founders**](https://snyk.io/articles/top-8-claude-skills-entrepreneurs-startup-founders-solopreneurs/) — companion roundup; design-adjacent skills framed for solo builders, captures the community shift from "will this replace me" to "how do I ship faster"
 
 ## Integrations
 
