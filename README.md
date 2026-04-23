@@ -293,6 +293,7 @@ Early Opus 4.7 hallucination reports on long tasks: [r/ClaudeCode thread](https:
 
 | Date | Event | Source |
 |---|---|---|
+| 2026-04-10 | Canva announces Anthropic collaboration (Canva Foundation Design Model partnership) at Canva Create LA | [Canva newsroom](https://www.canva.com/newsroom/news/canva-claude-design/) · [Morningstar / BusinessWire](https://www.morningstar.com/news/business-wire/20260410843169/canva-announces-anthropic-collaboration-to-bring-ai-powered-design-to-millions) |
 | 2026-04-14 | The Information leaks Opus 4.7 + design tool | [r/singularity +889](https://www.reddit.com/r/singularity/comments/1slh72j/) |
 | 2026-04-14 | Mike Krieger (Anthropic CPO) steps off Figma board — pre-launch signal | [Martin Alderson](https://martinalderson.com/posts/anthropic-figma-supplier-conflict/) |
 | 2026-04-17 | Claude Design + Opus 4.7 ship in research preview | [anthropic.com](https://www.anthropic.com/news/claude-design-anthropic-labs) |
@@ -308,7 +309,9 @@ Early Opus 4.7 hallucination reports on long tasks: [r/ClaudeCode thread](https:
 | 2026-04-19 | Ryan Mather publishes 7-tip thread (system-first, comments-not-chat, connectors) | [@Flomerboy](https://x.com/Flomerboy/status/2045162321589252458) |
 | 2026-04-20 | Follow-on coverage — "hits Figma where it hurts" / "rattles design giants" | [Web And IT News](https://www.webanditnews.com/2026/04/20/claude-design-hits-figma-where-it-hurts-ai-eats-into-non-designer-users/) · [Storyboard18](https://www.storyboard18.com/digital/what-is-claude-design-anthropics-new-ai-tool-rattles-design-software-giants-ws-l-95581.htm) |
 | 2026-04-21 | Pricing controversy — Pro tier loses Claude Code access | [Pasquale Pillitteri](https://pasqualepillitteri.it/en/news/591/ai-app-builders-comparison-2026) |
+| 2026-04-21 | DESIGN.md spec open-sourced by Google (Stitch / Google Labs) | [blog.google](https://blog.google/technology/google-labs/) |
 | 2026-04-22 | Anthropic publishes Claude Design subscription usage + pricing doc | [support.claude.com](https://support.claude.com/en/articles/14667344-claude-design-subscription-usage-and-pricing) |
+| 2026-04-22 | Post-launch coverage consolidates — Lenny mini-episode + Quasa.io tips + Anthropic pricing doc | [Lenny's Newsletter](https://www.lennysnewsletter.com/p/what-claude-design-is-actually-good) · [Quasa.io](https://quasa.io/media/claude-design-looks-great-but-it-devours-your-token-limits-here-s-how-to-use-it-smartly) · [support.claude.com](https://support.claude.com/en/articles/14667344-claude-design-subscription-usage-and-pricing) |
 
 ## Quotas & Token Budget
 
@@ -322,6 +325,8 @@ Quota burn is the #2 community complaint after AI-slop fingerprints. Here's the 
 - **30 minutes → locked out for a week.** [PCWorld](https://www.pcworld.com/article/3117811/i-tried-claude-design-for-half-an-hour-im-already-locked-out-for-a-week.html) review burned the full allowance in one sitting.
 - **50% of weekly allotment for one design system + one prototype.** Designer field report from [Abhi Chatterjee](https://www.designsystemscollective.com/claude-design-just-launched-a-designers-first-walkthrough-c79d7ce47b9b).
 - **"Rationing creativity goes against the spirit."** [Ocasio Consulting](https://ocasioconsulting.com/claude-design-review/) calls directly for a flat design-seat fee.
+- **Concrete USD costs on Max-5x: $3 landing / $4 video / $7 deck.** [CopyRocket AI](https://copyrocket.ai/i-tested-claude-design-on-my-real-brand) tested on a real brand and burned 90% of weekly allowance in 4–5 prompts. Definitive token-budget reference.
+- **Image generation is "powered in part by Canva."** [Lalindra (Pen With Paper)](https://medium.com/pen-with-paper/claude-design-review-i-spent-a-day-with-it-heres-what-actually-happens-441922202ef2) surfaces that Claude Design's image generation routes through the Canva Design Engine partnership — explains some of the quota dynamics around visual exports.
 
 Recommended sequence: [`recipes/token-budget-claude-design.md`](recipes/token-budget-claude-design.md) — scaffold once, cap reference screens at 4, switch to inline comments for iteration, branch for variants, bundle to Claude Code in one shot.
 
