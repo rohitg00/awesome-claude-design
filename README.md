@@ -109,6 +109,7 @@ What each aesthetic family actually looks like in production. Thumbnails are sta
 - [Integrations](#integrations)
 - [Workflows & Recipes](#workflows--recipes)
 - [Long-Form Tutorials](#long-form-tutorials)
+- [International Coverage](#international-coverage)
 - [Tips & Tricks](#tips--tricks)
 - [Podcast Coverage](#podcast-coverage)
 - [FAQ](#faq)
@@ -323,11 +324,14 @@ Engineer-class community takes from Hacker News — three threads, three angles.
 | 2026-04-17 | Figma closes −4.26% (second thread 1,763 upvotes) | [Reddit](https://www.reddit.com/r/ClaudeAI/comments/1so6z2t/) · [@brewmarkets](https://x.com/brewmarkets/status/2045175784554283228) |
 | 2026-04-17 | r/FigmaDesign reports ~7% intraday dip | [Reddit](https://www.reddit.com/r/FigmaDesign/comments/1soc1ic/) |
 | 2026-04-17 | Mainstream press wave — TechCrunch, VentureBeat, Adweek frame the launch | [TechCrunch](https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/) · [VentureBeat](https://venturebeat.com/ai/anthropic-launches-claude-design-ai-design-tool/) · [Adweek](https://www.adweek.com/media/anthropic-debuts-claude-design-for-building-marketing-assets-decks-and-uis/) |
+| 2026-04-17 | Austin Lau (Anthropic growth marketer) — first-party Tweaks-panel demo + Claude Cowork landing-page recreation | [@helloitsaustin](https://x.com/helloitsaustin/status/2045176910569980318) |
 | 2026-04-18 | Teardown wave: Isenberg, Malewicz, 02ui, Ray Fernando, WorldofAI, Vivek Mishra, AI for Work | See [Video Teardowns](#video-teardowns) |
 | 2026-04-18 | @petergyang 16-min build: video + slides + website + app + design system | [Tweet](https://x.com/petergyang/status/2045527271650558383) |
 | 2026-04-18 | Sam Henri Gold publishes "Stickley joinery" framing post | [samhenri.gold](https://samhenri.gold/blog/20260418-claude-design/) |
 | 2026-04-18 | Brilliant + Datadog case studies surface in Anthropic launch post | [anthropic.com](https://www.anthropic.com/news/claude-design-anthropic-labs) |
+| 2026-04-18 | MacStories hands-on by John Voorhees — Apple-press POV; "comment-on-element covered 95% of what's needed" | [macstories.net](https://www.macstories.net/stories/hands-on-with-anthropic-labs-claude-design-preview/) |
 | 2026-04-19 | Ryan Mather publishes 7-tip thread (system-first, comments-not-chat, connectors) | [@Flomerboy](https://x.com/Flomerboy/status/2045162321589252458) |
+| 2026-04-19 | ADPList community surfaces "10x designer with Claude Design" framing — `/packages/ui` subdirectory pro-tip | [adplist.substack.com](https://adplist.substack.com/p/how-to-become-a-10x-designer-with) |
 | 2026-04-20 | Follow-on coverage — "hits Figma where it hurts" / "rattles design giants" | [Web And IT News](https://www.webanditnews.com/2026/04/20/claude-design-hits-figma-where-it-hurts-ai-eats-into-non-designer-users/) · [Storyboard18](https://www.storyboard18.com/digital/what-is-claude-design-anthropics-new-ai-tool-rattles-design-software-giants-ws-l-95581.htm) |
 | 2026-04-21 | Pricing controversy — Pro tier loses Claude Code access | [Pasquale Pillitteri](https://pasqualepillitteri.it/en/news/591/ai-app-builders-comparison-2026) |
 | 2026-04-21 | DESIGN.md spec open-sourced by Google (Stitch / Google Labs) | [blog.google](https://blog.google/technology/google-labs/) |
@@ -839,6 +843,39 @@ The writing worth reading after the launch dust settled. Grouped by platform.
 | Complete Guide for Non-Designers | BuildFastWithAI | [buildfastwithai.com](https://www.buildfastwithai.com/blogs/claude-design-anthropic-guide-2026) | Explicit non-designer scaffolding |
 | 2026 Business Guide | Spicy Advisory | [spicyadvisory.com](https://www.spicyadvisory.com/blog/claude-design-anthropic-labs-guide-workflows-2026) | Workflows for SMB / consulting context |
 | Features + Pricing | ALM Corp | [almcorp.com](https://almcorp.com/blog/claude-design-anthropic-labs/) | Plain pricing/features summary, low fluff |
+
+## International Coverage
+
+Non-English coverage worth tracking. Different angles, different audiences — useful both for translation reach and because regional press often surfaces angles the US-centric wave misses.
+
+### French
+
+| Source | URL | Value | Lang |
+|---|---|---|---|
+| La Revue Tech | [larevuetech.fr](https://larevuetech.fr/anthropics-claude-design-wants-to-turn-a-prompt-into-a-prototype-then-hand-it-to-canva-or-code/) | Prompt-to-prototype framing with the Canva/Code handoff angle | FR |
+| IT SOCIAL | [itsocial.fr](https://itsocial.fr/contenus/actualites/intelligence-artificielle-actualites-contenus/avec-claude-design-anthropic-ouvre-le-prototypage-visuel-aux-professionnels-sans-competences-en-crea/) | Enterprise-IT POV — opening visual prototyping to non-creative professionals | FR |
+
+### Spanish
+
+| Source | URL | Value | Lang |
+|---|---|---|---|
+| Web Reactiva | [webreactiva.com](https://www.webreactiva.com/blog/claude-design-probado) | Spanish-language hands-on; tested the Claude Code export path | ES |
+
+### Italian
+
+| Source | URL | Value | Lang |
+|---|---|---|---|
+| Pasquale Pillitteri — Vibe Coding 2026 comparison | [pasqualepillitteri.it](https://pasqualepillitteri.it/en/news/591/ai-app-builders-comparison-2026) | Detailed AI app-builder comparison incl. Claude Design pricing controversy | IT (EN translation) |
+| Pasquale Pillitteri — CD vs Stitch crash analysis | [pasqualepillitteri.it](https://pasqualepillitteri.it/en/news/1027/claude-design-vs-google-stitch-figma-stock-crash) | Italian analysis of the Figma stock crash + Stitch positioning | IT (EN translation) |
+| Pasquale Pillitteri — Stitch MCP walkthrough | [pasqualepillitteri.it](https://pasqualepillitteri.it/en/news/647/google-stitch-mcp-export-claude-code-design-to-code) | Stitch MCP Server + Claude Code design-to-code flow in 23 minutes | IT (EN translation) |
+
+### Japanese
+
+| Source | URL | Value | Lang |
+|---|---|---|---|
+| 金 成奎 (seikei_kin) on X | [x.com/seikei_kin](https://x.com/seikei_kin/status/2032264221644505561) | Marie-Claire Dean 63-skills writeup translated and amplified for the Japanese audience | JA |
+
+PRs adding more international sources welcome — Korean, Chinese, German, Portuguese, and other regional coverage are gaps we'd like to fill. Open an issue or PR with the URL, language tag, and one-line value.
 
 ## Tips & Tricks
 
