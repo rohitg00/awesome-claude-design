@@ -79,28 +79,35 @@
       <rect x="62" y="62" width="6" height="6" fill="#0acf83"/>
     </g>
 
-    <!-- left arm (waves) -->
+    <!-- left arm (waves) — outer g pins shoulder, inner g rotates around (0,0) -->
     <g transform="translate(16, 48)">
-      <animateTransform attributeName="transform" type="rotate" values="0 0 0; -30 0 0; 0 0 0; 30 0 0; 0 0 0" dur="1.2s" repeatCount="indefinite" additive="replace"/>
-      <g shape-rendering="crispEdges">
-        <rect x="-4" y="0" width="8" height="24" class="ink"/>
-        <rect x="-4" y="24" width="8" height="4" class="cream"/>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" values="0 0 0; -30 0 0; 0 0 0; 30 0 0; 0 0 0" dur="1.2s" repeatCount="indefinite"/>
+        <g shape-rendering="crispEdges">
+          <!-- sleeve -->
+          <rect x="-4" y="0" width="8" height="22" class="ink"/>
+          <!-- hand: 10x8 cream block, clearly readable -->
+          <rect x="-5" y="22" width="10" height="8" class="cream"/>
+          <rect x="-5" y="22" width="10" height="2" class="clay"/>
+        </g>
       </g>
     </g>
 
-    <!-- right arm with brush (paints air) -->
+    <!-- right arm with brush — same structure -->
     <g transform="translate(80, 48)">
-      <animateTransform attributeName="transform" type="rotate" values="0 0 0; 35 0 0; 0 0 0; -35 0 0; 0 0 0" dur="1.2s" repeatCount="indefinite" additive="replace"/>
-      <g shape-rendering="crispEdges">
-        <rect x="-4" y="0" width="8" height="24" class="ink"/>
-        <rect x="-4" y="24" width="8" height="4" class="cream"/>
-        <rect x="0" y="28" width="4" height="2" fill="#8a6a4a"/>
-        <rect x="0" y="30" width="4" height="6" class="accent"/>
-        <!-- paint splatter -->
-        <circle cx="2" cy="40" r="2" class="clay">
-          <animate attributeName="opacity" values="0;1;0" dur="1.2s" repeatCount="indefinite"/>
-          <animate attributeName="cy" values="40;50;60" dur="1.2s" repeatCount="indefinite"/>
-        </circle>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" values="0 0 0; 35 0 0; 0 0 0; -35 0 0; 0 0 0" dur="1.2s" repeatCount="indefinite"/>
+        <g shape-rendering="crispEdges">
+          <!-- sleeve -->
+          <rect x="-4" y="0" width="8" height="22" class="ink"/>
+          <!-- hand: 10x8 cream block -->
+          <rect x="-5" y="22" width="10" height="8" class="cream"/>
+          <rect x="-5" y="22" width="10" height="2" class="clay"/>
+          <!-- brush handle (held by hand) -->
+          <rect x="-1" y="30" width="4" height="4" fill="#8a6a4a"/>
+          <!-- brush bristles -->
+          <rect x="-2" y="34" width="6" height="6" class="accent"/>
+        </g>
       </g>
     </g>
 
