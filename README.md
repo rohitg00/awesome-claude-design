@@ -498,6 +498,13 @@ The DESIGN.md ecosystem is bigger than this repo. We catalog only what others do
 - [**quemsah/awesome-claude-plugins**](https://github.com/quemsah/awesome-claude-plugins) <img src="https://img.shields.io/github/stars/quemsah/awesome-claude-plugins?style=flat-square&logo=github&label=" height="16"> — design-engineering plugins with craft / memory / enforcement framing
 - [**awesomeclaude.ai**](https://awesomeclaude.ai) — web directory across awesome-claude-* repos with an awesome-claude-agents subsection
 
+**Tooling & extractors**
+
+- [**yuvrajangadsingh/brandmd**](https://github.com/yuvrajangadsingh/brandmd) <img src="https://img.shields.io/github/stars/yuvrajangadsingh/brandmd?style=flat-square&logo=github&label=" height="16"> — `npx brandmd https://linear.app` produces DESIGN.md / CSS custom properties / Tailwind v4 / dark-mode overrides; no LLM calls; ships as an Agent Skill across 30+ platforms
+- [**bitjaru/styleseed**](https://github.com/bitjaru/styleseed) <img src="https://img.shields.io/github/stars/bitjaru/styleseed?style=flat-square&logo=github&label=" height="16"> — 69 design rules + 48 shadcn components + Toss/Stripe/Linear/Vercel/Notion brand skins; teaches LLMs how designers think rather than just what brands look like
+- [**Muluk-m/design-distill**](https://github.com/Muluk-m/design-distill) <img src="https://img.shields.io/github/stars/Muluk-m/design-distill?style=flat-square&logo=github&label=" height="16"> — Stitch-compatible DESIGN.md generator with pre-bundled github / linear / notion / stripe / vercel snapshots; works with Codex, Claude Code, and any AI client
+- [**bergside/design-md-chrome**](https://github.com/bergside/design-md-chrome) <img src="https://img.shields.io/github/stars/bergside/design-md-chrome?style=flat-square&logo=github&label=" height="16"> — Chrome / Firefox / Edge extension that extracts DESIGN.md + SKILL.md from any site in TypeUI format ([Chrome Web Store listing](https://chromewebstore.google.com/detail/designmd-style-extractor/ogpdnchdjiibhobphelbbkemnnemkfma)); designer-friendly path with no terminal required
+
 **Background reading**
 
 - [**OSS Insight — DESIGN.md Protocol 2026**](https://ossinsight.io/blog/design-md-protocol-2026) — historical timeline of awesome-design-md going viral; useful framing for how the format spread
