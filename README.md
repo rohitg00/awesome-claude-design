@@ -711,6 +711,21 @@ MCP servers, plugins, and IDE adapters that pair with Claude Design or extend it
 
 Claude Design ships built-in AI outputs that previously needed separate tools — **Voice, Video, 3D, and Shaders** are all generated inline (per the [Anthropic launch post](https://www.anthropic.com/news/claude-design-anthropic-labs)). Connectors (Slack, Drive, internal docs) plug into the design loop without extra MCP wiring; high-leverage but burns quota fast.
 
+### Stitch + Claude Design via MCP
+
+- [**Pasquale Pillitteri — Google Stitch MCP, export Claude Code design to code**](https://pasqualepillitteri.it/en/news/647/google-stitch-mcp-export-claude-code-design-to-code) — full Stitch + CD via MCP walkthrough. Covers Stitch's March 2026 update (Vibe Design, Voice Canvas, multi-screen flows, 350 free generations/month) and React/Vue/Angular/Flutter/SwiftUI export wired through MCP into Claude Code, Cursor, or Gemini CLI.
+
+### Canva integration
+
+- [**Canva newsroom — Canva and Claude Design**](https://www.canva.com/newsroom/news/canva-claude-design/) — Canva-side official partnership announcement
+- [**Morningstar / BusinessWire — Canva announces Anthropic collaboration**](https://www.morningstar.com/news/business-wire/20260410843169/canva-announces-anthropic-collaboration-to-bring-ai-powered-design-to-millions) — Apr 10 press wire, four days before Krieger's Figma resignation and seven days before launch
+- Per [Lalindra's hands-on at Pen With Paper](https://medium.com/pen-with-paper/claude-design-review-i-spent-a-day-with-it-heres-what-actually-happens-441922202ef2), Claude Design is "powered in part" by the Canva Foundation Design Model and supports HTML import for round-tripping Canva-built layouts back into the editor.
+
+### Enterprise / Cowork admin
+
+- [**Anthropic — Claude Design admin guide for Team and Enterprise plans**](https://support.claude.com/en/articles/14604406-claude-design-admin-guide-for-team-and-enterprise-plans) — official 4-phase rollout (designers → full design team → broader → org-wide), custom roles, design-system-setup-first ordering, and the data-residency caveat (CD does not currently support residency requirements)
+- [**Anthropic — Claude Cowork enterprise administrator guide**](https://claude.com/resources/tutorials/claude-cowork-enterprise-administrator-guide) — adjacent admin context covering Cowork-side controls that intersect with CD provisioning
+
 ### Limitations to know
 
 - **Figma export not yet available at launch** — round-trip back into Figma is manual; use the Figma MCP server above for token sync
