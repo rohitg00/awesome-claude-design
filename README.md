@@ -254,6 +254,18 @@ See [`showcase/README.md`](showcase/README.md). Submit your own via the [Showcas
 > "Was Google Stitch or Microsoft Designer or Template Monster the quality of a mid-level designer? No. Is this?"
 > — Malewicz, same video
 
+> "Stickley wouldn't have stained pine to look like oak. Truth to materials means the interface should reveal what built it, not pretend to be hand-drawn when it was assembled."
+> — [Sam Henri Gold](https://samhenri.gold/blog/20260418-claude-design/), Tavus designer, framing Claude Design through Arts-and-Crafts and predicting a CD↔Claude Code two-way feedback loop
+
+> "Anthropic debuts Claude Design — because who needs designers?"
+> — [The Register](https://www.theregister.com/2026/04/17/anthropic_debuts_claude_design/), launch-day headline
+
+> "If your job was the comps, your job was always going to go. The design was never the comps."
+> — [Christopher Noessel](https://christophernoessel.medium.com/design-was-never-the-comps-what-i-learned-when-claude-design-dumped-a-dozen-screens-on-me-73893af464ae), IxDA author, after Claude Design dumped a dozen screens on him in one sitting
+
+> "The designers it replaces are not the designers you were worried about replacing."
+> — [Malewicz — Will Claude Design replace designers?](https://michalmalewicz.medium.com/will-claude-design-replace-designers-f92623f3befe), companion long-form piece to the YouTube teardown
+
 - [Abhi Chatterjee — Designer's first walkthrough](https://www.designsystemscollective.com/claude-design-just-launched-a-designers-first-walkthrough-c79d7ce47b9b) — burned ~50% of weekly allotment on one design system + one prototype; trained eyes still spot spacing inconsistencies
 - [PCWorld — I tried Claude Design for half an hour, I'm already locked out for a week](https://www.pcworld.com/article/3117811/i-tried-claude-design-for-half-an-hour-im-already-locked-out-for-a-week.html) — 30-minute session exhausted the weekly allowance
 
@@ -272,6 +284,14 @@ Figma (NYSE: FIG) closed **−4.26%** on launch day. Intraday low ~**−7%** per
 Early Opus 4.7 hallucination reports on long tasks: [r/ClaudeCode thread](https://www.reddit.com/r/ClaudeCode/comments/1so9uta/) — "$120 of API credits, by god is it bad."
 
 - [Ocasio Consulting — Claude Design review](https://ocasioconsulting.com/claude-design-review/) — direct ask for a flat design-seat fee; "rationing creativity goes against the spirit" of the tool
+
+### Forum Pulse
+
+Engineer-class community takes from Hacker News — three threads, three angles.
+
+- [HN #47806725 — main launch thread](https://news.ycombinator.com/item?id=47806725) — competent UI, nothing mind-blowing yet
+- [HN #47818700 — "Thoughts and feelings around Claude Design"](https://news.ycombinator.com/item?id=47818700) — 95% of weekly usage gone in a sitting; plaything-not-tool critique
+- [HN #47832366 — "Figma's woes compound with Claude Design"](https://news.ycombinator.com/item?id=47832366) — leaf-node output vs full design lifecycle; Figma exposure compounds
 
 ## Feature Map
 
