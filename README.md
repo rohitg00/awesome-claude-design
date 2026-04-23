@@ -792,6 +792,10 @@ End-to-end flows in `/recipes/<name>.md`.
 11. **Claude Design → Canva export** — designer collaboration pathway
 12. **Org-wide design-system sharing** — view-only URL, group-chat edit mode
 13. [**Token budget for Claude Design**](recipes/token-budget-claude-design.md) — ship a project on a single Pro plan in a week without burning quota
+14. [**Frontier 3D / shaders / voice / video**](recipes/frontier-3d-shaders.md) — build with Claude Design's native generation surfaces; cites Anthropic launch + Ileana Marcut's 3D Helix portfolio
+15. [**Tweaks panel — no-regen iteration**](recipes/tweaks-panel-sidebar.md) — reorder sections and swap variants without burning chat tokens; Austin Lau's sidebar workflow
+16. [**Comment-paste workaround**](recipes/comment-paste-workaround.md) — paste the would-be chat prompt as an inline comment; the MacStories "95%" pattern
+17. [**Speaker notes from a pitch deck**](recipes/speaker-notes-pitch-deck.md) — extract delivery-ready notes from a generated deck; pairs with `pitch-deck-from-readme`
 
 <p align="center"><img src="assets/mascot.svg" width="72" alt="mascot"></p>
 
