@@ -109,6 +109,7 @@ What each aesthetic family actually looks like in production. Thumbnails are sta
 - [Integrations](#integrations)
 - [Workflows & Recipes](#workflows--recipes)
 - [Long-Form Tutorials](#long-form-tutorials)
+- [International Coverage](#international-coverage)
 - [Tips & Tricks](#tips--tricks)
 - [Podcast Coverage](#podcast-coverage)
 - [FAQ](#faq)
@@ -323,11 +324,14 @@ Engineer-class community takes from Hacker News — three threads, three angles.
 | 2026-04-17 | Figma closes −4.26% (second thread 1,763 upvotes) | [Reddit](https://www.reddit.com/r/ClaudeAI/comments/1so6z2t/) · [@brewmarkets](https://x.com/brewmarkets/status/2045175784554283228) |
 | 2026-04-17 | r/FigmaDesign reports ~7% intraday dip | [Reddit](https://www.reddit.com/r/FigmaDesign/comments/1soc1ic/) |
 | 2026-04-17 | Mainstream press wave — TechCrunch, VentureBeat, Adweek frame the launch | [TechCrunch](https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/) · [VentureBeat](https://venturebeat.com/ai/anthropic-launches-claude-design-ai-design-tool/) · [Adweek](https://www.adweek.com/media/anthropic-debuts-claude-design-for-building-marketing-assets-decks-and-uis/) |
+| 2026-04-17 | Austin Lau (Anthropic growth marketer) — first-party Tweaks-panel demo + Claude Cowork landing-page recreation | [@helloitsaustin](https://x.com/helloitsaustin/status/2045176910569980318) |
 | 2026-04-18 | Teardown wave: Isenberg, Malewicz, 02ui, Ray Fernando, WorldofAI, Vivek Mishra, AI for Work | See [Video Teardowns](#video-teardowns) |
 | 2026-04-18 | @petergyang 16-min build: video + slides + website + app + design system | [Tweet](https://x.com/petergyang/status/2045527271650558383) |
 | 2026-04-18 | Sam Henri Gold publishes "Stickley joinery" framing post | [samhenri.gold](https://samhenri.gold/blog/20260418-claude-design/) |
 | 2026-04-18 | Brilliant + Datadog case studies surface in Anthropic launch post | [anthropic.com](https://www.anthropic.com/news/claude-design-anthropic-labs) |
+| 2026-04-18 | MacStories hands-on by John Voorhees — Apple-press POV; "comment-on-element covered 95% of what's needed" | [macstories.net](https://www.macstories.net/stories/hands-on-with-anthropic-labs-claude-design-preview/) |
 | 2026-04-19 | Ryan Mather publishes 7-tip thread (system-first, comments-not-chat, connectors) | [@Flomerboy](https://x.com/Flomerboy/status/2045162321589252458) |
+| 2026-04-19 | ADPList community surfaces "10x designer with Claude Design" framing — `/packages/ui` subdirectory pro-tip | [adplist.substack.com](https://adplist.substack.com/p/how-to-become-a-10x-designer-with) |
 | 2026-04-20 | Follow-on coverage — "hits Figma where it hurts" / "rattles design giants" | [Web And IT News](https://www.webanditnews.com/2026/04/20/claude-design-hits-figma-where-it-hurts-ai-eats-into-non-designer-users/) · [Storyboard18](https://www.storyboard18.com/digital/what-is-claude-design-anthropics-new-ai-tool-rattles-design-software-giants-ws-l-95581.htm) |
 | 2026-04-21 | Pricing controversy — Pro tier loses Claude Code access | [Pasquale Pillitteri](https://pasqualepillitteri.it/en/news/591/ai-app-builders-comparison-2026) |
 | 2026-04-21 | DESIGN.md spec open-sourced by Google (Stitch / Google Labs) | [blog.google](https://blog.google/technology/google-labs/) |
@@ -384,7 +388,7 @@ Submit more: handle, verbatim quote ≤280 chars, tweet URL, engagement numbers.
 
 Not sorted by industry. Sorted by **visual character** — because that's how designers actually pick. Each family links to (1) a working `DESIGN.md` in `/design-md/<family>/`, (2) canonical external references, (3) a one-line swatch + type spec so you can eyeball fit before cloning.
 
-**Shipped samples in this repo:** [warm/claude.md](design-md/warm/claude.md) · [warm/mercury.md](design-md/warm/mercury.md) · [terminal/ollama.md](design-md/terminal/ollama.md) · [terminal/warp.md](design-md/terminal/warp.md) · [editorial/linear.md](design-md/editorial/linear.md) · [editorial/vercel.md](design-md/editorial/vercel.md) · [data-dense/clickhouse.md](design-md/data-dense/clickhouse.md) · [data-dense/posthog.md](design-md/data-dense/posthog.md) · [data-dense/datadog.md](design-md/data-dense/datadog.md) · [cinematic/runway.md](design-md/cinematic/runway.md) · [cinematic/tavus.md](design-md/cinematic/tavus.md) · [cinematic/cohere.md](design-md/cinematic/cohere.md) · [cinematic/bmw.md](design-md/cinematic/bmw.md) · [cinematic/ferrari.md](design-md/cinematic/ferrari.md) · [cinematic/lamborghini.md](design-md/cinematic/lamborghini.md) · [cinematic/renault.md](design-md/cinematic/renault.md) · [playful/figma.md](design-md/playful/figma.md) · [playful/canva.md](design-md/playful/canva.md) · [glass/arc.md](design-md/glass/arc.md) · [glass/apple.md](design-md/glass/apple.md) · [brutalist/the-verge.md](design-md/brutalist/the-verge.md) · [indie/granola.md](design-md/indie/granola.md) · [remix/linear-x-claude.md](design-md/remix/linear-x-claude.md) · [remix/warp-x-sentry.md](design-md/remix/warp-x-sentry.md) · [remix/stripe-x-a24.md](design-md/remix/stripe-x-a24.md)
+**Shipped samples in this repo:** [warm/claude.md](design-md/warm/claude.md) · [warm/mercury.md](design-md/warm/mercury.md) · [terminal/ollama.md](design-md/terminal/ollama.md) · [terminal/warp.md](design-md/terminal/warp.md) · [terminal/opencode.md](design-md/terminal/opencode.md) · [editorial/linear.md](design-md/editorial/linear.md) · [editorial/vercel.md](design-md/editorial/vercel.md) · [data-dense/clickhouse.md](design-md/data-dense/clickhouse.md) · [data-dense/posthog.md](design-md/data-dense/posthog.md) · [data-dense/datadog.md](design-md/data-dense/datadog.md) · [data-dense/mongodb.md](design-md/data-dense/mongodb.md) · [cinematic/runway.md](design-md/cinematic/runway.md) · [cinematic/tavus.md](design-md/cinematic/tavus.md) · [cinematic/cohere.md](design-md/cinematic/cohere.md) · [cinematic/nvidia.md](design-md/cinematic/nvidia.md) · [cinematic/minimax.md](design-md/cinematic/minimax.md) · [cinematic/bmw.md](design-md/cinematic/bmw.md) · [cinematic/ferrari.md](design-md/cinematic/ferrari.md) · [cinematic/lamborghini.md](design-md/cinematic/lamborghini.md) · [cinematic/renault.md](design-md/cinematic/renault.md) · [playful/figma.md](design-md/playful/figma.md) · [playful/canva.md](design-md/playful/canva.md) · [playful/toss.md](design-md/playful/toss.md) · [glass/arc.md](design-md/glass/arc.md) · [glass/apple.md](design-md/glass/apple.md) · [brutalist/the-verge.md](design-md/brutalist/the-verge.md) · [indie/granola.md](design-md/indie/granola.md) · [remix/linear-x-claude.md](design-md/remix/linear-x-claude.md) · [remix/warp-x-sentry.md](design-md/remix/warp-x-sentry.md) · [remix/stripe-x-a24.md](design-md/remix/stripe-x-a24.md) · [remix/vercel-x-pitchfork.md](design-md/remix/vercel-x-pitchfork.md) · [remix/granola-x-criterion.md](design-md/remix/granola-x-criterion.md) · [remix/ollama-x-elevenlabs.md](design-md/remix/ollama-x-elevenlabs.md) · [remix/notion-x-duolingo.md](design-md/remix/notion-x-duolingo.md) · [remix/mercury-x-linear.md](design-md/remix/mercury-x-linear.md)
 
 ### 1. Editorial Minimalism
 
@@ -430,6 +434,7 @@ Charts are the hero. Tight spacing, saturated categorical palette, fixed-width n
 | Grafana | `#111217 / #f47c1b / multi-series` | Inter | [grafana.com](https://grafana.com) |
 | Sentry | `#362d59 / #f6827d / #584774` | Rubik | [sentry.io](https://sentry.io) |
 | Supabase | `#171717 / #3ecf8e` | Custom + mono | [supabase.com](https://supabase.com) |
+| MongoDB | `#001e2b / #00ed64 / #00684a` | Euclid Circular A + Source Code Pro | [mongodb.com](https://mongodb.com) |
 
 ### 5. Cinematic Dark
 
@@ -441,6 +446,7 @@ Film-grade gradients, oversized type, motion-forward, media-heavy hero. Built fo
 | ElevenLabs | `#0a0a0a / electric blue / wave motifs` | Inter | [elevenlabs.io](https://elevenlabs.io) |
 | Minimax | `#000 / neon lime on charcoal` | Custom + mono | [minimax.ai](https://minimax.ai) |
 | Midjourney | `#000 / earth tones + lilac` | Editorial serif | [midjourney.com](https://midjourney.com) |
+| NVIDIA | `#000 / #76b900 signature green / #ffffff` | NVIDIA Sans / Helvetica Neue | [nvidia.com](https://nvidia.com) |
 | BMW | `#fff / #1c69d4 corporate blue / M-gradient` | BMW Type Next Web + Helvetica Neue | [bmw.com](https://bmw.com) |
 | Ferrari | `#000 / #fff / #eb2323 Rosso Corsa` | FerrariSans | [ferrari.com](https://ferrari.com) |
 | Lamborghini | `#000 / #ffc000 warm gold / hex motif` | LamboType + Roboto | [lamborghini.com](https://lamborghini.com) |
@@ -457,6 +463,7 @@ High-saturation, illustrated accents, rounded corners, decorative shapes. Consum
 | Duolingo | `#58cc02 / #fff / #ff4b4b` | DIN Rounded | [duolingo.com](https://duolingo.com) |
 | Mailchimp | `#ffe01b / #000` | Cooper Hewitt + GT America | [mailchimp.com](https://mailchimp.com) |
 | Cal.com | `#292929 / #fff / single accent` | Inter | [cal.com](https://cal.com) |
+| Toss | `#fff / #3182f6 Toss Blue / #191f28` | Toss Product Sans + Noto Sans KR | [toss.im](https://toss.im) |
 
 ### 7. Glass / Soft-Futurism
 
@@ -556,6 +563,7 @@ Single-brand clones get generic fast. Mix tokens across families for novel looks
 | **Granola × Criterion** | Granola's warmth + Criterion's editorial rigor | Premium note app with gravitas |
 | **Ollama × ElevenLabs** | Terminal mono + cinematic dark gradients | CLI tool landing page |
 | **Notion × Duolingo** | Notion's neutrals + Duolingo's greens | Friendly education SaaS |
+| **Mercury × Linear** | Mercury's cream + indigo + Linear's surgical density | Fintech dashboard with editorial warmth |
 
 Ship your remix: `/design-md/remix/<name>.md` + screenshot. PR it.
 
@@ -789,6 +797,10 @@ End-to-end flows in `/recipes/<name>.md`.
 11. **Claude Design → Canva export** — designer collaboration pathway
 12. **Org-wide design-system sharing** — view-only URL, group-chat edit mode
 13. [**Token budget for Claude Design**](recipes/token-budget-claude-design.md) — ship a project on a single Pro plan in a week without burning quota
+14. [**Frontier 3D / shaders / voice / video**](recipes/frontier-3d-shaders.md) — build with Claude Design's native generation surfaces; cites Anthropic launch + Ileana Marcut's 3D Helix portfolio
+15. [**Tweaks panel — no-regen iteration**](recipes/tweaks-panel-sidebar.md) — reorder sections and swap variants without burning chat tokens; Austin Lau's sidebar workflow
+16. [**Comment-paste workaround**](recipes/comment-paste-workaround.md) — paste the would-be chat prompt as an inline comment; the MacStories "95%" pattern
+17. [**Speaker notes from a pitch deck**](recipes/speaker-notes-pitch-deck.md) — extract delivery-ready notes from a generated deck; pairs with `pitch-deck-from-readme`
 
 <p align="center"><img src="assets/mascot.svg" width="72" alt="mascot"></p>
 
@@ -840,6 +852,39 @@ The writing worth reading after the launch dust settled. Grouped by platform.
 | Complete Guide for Non-Designers | BuildFastWithAI | [buildfastwithai.com](https://www.buildfastwithai.com/blogs/claude-design-anthropic-guide-2026) | Explicit non-designer scaffolding |
 | 2026 Business Guide | Spicy Advisory | [spicyadvisory.com](https://www.spicyadvisory.com/blog/claude-design-anthropic-labs-guide-workflows-2026) | Workflows for SMB / consulting context |
 | Features + Pricing | ALM Corp | [almcorp.com](https://almcorp.com/blog/claude-design-anthropic-labs/) | Plain pricing/features summary, low fluff |
+
+## International Coverage
+
+Non-English coverage worth tracking. Different angles, different audiences — useful both for translation reach and because regional press often surfaces angles the US-centric wave misses.
+
+### French
+
+| Source | URL | Value | Lang |
+|---|---|---|---|
+| La Revue Tech | [larevuetech.fr](https://larevuetech.fr/anthropics-claude-design-wants-to-turn-a-prompt-into-a-prototype-then-hand-it-to-canva-or-code/) | Prompt-to-prototype framing with the Canva/Code handoff angle | FR |
+| IT SOCIAL | [itsocial.fr](https://itsocial.fr/contenus/actualites/intelligence-artificielle-actualites-contenus/avec-claude-design-anthropic-ouvre-le-prototypage-visuel-aux-professionnels-sans-competences-en-crea/) | Enterprise-IT POV — opening visual prototyping to non-creative professionals | FR |
+
+### Spanish
+
+| Source | URL | Value | Lang |
+|---|---|---|---|
+| Web Reactiva | [webreactiva.com](https://www.webreactiva.com/blog/claude-design-probado) | Spanish-language hands-on; tested the Claude Code export path | ES |
+
+### Italian
+
+| Source | URL | Value | Lang |
+|---|---|---|---|
+| Pasquale Pillitteri — Vibe Coding 2026 comparison | [pasqualepillitteri.it](https://pasqualepillitteri.it/en/news/591/ai-app-builders-comparison-2026) | Detailed AI app-builder comparison incl. Claude Design pricing controversy | IT (EN translation) |
+| Pasquale Pillitteri — CD vs Stitch crash analysis | [pasqualepillitteri.it](https://pasqualepillitteri.it/en/news/1027/claude-design-vs-google-stitch-figma-stock-crash) | Italian analysis of the Figma stock crash + Stitch positioning | IT (EN translation) |
+| Pasquale Pillitteri — Stitch MCP walkthrough | [pasqualepillitteri.it](https://pasqualepillitteri.it/en/news/647/google-stitch-mcp-export-claude-code-design-to-code) | Stitch MCP Server + Claude Code design-to-code flow in 23 minutes | IT (EN translation) |
+
+### Japanese
+
+| Source | URL | Value | Lang |
+|---|---|---|---|
+| 金 成奎 (seikei_kin) on X | [x.com/seikei_kin](https://x.com/seikei_kin/status/2032264221644505561) | Marie-Claire Dean 63-skills writeup translated and amplified for the Japanese audience | JA |
+
+PRs adding more international sources welcome — Korean, Chinese, German, Portuguese, and other regional coverage are gaps we'd like to fill. Open an issue or PR with the URL, language tag, and one-line value.
 
 ## Tips & Tricks
 

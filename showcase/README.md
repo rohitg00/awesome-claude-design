@@ -1,5 +1,7 @@
 # Showcase
 
+Detailed enterprise case studies live under [case-studies/](./case-studies/) — Brilliant, Datadog, Mercury, with workflow + numbers + sources.
+
 Builds shipped with Claude Design. Launch-week seed below — your build goes next.
 
 **Submit yours:** open a [Showcase Submission issue](../../issues/new?template=showcase-submission.yml) or send a PR adding a row to the table. We want the live URL, the DESIGN.md you used, a screenshot, and the wall-clock time it took.
