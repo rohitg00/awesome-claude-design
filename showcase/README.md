@@ -21,6 +21,18 @@ No promo speak, no rendered mockups posing as shipped product. Real builds only.
 | **Datadog** | Whole-week design review cycle collapsed into one Claude Design conversation | [anthropic.com — launch post](https://www.anthropic.com/news/claude-design-anthropic-labs) | **1 week → 1 conversation** |
 | **Lenny Rachitsky** | "Unhinged Redesign" experiment — pushed Claude Design to extremes to find the breaking point | [lennysnewsletter.com](https://www.lennysnewsletter.com/p/what-claude-design-is-actually-good) | Adversarial test, surfaces good vs hype |
 
+## Wave 2 — frontier features, brand tests, bundled examples
+
+| Builder | What they built | Link | Time / notable detail |
+|---|---|---|---|
+| **Ileana Marcut** | 3D Helix portfolio with shaders — only published shader/3D worked example with full prompts inside | [ileanamarcut.substack.com](https://ileanamarcut.substack.com/p/claude-design) | Replicable shader/3D recipe, anchors the frontier-features slot |
+| **Austin Lau** (Anthropic) | Claude Cowork landing-page recreation — first-party demo of Tweaks panel reordering + variant swap + handoff to Claude Code | [x.com/helloitsaustin](https://x.com/helloitsaustin/status/2045176910569980318) | Best documentation of the no-regen sidebar workflow |
+| **AI Adopters Club** | FleetPulse — fictional Series A startup walked end-to-end in six prompts with blank templates for swap-in | [aiadopters.club](https://aiadopters.club/p/claude-design-just-launched-and-here) | **6 prompts**, "test it in an afternoon" |
+| **PushToProd** | Pomodoro design system with Mac OS aesthetic animation — generated transitions/motion graphics, runs natively in browser | [getpushtoprod.substack.com](https://getpushtoprod.substack.com/p/everything-you-need-to-know-about) | **5 hours** of testing, animation applied to existing system |
+| **Ben Peetermans** (launchwithben) | Hands-on brand kit + landing page test, engineer-spends-hours review with concrete observations | [dev.to/launchwithben](https://dev.to/launchwithben/claude-design-review-hands-on-brand-kit-and-landing-page-test-38l1) | Engineer POV, brand-kit-to-landing flow |
+| **CopyRocket AI** | Real-brand landing + video + deck combo at concrete USD costs — definitive token-budget reference | [copyrocket.ai](https://copyrocket.ai/i-tested-claude-design-on-my-real-brand) | **$3 landing / $4 video / $7 deck** on Max-5x; 90% weekly burn in 4–5 prompts |
+| **Anthropic — bundled examples** | Nine official example projects shipped with the launch (shader wallpapers + 8 more) accessible via the Examples tab with "Use this prompt" | [anthropic.com — launch post](https://www.anthropic.com/news/claude-design-anthropic-labs) | Official starter set, shader wallpapers are the showstopper |
+
 ## Format for new entries
 
 When you add a row, keep it to four columns: **Builder · What they built · Link · Time / notable detail**. One line per build. If your story needs more space, drop a `showcase/<slug>.md` alongside this README and link it from the table.
