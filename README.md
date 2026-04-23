@@ -796,8 +796,8 @@ The writing worth reading after the launch dust settled. Grouped by platform.
 
 | Title | Author | URL | Value |
 |---|---|---|---|
+| Claude Design is here | Department of Product | [departmentofproduct.substack.com](https://departmentofproduct.substack.com/p/claude-design-is-here-everything) | 5 examples + GitHub mock setup + chat-vs-comments split — most tactical first-hour guide |
 | Claude Design | Ruben Hassid | [ruben.substack.com](https://ruben.substack.com/p/claude-design) | Admin-toggle setup steps + advanced workflow |
-| Claude Design is here | Department of Product | [departmentofproduct.substack.com](https://departmentofproduct.substack.com/p/claude-design-is-here-everything) | Five worked examples + GitHub mock setup |
 | Founder's Playbook | Linas Beliūnas | [linas.substack.com](https://linas.substack.com/p/claude-design-founders-playbook) | Eight workflows, 7-step logo flow, master prompts; cites Mercury 90% inference |
 | How to Actually Use Claude Design | AI For Developers | [aifordevelopers.substack.com](https://aifordevelopers.substack.com/p/how-to-actually-use-claude-design) | The subdirectory-not-monorepo tip in full |
 | Claude for Designers Ultimate Guide | Sorted Pixels (nervegna) | [nervegna.substack.com](https://nervegna.substack.com/p/claude-for-designers-the-ultimate) | Three-tier model: novice / practitioner / orchestrator |
@@ -810,6 +810,7 @@ The writing worth reading after the launch dust settled. Grouped by platform.
 
 | Title | Author | URL | Value |
 |---|---|---|---|
+| I Spent a Day With It — Here's What Actually Happens | Lalindra (Pen With Paper) | [medium.com/pen-with-paper](https://medium.com/pen-with-paper/claude-design-review-i-spent-a-day-with-it-heres-what-actually-happens-441922202ef2) | Surfaces the Canva Design Engine partnership; non-designer POV |
 | What Claude Design actually changes for designers | Fanny | [medium.com/design-bootcamp](https://medium.com/design-bootcamp/what-claude-design-actually-changes-for-designers-0c5b04fae343) | Brief → Claude Code pipeline collapse, designer POV |
 | What's New, What You Can Build, How to Use It | Ai Studio | [medium.com/the-ai-studio](https://medium.com/the-ai-studio/claude-design-whats-new-what-you-can-build-and-how-to-use-it-92283bfe8c82) | Surface scan covering all three product surfaces |
 | The Non-Designer's Walkthrough | Alex P. | [medium.com/@0xmega](https://medium.com/@0xmega/how-to-use-claude-design-the-non-designers-walkthrough-2adc18053a5c) | Six export paths, end-to-end |
@@ -821,6 +822,8 @@ The writing worth reading after the launch dust settled. Grouped by platform.
 
 | Title | Author | URL | Value |
 |---|---|---|---|
+| Hands-on with Anthropic Labs' Claude Design Preview | John Voorhees (MacStories) | [macstories.net](https://www.macstories.net/stories/hands-on-with-anthropic-labs-claude-design-preview/) | Apple-press POV — "comment-on-element covered 95% of what's needed" |
+| Claude Design Hands-on Review | LLMx Blog | [llmx.tech](https://llmx.tech/blog/claude-design-hands-on-review-2026/) | "First AI design surface that behaves like a designer iterating" |
 | How to Use Claude Design for UX/UI | DesignerUp | [designerup.co](https://designerup.co/blog/how-to-use-claude-design-for-ux-ui/) | Education-house framing for design-curious devs |
 | Getting Started | Muzli | [muz.li/blog](https://muz.li/blog/getting-started-with-claude-design-a-collaborator-for-your-design-workflow/) | Designer-newsletter intro, low-friction onboarding |
 | Good Enough for Professional Websites? | BSWEN | [docs.bswen.com](https://docs.bswen.com/blog/2026-04-18-claude-design-quality-professional/) | Quality bar honest assessment, mostly skeptical |
@@ -855,6 +858,7 @@ Anthropic insider, posted day two of launch.
 - **Ran Segall — homeschooling app.** Called Claude Design "10x better than Lovable or Replit" for full-app builds. Read his timeline for prompt cadence.
 - **Jerrod Lew — personal dashboard OS in two prompts.** Demonstrates how far one good `DESIGN.md` carries.
 - **[Peter Yang — 16-min everything build](https://x.com/petergyang/status/2045527271650558383).** Video + slides + website + app + design system. Also the source of "fun but burns through usage quickly."
+- **[Austin Lau (Anthropic growth-marketer) — Tweaks panel + Cowork landing recreation](https://x.com/helloitsaustin/status/2045176910569980318).** Best documentation of the no-regen sidebar workflow — reorder sections, swap variants, then hand off to Claude Code.
 
 ### Token economics
 
