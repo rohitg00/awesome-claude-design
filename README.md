@@ -358,7 +358,7 @@ Submit more: handle, verbatim quote ≤280 chars, tweet URL, engagement numbers.
 
 Not sorted by industry. Sorted by **visual character** — because that's how designers actually pick. Each family links to (1) a working `DESIGN.md` in `/design-md/<family>/`, (2) canonical external references, (3) a one-line swatch + type spec so you can eyeball fit before cloning.
 
-**Shipped samples in this repo:** [warm/claude.md](design-md/warm/claude.md) · [warm/mercury.md](design-md/warm/mercury.md) · [terminal/ollama.md](design-md/terminal/ollama.md) · [terminal/warp.md](design-md/terminal/warp.md) · [editorial/linear.md](design-md/editorial/linear.md) · [editorial/vercel.md](design-md/editorial/vercel.md) · [data-dense/clickhouse.md](design-md/data-dense/clickhouse.md) · [data-dense/posthog.md](design-md/data-dense/posthog.md) · [data-dense/datadog.md](design-md/data-dense/datadog.md) · [cinematic/runway.md](design-md/cinematic/runway.md) · [cinematic/tavus.md](design-md/cinematic/tavus.md) · [cinematic/cohere.md](design-md/cinematic/cohere.md) · [playful/figma.md](design-md/playful/figma.md) · [playful/canva.md](design-md/playful/canva.md) · [glass/arc.md](design-md/glass/arc.md) · [glass/apple.md](design-md/glass/apple.md) · [brutalist/the-verge.md](design-md/brutalist/the-verge.md) · [indie/granola.md](design-md/indie/granola.md) · [remix/linear-x-claude.md](design-md/remix/linear-x-claude.md) · [remix/warp-x-sentry.md](design-md/remix/warp-x-sentry.md) · [remix/stripe-x-a24.md](design-md/remix/stripe-x-a24.md)
+**Shipped samples in this repo:** [warm/claude.md](design-md/warm/claude.md) · [warm/mercury.md](design-md/warm/mercury.md) · [terminal/ollama.md](design-md/terminal/ollama.md) · [terminal/warp.md](design-md/terminal/warp.md) · [terminal/opencode.md](design-md/terminal/opencode.md) · [editorial/linear.md](design-md/editorial/linear.md) · [editorial/vercel.md](design-md/editorial/vercel.md) · [data-dense/clickhouse.md](design-md/data-dense/clickhouse.md) · [data-dense/posthog.md](design-md/data-dense/posthog.md) · [data-dense/datadog.md](design-md/data-dense/datadog.md) · [data-dense/mongodb.md](design-md/data-dense/mongodb.md) · [cinematic/runway.md](design-md/cinematic/runway.md) · [cinematic/tavus.md](design-md/cinematic/tavus.md) · [cinematic/cohere.md](design-md/cinematic/cohere.md) · [cinematic/nvidia.md](design-md/cinematic/nvidia.md) · [cinematic/minimax.md](design-md/cinematic/minimax.md) · [playful/figma.md](design-md/playful/figma.md) · [playful/canva.md](design-md/playful/canva.md) · [playful/toss.md](design-md/playful/toss.md) · [glass/arc.md](design-md/glass/arc.md) · [glass/apple.md](design-md/glass/apple.md) · [brutalist/the-verge.md](design-md/brutalist/the-verge.md) · [indie/granola.md](design-md/indie/granola.md) · [remix/linear-x-claude.md](design-md/remix/linear-x-claude.md) · [remix/warp-x-sentry.md](design-md/remix/warp-x-sentry.md) · [remix/stripe-x-a24.md](design-md/remix/stripe-x-a24.md)
 
 ### 1. Editorial Minimalism
 
@@ -404,6 +404,7 @@ Charts are the hero. Tight spacing, saturated categorical palette, fixed-width n
 | Grafana | `#111217 / #f47c1b / multi-series` | Inter | [grafana.com](https://grafana.com) |
 | Sentry | `#362d59 / #f6827d / #584774` | Rubik | [sentry.io](https://sentry.io) |
 | Supabase | `#171717 / #3ecf8e` | Custom + mono | [supabase.com](https://supabase.com) |
+| MongoDB | `#001e2b / #00ed64 / #00684a` | Euclid Circular A + Source Code Pro | [mongodb.com](https://mongodb.com) |
 
 ### 5. Cinematic Dark
 
@@ -415,6 +416,7 @@ Film-grade gradients, oversized type, motion-forward, media-heavy hero. Built fo
 | ElevenLabs | `#0a0a0a / electric blue / wave motifs` | Inter | [elevenlabs.io](https://elevenlabs.io) |
 | Minimax | `#000 / neon lime on charcoal` | Custom + mono | [minimax.ai](https://minimax.ai) |
 | Midjourney | `#000 / earth tones + lilac` | Editorial serif | [midjourney.com](https://midjourney.com) |
+| NVIDIA | `#000 / #76b900 signature green / #ffffff` | NVIDIA Sans / Helvetica Neue | [nvidia.com](https://nvidia.com) |
 
 ### 6. Playful Color
 
@@ -427,6 +429,7 @@ High-saturation, illustrated accents, rounded corners, decorative shapes. Consum
 | Duolingo | `#58cc02 / #fff / #ff4b4b` | DIN Rounded | [duolingo.com](https://duolingo.com) |
 | Mailchimp | `#ffe01b / #000` | Cooper Hewitt + GT America | [mailchimp.com](https://mailchimp.com) |
 | Cal.com | `#292929 / #fff / single accent` | Inter | [cal.com](https://cal.com) |
+| Toss | `#fff / #3182f6 Toss Blue / #191f28` | Toss Product Sans + Noto Sans KR | [toss.im](https://toss.im) |
 
 ### 7. Glass / Soft-Futurism
 
