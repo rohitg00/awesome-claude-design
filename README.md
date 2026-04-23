@@ -110,6 +110,7 @@ What each aesthetic family actually looks like in production. Thumbnails are sta
 - [Workflows & Recipes](#workflows--recipes)
 - [Long-Form Tutorials](#long-form-tutorials)
 - [Tips & Tricks](#tips--tricks)
+- [Podcast Coverage](#podcast-coverage)
 - [FAQ](#faq)
 - [Related OSS Projects](#related-oss-projects)
 - [Tag System](#tag-system)
@@ -857,6 +858,20 @@ Anthropic insider, posted day two of launch.
 
 - **Connectors to Slack and docs** are the single highest-leverage integration for brand consistency, but also the fastest way to burn weekly allowance. Wire them only on production projects, not exploration.
 - **Subdirectory, not monorepo.** Per [AI For Developers](https://aifordevelopers.substack.com/p/how-to-actually-use-claude-design), point Claude Design at one subdirectory per project — full-monorepo context is slow and noisy. One `DESIGN.md` per app, linked from the subdirectory.
+
+## Podcast Coverage
+
+The audio coverage worth queueing. Insider interviews, launch-week reactions, and adjacent context from the v0 / generative-web orbit.
+
+- [Lenny's Podcast — Jenny Wen (head of design at Claude, ex-Figma director), "the design process is dead"](https://www.lennysnewsletter.com/p/the-design-process-is-dead) — anchor episode (March 1, 2026, 1h 17m). Predates launch but lays the philosophical foundation: discovery → mock → iterate is dead, three designer archetypes Anthropic hires, AI taste/judgment, why she left Figma director to return to IC at Anthropic.
+- [Lenny's Newsletter mini-episode (Apr 22) — "What Claude Design is actually good for"](https://www.lennysnewsletter.com/p/what-claude-design-is-actually-good) — post-launch reaction. Companion YouTube: ["Claude Design is slow and I love it anyway"](https://www.youtube.com/watch?v=wgPVh9wG6Ok). Landing page + slides + unhinged-redesign tests; CD + GPT Images 2.0 + DESIGN.md side-by-side.
+- [AI Daily Brief (Nathaniel Whittemore) — Claude Design episode](https://podcasts.apple.com/us/podcast/the-ai-daily-brief-artificial-intelligence-news/id1680633614) — largest daily AI podcast covering CD; non-design AI audience reach. Best use cases first few days; marketing / decks / wireframes / launch-videos. Companion [Claude Cowork episode](https://open.spotify.com/episode/5krjdNlepb26fNWmcsRjG9).
+- [Design Better Podcast — "The Roundup: Our first impressions of Claude Design"](https://designbetterpodcast.com/p/the-roundup-our-first-impressions) — designer-host roundtable. "The interesting problem isn't generating pixels — it's generating pixels that look like *your* product." Not-a-Figma-killer-yet read.
+- [Design Better Podcast — Meaghan Choi (Anthropic Product Designer on Claude Code)](https://www.designbetter.co/podcast) — adjacent context: Anthropic designer perspective on the broader Claude product surface (exact episode pending).
+- [Sequoia Training Data — Vercel CEO Guillermo Rauch: Building the Generative Web with AI](https://sequoiacap.com/podcast/training-data-guillermo-rauch/) — adjacent context for the v0 / generative-web side of the same wave.
+- [Lenny's Podcast — "Everyone's an engineer now: Inside v0's mission" (Guillermo Rauch)](https://www.lennysnewsletter.com/p/everyones-an-engineer-now-guillermo-rauch) — Rauch episode; v0 framing useful for comparison content.
+- [AI and I — Vercel's Guillermo Rauch on What Comes After Coding](https://creators.spotify.com/pod/profile/how-do-you-use-chat-gpt/episodes/Vercels-Guillermo-Rauch-on-What-Comes-After-Coding---Ep--47-e2tguf3) — third Rauch take; complements the Sequoia + Lenny episodes.
+- [How I AI — "Claude Code for Product Managers"](https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-claude-code) — adjacent PM-focused context; CC perspective applicable to CD workflows.
 
 ## FAQ
 
