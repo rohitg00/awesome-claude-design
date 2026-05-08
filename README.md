@@ -779,7 +779,7 @@ Claude Design ships built-in AI outputs that previously needed separate tools �
 - **No live-cursor multiplayer** — Figma-style co-editing is not in the product
 - **Sharing is org-scoped URL with view/edit only** — no public links, no per-element permissions
 - **Inferred design system can mis-deduce edge cases** — auto-extracted tokens drift on outliers; review before locking ([agence-scroll guide](https://agence-scroll.com/en/blog/claude-design-anthropic-2026-guide))
-- **No native MP4 export for animations** — frame-by-frame capture is the only lossless path; [claude2video.com](https://claude2video.com) renders any Design share URL to MP4, no install or code required
+- **No native MP4 export for animations** — screen recording loses quality on gradients and fast motion; [claude2video.com](https://claude2video.com) offers frame-by-frame capture from the rendering engine, no install required
 
 ## Workflows & Recipes
 
