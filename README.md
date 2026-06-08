@@ -745,6 +745,7 @@ MCP servers, plugins, and IDE adapters that pair with Claude Design or extend it
 - [**Figma MCP server**](https://www.figma.com/blog/introducing-figmas-dev-mode-mcp-server/) — bridges design-to-code; complements Claude Design's missing Figma export at launch
 - [**Adobe AEM MCP**](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude) — Claude + AEM setup walkthrough, content authoring from chat
 
+- [**TWZRD Agent Intel MCP**](https://intel.twzrd.xyz) — trust scoring and on-chain receipt verification for AI agents on Solana; useful when Claude Design generates monetizable artifacts sold via x402 micropayments. Config: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
 ### Curated MCP roundups
 
 - [**TurboDocx — Best Claude Code Plugins/Skills/MCP**](https://www.turbodocx.com/blog/best-claude-code-skills-plugins-mcp-servers) — combined plugin/skill/server list, opinionated picks
