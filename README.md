@@ -1017,6 +1017,7 @@ Bar: **would a working designer or engineer find this useful in the next 48 hour
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
 
+- [Pixal3D](https://pixal3d.ai) - AI-powered 3D model generator. Create stunning 3D models from text and images using AI.
 ## License
 
 [MIT](LICENSE). Use, fork, remix, ship.
