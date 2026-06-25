@@ -675,6 +675,7 @@ Anthropic acknowledges the problem in the cookbook: *"You tend to converge towar
 Beyond Anthropic's own materials, the community has shipped a growing set of skills, plugins, and review workflows specifically aimed at the slop fingerprints catalogued above. Drop-in alternatives or complements to the prompt fragment.
 
 - [**Leonxlnx/taste-skill**](https://github.com/Leonxlnx/taste-skill) <img src="https://img.shields.io/github/stars/Leonxlnx/taste-skill?style=flat-square&logo=github&label=" height="16"> — frontend taste skill: premium UI generation, redesign audits, GSAP motion, brutalist/minimalist/soft variants, 3-dial parameterization (variance, motion, density)
+- [**pbakaus/impeccable**](https://github.com/pbakaus/impeccable) <img src="https://img.shields.io/github/stars/pbakaus/impeccable?style=flat-square&logo=github&label=" height="16"> — "the design language that makes your AI harness better at design": one skill + `/impeccable` commands (audit, polish, critique) and a PostToolUse hook that flags slop right after UI edits. Cross-harness (Claude Code, Cursor, Codex, Gemini). Apache 2.0. [impeccable.style](https://impeccable.style)
 - [**Dammyjay93/interface-design**](https://github.com/Dammyjay93/interface-design) <img src="https://img.shields.io/github/stars/Dammyjay93/interface-design?style=flat-square&logo=github&label=" height="16"> — design engineering for Claude Code (formerly `claude-design-engineer`): persistent design system file, slash commands for init/audit/extract, enforces token consistency between sessions
 - [**coleam00/excalidraw-diagram-skill**](https://github.com/coleam00/excalidraw-diagram-skill) <img src="https://img.shields.io/github/stars/coleam00/excalidraw-diagram-skill?style=flat-square&logo=github&label=" height="16"> — diagram skill that argues visually instead of slapping boxes-and-arrows; Playwright render-validate loop catches overlap, misalignment, bad spacing
 - [**OneRedOak/claude-code-workflows — design-review**](https://github.com/OneRedOak/claude-code-workflows/tree/main/design-review) <img src="https://img.shields.io/github/stars/OneRedOak/claude-code-workflows?style=flat-square&logo=github&label=" height="16"> — Patrick Ellis's UI/UX review workflow: subagents + `/design-review` slash command + CLAUDE.md memory integration + accessibility coverage via Playwright MCP
@@ -710,6 +711,10 @@ The same anti-slop tools listed above, with explicit install commands. Mix and m
 - [**Leonxlnx/taste-skill**](https://github.com/Leonxlnx/taste-skill) <img src="https://img.shields.io/github/stars/Leonxlnx/taste-skill?style=flat-square&logo=github&label=" height="16"> — premium UI gen, redesign audits, GSAP motion, brutalist/minimalist/soft variants
   ```sh
   npx skills add Leonxlnx/taste-skill
+  ```
+- [**pbakaus/impeccable**](https://github.com/pbakaus/impeccable) <img src="https://img.shields.io/github/stars/pbakaus/impeccable?style=flat-square&logo=github&label=" height="16"> — anti-slop design skill; the installer auto-detects your harness and wires the after-edit hook for you
+  ```sh
+  npx impeccable install
   ```
 - [**Dammyjay93/interface-design**](https://github.com/Dammyjay93/interface-design) <img src="https://img.shields.io/github/stars/Dammyjay93/interface-design?style=flat-square&logo=github&label=" height="16"> — persistent design-system memory + `/interface-design:audit` slash command
   ```sh
