@@ -989,6 +989,7 @@ No. Typo-squat. Claude Design lives at [claude.ai/design](https://claude.ai/desi
 | [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | <img src="https://img.shields.io/github/stars/hesreallyhim/awesome-claude-code?style=flat-square&logo=github&label="> | General Claude Code resources |
 | [github.com/topics/claude-design](https://github.com/topics/claude-design) | — | Live topic feed |
 
+- [Skill Hub](https://skill.442595.xyz/) — 5800+ curated AI Agent Skills for Claude Code, Codex, Cursor, Hermes & more across 22 categories.
 ## Tag System
 
 Inline tag badges used across `DESIGN.md`, prompt packs, recipes, and remix files. Fork and remix freely — sources under [`/assets/tags/`](assets/tags/).
