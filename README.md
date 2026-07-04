@@ -1017,6 +1017,8 @@ Bar: **would a working designer or engineer find this useful in the next 48 hour
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
 
+- **[Context Kit](https://github.com/JDDavenport/context-kit)** — Personal Context Artifacts: 4 Markdown templates + 5 Claude Code skills (crm-everything, open-loops, watchers, morning-briefing, session-digest). Start every session context-full, not context-zero. MIT, one-command install.
+
 ## License
 
 [MIT](LICENSE). Use, fork, remix, ship.
