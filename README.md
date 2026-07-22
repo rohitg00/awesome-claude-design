@@ -709,7 +709,7 @@ The same anti-slop tools listed above, with explicit install commands. Mix and m
 
 - [**UIZZE anti-ui-slop**](https://github.com/uizze/uizze/tree/main/skills/anti-ui-slop) <img alt="GitHub stars" src="https://img.shields.io/github/stars/uizze/uizze?style=flat-square&logo=github&label=" height="16"> — turns UIZZE's free catalogue of 800,000+ real web and iOS screens into a product-specific design contract, then rejects generic dashboards, missing states, weak hierarchy, and design-system drift before shipping; works with Claude Code, Codex, and Cursor, with an optional full MCP at [uizze.com](https://uizze.com)
   ```sh
-  npx skills add samuelbushi/uizze --skill anti-ui-slop
+  npx skills add uizze/uizze --skill anti-ui-slop
   ```
 - [**Leonxlnx/taste-skill**](https://github.com/Leonxlnx/taste-skill) <img src="https://img.shields.io/github/stars/Leonxlnx/taste-skill?style=flat-square&logo=github&label=" height="16"> — premium UI gen, redesign audits, GSAP motion, brutalist/minimalist/soft variants
   ```sh
