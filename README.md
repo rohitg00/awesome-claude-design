@@ -707,6 +707,10 @@ Install via SkillKit: `npx skillkit install design-shotgun`
 
 The same anti-slop tools listed above, with explicit install commands. Mix and match — most chain cleanly with the SkillKit packs above.
 
+- [**UIZZE anti-ui-slop**](https://github.com/uizze/uizze/tree/main/skills/anti-ui-slop) <img alt="GitHub stars" src="https://img.shields.io/github/stars/uizze/uizze?style=flat-square&logo=github&label=" height="16"> — free Skill that grounds product-specific UI decisions; full UIZZE adds live research across 800,000+ real web and iOS screens, then validates the design contract, required states, and rendered finish gate. Works with Claude Code, Codex, and Cursor.
+  ```sh
+  npx skills add uizze/uizze --skill anti-ui-slop
+  ```
 - [**Leonxlnx/taste-skill**](https://github.com/Leonxlnx/taste-skill) <img src="https://img.shields.io/github/stars/Leonxlnx/taste-skill?style=flat-square&logo=github&label=" height="16"> — premium UI gen, redesign audits, GSAP motion, brutalist/minimalist/soft variants
   ```sh
   npx skills add Leonxlnx/taste-skill
