@@ -732,6 +732,10 @@ The same anti-slop tools listed above, with explicit install commands. Mix and m
   ```sh
   /plugin marketplace add Owl-Listener/designer-skills
   ```
+- [**maxritter/open-claude-design**](https://github.com/maxritter/open-claude-design) <img src="https://img.shields.io/github/stars/maxritter/open-claude-design?style=flat-square&logo=github&label=" height="16"> — connects a coding agent to the real Claude Design workspace instead of reimplementing it. Five Agent Skills, two-way sync between codebase and design, and CLI access to projects, files, previews, design systems, comments, and sharing. Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and 20+ Agent Skills hosts. Needs a paid Claude plan; no Anthropic API key. Source-available
+  ```sh
+  curl -fsSL https://github.com/maxritter/open-claude-design/releases/latest/download/install.sh | sh
+  ```
 - [**Snyk — Top 8 Claude Skills for UI/UX Engineers**](https://snyk.io/articles/top-claude-skills-ui-ux-engineers/) — third-party roundup; explains the frontend-design skill (277k+ installs), `ui-ux-pro-max`, and the Vercel companion skills with install commands
 - [**Snyk — Top 8 Claude Skills for Entrepreneurs / Founders**](https://snyk.io/articles/top-8-claude-skills-entrepreneurs-startup-founders-solopreneurs/) — companion roundup; design-adjacent skills framed for solo builders, captures the community shift from "will this replace me" to "how do I ship faster"
 
@@ -986,6 +990,7 @@ No. Typo-squat. Claude Design lives at [claude.ai/design](https://claude.ai/desi
 | [rohitg00/awesome-claude-plugins](https://github.com/rohitg00/awesome-claude-plugins) | <img src="https://img.shields.io/github/stars/rohitg00/awesome-claude-plugins?style=flat-square&logo=github&label="> | Claude Code plugin ecosystem |
 | [rohitg00/awesome-claude-code-toolkit](https://github.com/rohitg00/awesome-claude-code-toolkit) | <img src="https://img.shields.io/github/stars/rohitg00/awesome-claude-code-toolkit?style=flat-square&logo=github&label="> | Hooks, skills, slash commands |
 | [rohitg00/skillkit](https://github.com/rohitg00/skillkit) | <img src="https://img.shields.io/github/stars/rohitg00/skillkit?style=flat-square&logo=github&label="> | Universal CLI for skills across many agents |
+| [maxritter/open-claude-design](https://github.com/maxritter/open-claude-design) | <img src="https://img.shields.io/github/stars/maxritter/open-claude-design?style=flat-square&logo=github&label="> | Bridges 20+ coding agents to the real Claude Design workspace, source-available |
 | [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | <img src="https://img.shields.io/github/stars/hesreallyhim/awesome-claude-code?style=flat-square&logo=github&label="> | General Claude Code resources |
 | [github.com/topics/claude-design](https://github.com/topics/claude-design) | — | Live topic feed |
 
