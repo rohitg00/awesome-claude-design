@@ -679,6 +679,7 @@ Beyond Anthropic's own materials, the community has shipped a growing set of ski
 - [**coleam00/excalidraw-diagram-skill**](https://github.com/coleam00/excalidraw-diagram-skill) <img src="https://img.shields.io/github/stars/coleam00/excalidraw-diagram-skill?style=flat-square&logo=github&label=" height="16"> — diagram skill that argues visually instead of slapping boxes-and-arrows; Playwright render-validate loop catches overlap, misalignment, bad spacing
 - [**OneRedOak/claude-code-workflows — design-review**](https://github.com/OneRedOak/claude-code-workflows/tree/main/design-review) <img src="https://img.shields.io/github/stars/OneRedOak/claude-code-workflows?style=flat-square&logo=github&label=" height="16"> — Patrick Ellis's UI/UX review workflow: subagents + `/design-review` slash command + CLAUDE.md memory integration + accessibility coverage via Playwright MCP
 - [**ComposioHQ/awesome-claude-skills — canvas-design**](https://github.com/ComposioHQ/awesome-claude-skills/blob/master/canvas-design/SKILL.md) <img src="https://img.shields.io/github/stars/ComposioHQ/awesome-claude-skills?style=flat-square&logo=github&label=" height="16"> — design philosophy expressed visually: two-phase (philosophy → artifact), 90% visual / 10% essential text, anti-template by construction
+- [**wwewtech/anti-slop-design**](https://github.com/wwewtech/anti-slop-design) <img src="https://img.shields.io/github/stars/wwewtech/anti-slop-design?style=flat-square&logo=github&label=" height="16"> — autonomous principal design technologist: 4 curated design token archetypes, tactile micro-states, 1-to-3 UX hierarchy, and 7-axis pre-emit quality gating for frontend code
 - [**Marie Claire Dean — 63 design skills**](https://marieclairedean.substack.com/p/i-built-63-design-skills-for-claude) ([repo](https://github.com/Owl-Listener/designer-skills) <img src="https://img.shields.io/github/stars/Owl-Listener/designer-skills?style=flat-square&logo=github&label=" height="16">) — 63 skills + 27 commands across research, systems, strategy, UI, interaction, prototyping, ops; teaches Claude *what design actually is* beyond image generation. MIT
 
 ### Leaked system prompts
@@ -727,6 +728,10 @@ The same anti-slop tools listed above, with explicit install commands. Mix and m
 - [**ComposioHQ/awesome-claude-skills — canvas-design**](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/canvas-design) <img src="https://img.shields.io/github/stars/ComposioHQ/awesome-claude-skills?style=flat-square&logo=github&label=" height="16"> — design philosophy → poster/PDF artifact, two-phase
   ```sh
   npx skillkit install composio/canvas-design
+  ```
+- [**wwewtech/anti-slop-design**](https://github.com/wwewtech/anti-slop-design) <img src="https://img.shields.io/github/stars/wwewtech/anti-slop-design?style=flat-square&logo=github&label=" height="16"> — autonomous design technologist, 4 token archetypes, tactile micro-interactions, 7-axis quality gates
+  ```sh
+  npx skills add wwewtech/anti-slop-design
   ```
 - [**Owl-Listener/designer-skills**](https://github.com/Owl-Listener/designer-skills) <img src="https://img.shields.io/github/stars/Owl-Listener/designer-skills?style=flat-square&logo=github&label=" height="16"> — [Marie-Claire Dean's 63 skills + 27 commands + 8 plugins](https://marieclairedean.substack.com/p/i-built-63-design-skills-for-claude), MIT — covering research, systems, strategy, UI, interaction, prototyping, ops, and the toolkit itself
   ```sh
