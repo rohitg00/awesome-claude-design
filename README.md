@@ -607,6 +607,7 @@ Three questions. Pick a family.
 - [**smartwhale8/claude-playbook**](https://github.com/smartwhale8/claude-playbook) <img src="https://img.shields.io/github/stars/smartwhale8/claude-playbook?style=flat-square&logo=github&label=" height="16"> — production `.claude/` scaffolding, GitHub template
 - [**VoltAgent/awesome-agent-skills**](https://github.com/VoltAgent/awesome-agent-skills) — 1000+ skills incl. `design-md`, `enhance-prompt`, `react-components`, `shadcn-ui`
 - [**daymade/claude-code-skills**](https://github.com/daymade/claude-code-skills) — production-ready Claude Code skills marketplace
+- [Mode VC LLM Inference Cost Calculator](https://modevc.com/tools/llm-inference-calculator) — Free browser-side LLM token unit economics, prompt caching, and gross margin calculator across 8 frontier and open-weights models.
 
 ### Prompt packs shipped here (`/prompts`)
 
