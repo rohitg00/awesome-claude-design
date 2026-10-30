@@ -446,6 +446,14 @@ Film-grade gradients, oversized type, motion-forward, media-heavy hero. Built fo
 | ElevenLabs | `#0a0a0a / electric blue / wave motifs` | Inter | [elevenlabs.io](https://elevenlabs.io) |
 | Minimax | `#000 / neon lime on charcoal` | Custom + mono | [minimax.ai](https://minimax.ai) |
 | Midjourney | `#000 / earth tones + lilac` | Editorial serif | [midjourney.com](https://midjourney.com) |
+| [PromptImage](https://promptimage.cloud) | Free AI image & video studio with a prompt library (signup credits, multi-model). Freemium | Freemium | [Visit](https://promptimage.cloud) |
+| [TeslaWraps](https://teslawraps.design) | Browser Tesla Paint Shop wrap designer — core editing + PNG export free without account; optional AI credit… | Freemium | [Visit](https://teslawraps.design) |
+| [Alors On Danse Video Maker](https://alorsondansevideo.com) | Free AI image & video studio with a prompt library (signup credits, multi-model). Paid | Paid | [Visit](https://alorsondansevideo.com) |
+| [Bad Times AI](https://badtimesai.dev) | Free AI image & video studio with a prompt library (signup credits, multi-model). Paid | Paid | [Visit](https://badtimesai.dev) |
+| [I Found You in the Crowd AI](https://ifoundyouinthecrowdai.com) | Free AI image & video studio with a prompt library (signup credits, multi-model). Paid | Paid | [Visit](https://ifoundyouinthecrowdai.com) |
+| [KDA Firestarter AI Dance](https://kdafirestarterai.dev) | Free AI image & video studio with a prompt library (signup credits, multi-model). Paid | Paid | [Visit](https://kdafirestarterai.dev) |
+| [A2O LITE NEON AI Dance](https://a2oliteai.org) | Free AI image & video studio with a prompt library (signup credits, multi-model). Paid | Paid | [Visit](https://a2oliteai.org) |
+| [dime dime baby ai](https://dimedimebabyai.dev) | Free AI image & video studio with a prompt library (signup credits, multi-model). Paid | Paid | [Visit](https://dimedimebabyai.dev) |
 | NVIDIA | `#000 / #76b900 signature green / #ffffff` | NVIDIA Sans / Helvetica Neue | [nvidia.com](https://nvidia.com) |
 | BMW | `#fff / #1c69d4 corporate blue / M-gradient` | BMW Type Next Web + Helvetica Neue | [bmw.com](https://bmw.com) |
 | Ferrari | `#000 / #fff / #eb2323 Rosso Corsa` | FerrariSans | [ferrari.com](https://ferrari.com) |
