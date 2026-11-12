@@ -681,6 +681,7 @@ Beyond Anthropic's own materials, the community has shipped a growing set of ski
 - [**ComposioHQ/awesome-claude-skills — canvas-design**](https://github.com/ComposioHQ/awesome-claude-skills/blob/master/canvas-design/SKILL.md) <img src="https://img.shields.io/github/stars/ComposioHQ/awesome-claude-skills?style=flat-square&logo=github&label=" height="16"> — design philosophy expressed visually: two-phase (philosophy → artifact), 90% visual / 10% essential text, anti-template by construction
 - [**Marie Claire Dean — 63 design skills**](https://marieclairedean.substack.com/p/i-built-63-design-skills-for-claude) ([repo](https://github.com/Owl-Listener/designer-skills) <img src="https://img.shields.io/github/stars/Owl-Listener/designer-skills?style=flat-square&logo=github&label=" height="16">) — 63 skills + 27 commands across research, systems, strategy, UI, interaction, prototyping, ops; teaches Claude *what design actually is* beyond image generation. MIT
 
+[Design Context — DESIGN.md & Tailwind v4 Extractor](https://chromewebstore.google.com/detail/jbbjcejgmbplhdpmjcoaipahlnfeigdl) - Extract instant DESIGN.md specs, Tailwind v4 @theme, and design tokens from any website for Cursor and Claude Code.
 ### Leaked system prompts
 
 What Claude Design's frontend-design skill actually says, sourced from community reverse-engineering. Read these before tuning your DESIGN.md — every counter-rule above maps back to a default in this prompt.
