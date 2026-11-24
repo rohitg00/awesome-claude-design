@@ -515,6 +515,7 @@ The DESIGN.md ecosystem is bigger than this repo. We catalog only what others do
 - [**VoltAgent/awesome-design-md**](https://github.com/VoltAgent/awesome-design-md) <img src="https://img.shields.io/github/stars/VoltAgent/awesome-design-md?style=flat-square&logo=github&label=" height="16"> — 59+ brands in Stitch-format, every entry ships preview.html (tool-agnostic twin)
 - [**philquist/awesome-claude-design-examples**](https://github.com/philquist/awesome-claude-design-examples) <img src="https://img.shields.io/github/stars/philquist/awesome-claude-design-examples?style=flat-square&logo=github&label=" height="16"> — community mirror/fork of the VoltAgent collection, useful as a discovery surface
 - [**getdesign.md**](https://getdesign.md/) — browseable web UI for 60+ DESIGN.md files (Cursor, Vercel, Warp, Claude, Mistral, xAI, Tesla, Renault, Revolut, Wise, Linear, PostHog)
+- [**Refto DESIGN.md examples**](https://refto.one/design-md) — 469 real websites, each with a full-page screenshot and a DESIGN.md (colours, typography and how to reuse the look) that a coding agent can read; browsable by category, style and page section
 - [**google-labs-code/design.md**](https://github.com/google-labs-code/design.md) <img src="https://img.shields.io/github/stars/google-labs-code/design.md?style=flat-square&logo=github&label=" height="16"> — official DESIGN.md spec from Google Labs Code, Apache 2.0; see [`docs/spec.md`](https://github.com/google-labs-code/design.md/blob/main/docs/spec.md)
 
 **Topic hubs**
