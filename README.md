@@ -744,6 +744,7 @@ MCP servers, plugins, and IDE adapters that pair with Claude Design or extend it
 - [**Connect Claude Code to tools via MCP**](https://code.claude.com/docs/en/mcp) — official setup docs, scopes, transport modes
 - [**Figma MCP server**](https://www.figma.com/blog/introducing-figmas-dev-mode-mcp-server/) — bridges design-to-code; complements Claude Design's missing Figma export at launch
 - [**Adobe AEM MCP**](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude) — Claude + AEM setup walkthrough, content authoring from chat
+- [**Kite MCP server**](https://kite.new/api/mcp) — hosted MCP for [Kite](https://kite.new): Claude draws real, editable frames, text and components in a shared design file your team edits live; copy to Figma or as HTML/React/Tailwind. Plugins: [kite-agent-plugins](https://github.com/kitedotnew/kite-agent-plugins)
 
 ### Curated MCP roundups
 
